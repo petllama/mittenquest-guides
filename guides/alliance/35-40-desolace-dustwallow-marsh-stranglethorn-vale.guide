@@ -1,0 +1,783 @@
+guide mittenquest/alliance/35-40-desolace-dustwallow-marsh-stranglethorn-vale
+title "Alliance 35-40 Desolace, Dustwallow Marsh, Stranglethorn Vale"
+levels 35-40
+zone map 1443
+coords era
+faction Alliance
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/alliance/40-44-stormwind-city-swamp-of-sorrows-ironforge
+step
+  accept 1385
+step
+  getfp "Nijel's Point"
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 1387
+step
+  accept 1382
+step
+  accept 1437
+step
+  turnin 1453
+step
+  accept 1458
+step
+  accept 1454
+step
+  accept 261
+step
+  turnin 1437
+step
+  accept 1465
+step
+  turnin 1465
+step
+  accept 1438
+step
+  tip Kill: Hatefury Trickster (about 27% drop chance)
+  collect 6246 x10 quest 1458.1 @77.3,20.4 map 1443
+  collect 6247 x10 quest 1458.2 @77.3,20.4 map 1443
+step
+  turnin 1458
+step
+  accept 1459
+step
+  turnin 1438
+step
+  accept 1439
+step
+  tip Tyranis Malem has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Tyranis Malem
+  collect 6767 quest 1439.1 @53,29.1 map 1443
+step
+  turnin 1439
+step
+  accept 1440
+step
+  complete 1440 @58.3,30.9 map 1443
+step
+  accept 5501
+step
+  accept 5821
+step
+  tip Kill: Scorpashi Snapper, Aged Kodo (about 26% drop chance)
+  collect 6248 x7 quest 1459.1 @70.5,26.7 map 1443
+  collect 6249 x3 quest 1459.2
+step
+  turnin 1440
+step
+  turnin 1459
+step
+  turnin 1454
+step
+  accept 1455
+step
+  accept 6161
+step
+  accept 5741
+step
+  tip Kill: Drysnap Pincer, Slitherblade Naga
+  collect 15878 quest 6161.1
+  collect 15881 quest 6161.2 @37,21.9 map 1443
+step
+  turnin 6161
+step
+  turnin 1455
+step
+  accept 1456
+step
+  tip Burning Blade Seer has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Burning Blade Seer
+  collect 15750 quest 5741.1 @55.2,30.1 map 1443
+step
+  turnin 5741
+step
+  accept 6027
+step
+  accept 6132
+step
+  turnin 1382
+step
+  accept 1384
+step
+  accept 93034
+step
+  accept 5943
+step
+  complete 5943 @55.7,67.8 map 1443
+step
+  turnin 5943
+step
+  accept 5561
+step
+  turnin 5561
+step
+  complete 5821 @67.2,56.6 map 1443
+step
+  turnin 5821
+step
+  turnin 1385
+step
+  accept 1386
+step
+  accept 92841
+step
+  accept 92743
+step
+  turnin 92743
+step
+  when onquest 1387
+  tip Warug's Bodyguard has only 2 spawn points. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Warug's Bodyguard (about 33% drop chance)
+  collect 6067 x15 quest 1387.1 @75.4,68 map 1443
+step
+  tip Kill: Kolkar Destroyer (about 15% drop chance)
+  collect 6079 x10 quest 1384.1 @73.1,50.3 map 1443
+step
+  tip Kill: Kolkar Centaur, Kolkar Scout
+  kill 4632 x12 quest 1386.1
+  kill 4633 x12 quest 1386.2 @70.1,45.5 map 1443
+  kill 4634 x6 quest 1386.3
+step
+  turnin 1386
+step
+  accept 1369
+step
+  turnin 1384
+step
+  accept 1370
+step
+  collect 6083 x3 quest 1369.1 @39.6,93.3 map 1443
+step
+  turnin 1369
+step
+  collect 6069 x6 quest 1370.1 @73.2,75.1 map 1443
+step
+  turnin 1370
+step
+  when onquest 1387
+  turnin 1387
+step
+  accept 93224
+step
+  tip Lord Kragaru has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Lord Kragaru
+  collect 15803 quest 6027.1 @28.2,6.7 map 1443
+step
+  turnin 6027
+step
+  zone map 1457
+  only Druid
+  tip Time to train: head to Mathrengyl Bearwalker in Darnassus for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Druid,NightElf
+  accept 98393
+step
+  zone map 1450
+  only Druid,NightElf
+  turnin 98393
+step
+  only Druid,NightElf
+  accept 98397
+step
+  zone map 1457
+  only Druid,NightElf
+  turnin 98397
+step
+  zone map 1450
+  only Druid,NightElf
+  accept 98731
+step
+  only Druid,NightElf
+  turnin 98731
+step
+  zone map 2652
+  goto 21.2,23.2 "Travel to Desolace" map 2652 live
+step
+  turnin 93034
+step
+  accept 93037
+step
+  turnin 93037
+step
+  zone map 1420
+  when onquest 1050
+  tip Dungeon: Scarlet Monastery. Find a group for Scarlet Monastery. Quests you skip there are dropped automatically.
+  complete 1050 @82.6,33.8 map 1420
+step
+  zone map 2652
+  accept 93035
+step
+  turnin 93035
+step
+  accept 93041
+step
+  turnin 92841
+step
+  zone map 1455
+  only Mage
+  tip Time to train: head to Dink in Ironforge for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1445
+  only Mage
+  accept 1948
+step
+  zone map 1417
+  only Mage
+  collect 1529 quest 1948.1 @33.1,44.5 map 1417
+  collect 7272 quest 1948.2
+step
+  zone map 1445
+  only Mage
+  turnin 1948
+step
+  zone map 1441
+  only Mage
+  accept 1951
+step
+  only Mage
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC).
+  collect 7274 quest 1951.1 @78.3,75.7 map 1441
+step
+  zone map 1445
+  only Mage
+  turnin 1951
+step
+  only Mage
+  accept 1952
+step
+  only Mage
+  turnin 1952
+step
+  zone map 1455
+  only Mage
+  tip Optional: skip it if you don't take it.
+  accept 1953
+step
+  zone map 1445
+  only Mage
+  when onquest 1953
+  turnin 1953
+step
+  only Mage
+  accept 1954
+step
+  zone map 1443
+  only Mage
+  tip Kill: Burning Blade Summoner
+  collect 7291 quest 1954.1 @80.5,77.8 map 1443
+step
+  zone map 1445
+  only Mage
+  turnin 1954
+step
+  only Mage
+  when turnedin 1954
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 1955
+step
+  only Mage
+  when onquest 1955
+  tip Demon of the Orb has only one spawn point. If others are waiting for it, group up to share it. Kill: Demon of the Orb
+  kill 6549 quest 1955.1 @45.8,57 map 1445 optional -- Demon of the Orb is elite: grouping up is advised.
+step
+  only Mage
+  when onquest 1955
+  turnin 1955
+step
+  only Mage
+  when turnedin 1955
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 1956
+step
+  only Mage
+  when onquest 1956
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Obsidian Sentinel
+  collect 8053 quest 1956.1 @46.1,57.1 map 1445 optional -- Obsidian Sentinel is elite: grouping up is advised.
+step
+  only Mage
+  when onquest 1956
+  turnin 1956
+step
+  only Mage
+  accept 1957
+step
+  only Mage
+  tip Mana Surge has only one spawn point. If others are waiting for it, group up to share it. Kill: Mana Surge
+  kill 6550 x12 quest 1957.1 @45.8,56.9 map 1445
+step
+  only Mage
+  turnin 1957
+step
+  only Mage
+  accept 1958
+step
+  only Mage
+  turnin 1958
+step
+  zone map 1457
+  only Priest
+  tip Time to train: head to Priestess Alathea in Darnassus for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  tip Time to train: head to Darnath Bladesinger in Darnassus for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1416
+  only Warrior
+  accept 1712
+step
+  zone map 1434
+  only Warrior
+  tip Kill: Bloodscalp Axe Thrower
+  collect 3357 x8 quest 1712.1 @33.3,20.4 map 1434
+  collect 3901 x30 quest 1712.2
+  collect 6851 quest 1712.3 @33.3,20.4 map 1434
+step
+  zone map 1416
+  only Warrior
+  turnin 1712
+step
+  only Warrior
+  when turnedin 1712
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 1713
+step
+  only Warrior
+  when onquest 1713
+  tip Cyclonian has only one spawn point. If others are waiting for it, group up to share it. Kill: Cyclonian
+  collect 6894 quest 1713.1 @80.3,62.1 map 1416 optional -- Cyclonian is elite: grouping up is advised.
+step
+  only Warrior
+  when onquest 1713
+  turnin 1713
+step
+  only Warrior
+  accept 1792
+step
+  only Warrior
+  turnin 1792
+step
+  zone map 1457
+  only Rogue
+  tip Time to train: head to Syurna in Darnassus for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1443
+  goto 36.2,79.2 "Travel to Desolace" map 1443
+step
+  turnin 93041
+step
+  complete 6132 @40.1,61.6 map 1443
+step
+  turnin 6132
+step
+  collect 13703 x10 quest 5501.1 @51.1,60 map 1443
+step
+  turnin 5501
+step
+  tip Kill: Slitherblade Tidehunter
+  collect 6245 quest 1456.1 @28.5,9 map 1443
+step
+  turnin 1456
+step
+  accept 1457
+step
+  tip Kill: Maraudine Wrangler
+  collect 254432 x5 quest 93224.1 @30,62.4 map 1443
+step
+  tip Kill: Undead Ravager
+  kill 11561 x30 quest 261.1 @63,90 map 1443
+step
+  turnin 93224
+step
+  turnin 261
+step
+  zone map 1445
+  goto 66.3,45.5 "Travel to Dustwallow Marsh" map 1445
+step
+  accept 1204
+step
+  only Paladin
+  tip Brother Karman is right here: pick up your new Paladin spells.
+  train class
+step
+  getfp "Theramore"
+step
+  turnin 1302
+step
+  accept 1282
+step
+  turnin 1132
+step
+  turnin 1282
+step
+  tip Kill: Mudrock Tortoise (about 28% drop chance)
+  collect 5883 x8 quest 1204.1 @61.6,27.2 map 1445
+step
+  accept 1219
+step
+  accept 1222
+step
+  complete 1222 @48.9,24.6 map 1445
+step
+  accept 1177
+step
+  accept 1284
+step
+  accept 1252
+step
+  accept 1253
+step
+  turnin 1204
+step
+  turnin 1222
+step
+  turnin 1219
+step
+  accept 1220
+step
+  turnin 1284
+step
+  turnin 1252
+step
+  turnin 1253
+step
+  turnin 1220
+step
+  accept 1319
+step
+  accept 1259
+step
+  turnin 1259
+step
+  accept 1285
+step
+  turnin 1285
+step
+  accept 1286
+step
+  turnin 1319
+step
+  accept 1320
+step
+  turnin 1320
+step
+  turnin 1286
+step
+  accept 1287
+step
+  turnin 1287
+step
+  tip Kill: Mirefin Muckdweller (about 23% drop chance)
+  collect 5847 x12 quest 1177.1 @59.1,9.1 map 1445
+step
+  turnin 1177
+step
+  zone map 1434
+  goto 27.1,77.2 "Travel to Stranglethorn Vale - take the boat (Auberdine <-> Menethil Harbor, Theramore <-> Menethil Harbor)" map 1434
+step
+  accept 605
+step
+  getfp "Booty Bay"
+step
+  accept 606
+step
+  accept 189
+step
+  accept 213
+step
+  accept 616
+step
+  turnin 616
+step
+  accept 578
+step
+  accept 595
+step
+  turnin 595
+step
+  accept 597
+step
+  turnin 597
+step
+  accept 599
+step
+  accept 576
+step
+  accept 587
+step
+  turnin 599
+step
+  complete 578 @20.8,23.1 map 1434
+step
+  tip Kill: Bloodscalp Axe Thrower (about 28% drop chance)
+  collect 1519 x15 quest 189.1 @33.5,17 map 1434
+step
+  tip Kill: Stone Maw Basilisk (about 38% drop chance)
+  collect 3918 x10 quest 605.1 @34.7,6.7 map 1434
+step
+  accept 210
+step
+  accept 203
+step
+  accept 204
+step
+  accept 215
+step
+  tip Kill: Kurzen Jungle Fighter
+  kill 937 x15 quest 203.1 @44.6,10 map 1434
+step
+  tip Kill: Kurzen Witch Doctor (about 52% drop chance)
+  collect 2633 x7 quest 204.1 @47.9,7.2 map 1434
+  collect 2634 quest 204.2
+step
+  turnin 203
+step
+  turnin 204
+step
+  accept 574
+step
+  accept 207
+step
+  turnin 215
+step
+  accept 200
+step
+  turnin 200
+step
+  accept 328
+step
+  tip Kill: Kurzen Commando, Kurzen Headshrinker
+  kill 938 x10 quest 574.1 @46.2,7.8 map 1434
+  kill 941 x6 quest 574.2 @46.2,7.8 map 1434
+step
+  turnin 328
+step
+  accept 329
+step
+  turnin 574
+step
+  turnin 329
+step
+  accept 330
+step
+  turnin 330
+step
+  accept 331
+step
+  turnin 331
+step
+  tip Kill: Venture Co. Geologist (about 42% drop chance)
+  collect 4106 x8 quest 213.1 @44.5,20.6 map 1434
+step
+  collect 2005 quest 207.1
+  collect 2006 quest 207.2 @24.8,22.9 map 1434
+  collect 2007 quest 207.3
+  collect 2008 quest 207.4
+step
+  turnin 207
+step
+  accept 205
+step
+  tip Kill: Skullsplitter Mystic (about 11% drop chance)
+  collect 2466 x4 quest 205.1 @45,38.1 map 1434
+step
+  tip Kill: Elder Mistvale Gorilla (about 19% drop chance)
+  collect 3919 x5 quest 606.1 @33,64.8 map 1434
+step
+  turnin 606
+step
+  only Rogue
+  tip Ian Strom is right here: pick up your new Rogue spells.
+  train class
+step
+  accept 607
+step
+  accept 617
+step
+  accept 604
+step
+  turnin 578
+step
+  accept 601
+step
+  turnin 189
+step
+  turnin 213
+step
+  accept 209
+step
+  turnin 605
+step
+  accept 600
+step
+  turnin 210
+step
+  turnin 607
+step
+  tip Kill: Bloodsail Warlock (about 42% drop chance)
+  collect 3910 x15 quest 587.1 @29.4,81.3 map 1434
+step
+  turnin 587
+step
+  tip Starts from Cortello's Riddle, which drops in this area.
+  accept 624 @29.2,88.6 map 1434
+step
+  tip Kill: Venture Co. Surveyor (about 44% drop chance)
+  collect 3917 x10 quest 600.1 @42.1,44.5 map 1434
+step
+  tip Kill: Lesser Water Elemental (about 17% drop chance)
+  collect 3923 x6 quest 601.1 @21,23.3 map 1434
+step
+  turnin 205
+step
+  when turnedin 574
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 202
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 340
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 341
+step
+  when onquest 340
+  tip Negolash has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Bookie Herod, Negolash (about 3% drop chance)
+  collect 2734 quest 340.1 @45,8.4 map 1434
+  collect 2735 quest 340.2 @45,8.4 map 1434
+  collect 2738 quest 340.3
+  collect 2740 quest 340.4 @45,8.4 map 1434
+step
+  when onquest 341
+  tip Roloch has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Roloch, Bookie Herod
+  collect 2742 quest 341.1 @45,8.4 map 1434
+  collect 2744 quest 341.2 @45,8.4 map 1434
+  collect 2745 quest 341.3 @45,8.4 map 1434
+  collect 2748 quest 341.4
+step
+  when onquest 202
+  tip Colonel Kurzen has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Kurzen Elite, Kurzen Subchief
+  kill 939 x6 quest 202.1
+  kill 978 x4 quest 202.2 @49,5.9 map 1434
+  collect 3615 quest 202.3 optional -- Colonel Kurzen is elite: grouping up is advised.
+step
+  when onquest 202
+  turnin 202
+step
+  when onquest 340
+  turnin 340
+step
+  when onquest 341
+  turnin 341
+step
+  tip Kill: Skullsplitter Axe Thrower (about 30% drop chance)
+  collect 1524 x18 quest 209.1 @45,38.1 map 1434
+step
+  turnin 601
+step
+  accept 621
+step
+  turnin 600
+step
+  tip Optional: skip it if you don't take it.
+  accept 2864
+step
+  turnin 209
+step
+  tip Kill: Bloodsail Warlock
+  collect 3897 quest 576.1 @29.4,81.3 map 1434
+step
+  turnin 576
+step
+  zone map 1453
+  only Warlock
+  tip Time to train: head to Demisette Cloyce in Stormwind City for your new Warlock spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  only Warlock
+  accept 4488
+step
+  zone map 1413
+  only Warlock
+  turnin 4488
+step
+  only Warlock
+  accept 1799
+step
+  zone map 1443
+  only Warlock
+  tip Kill: Burning Blade Summoner
+  collect 7291 quest 1799.1 @80.5,77.8 map 1443
+step
+  zone map 1445
+  only Warlock
+  turnin 1799
+step
+  zone map 1413
+  only Warlock
+  accept 4962
+step
+  zone map 1443
+  only Warlock
+  tip Mana Eater has only 2 spawn points. If others are waiting for it, group up to share it. Kill: Mana Eater
+  collect 12648 quest 4962.1 @52.9,68.1 map 1443
+step
+  zone map 1413
+  only Warlock
+  turnin 4962
+step
+  zone map 1445
+  only Warlock
+  when turnedin 1799
+  when turnedin 4962
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 4961
+step
+  only Warlock
+  when onquest 4961
+  tip Demon of the Orb has only one spawn point. If others are waiting for it, group up to share it. Kill: Demon of the Orb
+  kill 6549 quest 4961.1 @45.8,57 map 1445 optional -- Demon of the Orb is elite: grouping up is advised.
+step
+  only Warlock
+  when onquest 4961
+  turnin 4961
+step
+  only Warlock
+  accept 4976
+step
+  zone map 1413
+  only Warlock
+  turnin 4976
+step
+  only Warlock
+  accept 4490
+step
+  only Warlock
+  turnin 4490
+step
+  zone map 1453
+  only Paladin
+  tip Time to train: head to Lord Grayson Shadowbreaker in Stormwind City for your new Paladin spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  only Paladin,Human,Dwarf
+  accept 1661
+step
+  only Paladin,Human,Dwarf
+  turnin 1661
+step
+  only Druid
+  tip Time to train: head to Sheldras Moontree in Stormwind City for your new Druid spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  only Hunter
+  tip Time to train: head to Einris Brightspear in Stormwind City for your new Hunter spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  zone map 1455
+  only Shaman
+  tip Time to train: head to Eldrun Stormbreaker in Ironforge for your new Shaman spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  fly "Stormwind"

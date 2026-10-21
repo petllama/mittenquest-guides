@@ -1,0 +1,401 @@
+guide mittenquest/alliance/40-44-stormwind-city-swamp-of-sorrows-ironforge
+title "Alliance 40-44 Stormwind City, Swamp of Sorrows, Ironforge"
+levels 40-44
+zone map 1453
+coords era
+faction Alliance
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/alliance/44-48-tanaris-dustwallow-marsh-desolace
+step
+  accept 1363
+step
+  only Mage
+  tip Jennea Cannon is right here: pick up your new Mage spells. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  turnin 1363
+step
+  accept 1271
+step
+  turnin 1271
+step
+  accept 212
+step
+  accept 3636
+step
+  only Priest
+  tip High Priestess Laurena is right here: pick up your new Priest spells. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  zone map 1435
+  goto 25.2,54.2 "Travel to Swamp of Sorrows" map 1435
+step
+  accept 93176
+step
+  turnin 93176
+step
+  turnin 624
+step
+  accept 1396
+step
+  tip Kill: Young Sawtooth Crocolisk, Sorrow Spinner
+  kill 1084 x8 quest 1396.1
+  kill 858 x10 quest 1396.2 @39.2,39.2 map 1435
+  kill 767 x10 quest 1396.3 @39.2,39.2 map 1435
+step
+  accept 1389
+step
+  turnin 1396
+step
+  accept 1421
+step
+  tip Starts from Noboru's Cudgel, which drops in this area.
+  accept 1392 @54.9,34.1 map 1435
+step
+  collect 6071 x6 quest 1389.1 @62.1,22.4 map 1435
+step
+  collect 6170 quest 1421.1 @64.5,18.3 map 1435
+step
+  accept 1393
+step
+  complete 1393 @53.1,29.6 map 1435
+step
+  turnin 1393
+step
+  turnin 1389
+step
+  turnin 1392
+step
+  turnin 1421
+step
+  accept 1398
+step
+  collect 6146 x8 quest 1398.1 @94.6,41.3 map 1435
+step
+  turnin 1398
+step
+  zone map 1455
+  goto 74.6,11.7 "Travel to Ironforge" map 1455
+step
+  turnin 1050
+step
+  zone map 1413
+  when onquest 3636
+  tip Dungeon: Razorfen Downs. Find a group for Razorfen Downs. Quests you skip there are dropped automatically.
+  complete 3636 @49,93.9 map 1413
+step
+  zone map 1455
+  accept 1360
+step
+  turnin 1457
+step
+  tip Optional: skip it if you don't take it.
+  accept 2861
+step
+  only Warrior
+  tip Time to train: head to Bilban Tosslespanner in Ironforge for your new Warrior spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  fly "Booty Bay"
+step
+  zone map 1434
+  tip Optional: skip it if you don't take it.
+  accept 2872
+step
+  only Rogue
+  tip Ian Strom is right here: pick up your new Rogue spells. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  accept 348
+step
+  tip Kill: Bloodsail Swashbuckler
+  kill 1563 x10 quest 604.1 @28.2,82.4 map 1434
+  collect 3920 quest 604.2 @28.2,82.4 map 1434
+  collect 3921 quest 604.3 @28.2,82.4 map 1434
+step
+  turnin 604
+step
+  accept 608
+step
+  tip Kill: Naga Explorer (about 39% drop chance)
+  collect 4029 x10 quest 617.1 @26.2,62.4 map 1434
+step
+  turnin 617
+step
+  accept 623
+step
+  tip Kill: Cold Eye Basilisk
+  collect 2476 quest 212.1 @28.8,38.8 map 1434
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 339
+step
+  when onquest 339
+  tip Lord Sakrasis has only 2 spawn points. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Gluggle, Bookie Herod
+  collect 2725 quest 339.1 @34.9,22.7 map 1434
+  collect 2728 quest 339.2 @34.9,22.7 map 1434
+  collect 2730 quest 339.3 @34.9,22.7 map 1434
+  collect 2732 quest 339.4
+step
+  when onquest 339
+  turnin 339
+step
+  fly "Stormwind"
+step
+  zone map 1453
+  turnin 212
+step
+  turnin 3636
+step
+  zone map 1446
+  goto 52.5,28.4 "Travel to Tanaris - take the boat (Auberdine <-> Menethil Harbor, Theramore <-> Menethil Harbor)" map 1446
+step
+  accept 1707
+step
+  getfp "Gadgetzan"
+step
+  accept 3042
+step
+  accept 1690
+step
+  accept 2865
+step
+  turnin 2864
+step
+  tip Kill: Wastewander Bandit, Wastewander Thief
+  kill 5618 x10 quest 1690.1 @63.8,31.4 map 1446
+  kill 5616 x10 quest 1690.2 @63.8,31.4 map 1446
+step
+  turnin 2872
+step
+  accept 2873
+step
+  accept 8366
+step
+  accept 2875
+step
+  accept 8365
+step
+  turnin 1690
+step
+  zone map 1418
+  when onquest 1360
+  tip Dungeon: Uldaman. Find a group for Uldaman. Quests you skip there are dropped automatically.
+  complete 1360 @44.6,12.1 map 1418
+step
+  zone map 1446
+  accept 2768
+step
+  accept 1691
+step
+  accept 992
+step
+  tip Kill: Wastewander Shadow Mage (about 53% drop chance)
+  collect 8483 x5 quest 1707.1 @60.8,38.7 map 1446
+step
+  tip Kill: Wastewander Rogue, Wastewander Assassin
+  kill 5615 x8 quest 1691.1 @61.7,38.2 map 1446
+  kill 5623 x6 quest 1691.2
+  kill 5617 x10 quest 1691.3
+step
+  turnin 1691
+step
+  turnin 1707
+step
+  accept 2781
+step
+  fly "Nijel's Point"
+step
+  zone map 1443
+  when turnedin 1459
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 1466
+step
+  when onquest 1466
+  tip Kill: Ley Hunter, Nether Sister (about 83% drop chance)
+  collect 6250 x10 quest 1466.1
+  collect 6251 x10 quest 1466.2 @51.4,81.8 map 1443
+  collect 6252 x10 quest 1466.3 @51.4,81.8 map 1443
+step
+  when onquest 1466
+  turnin 1466
+step
+  accept 7041
+step
+  zone map 1444
+  goto 30.4,46.2 "Travel to Feralas" map 1444
+step
+  accept 4124
+step
+  getfp "Feathermoon Stronghold"
+step
+  accept 2982
+step
+  turnin 4124
+step
+  accept 4125
+step
+  accept 2866
+step
+  turnin 2866
+step
+  accept 2867
+step
+  turnin 2867
+step
+  accept 3130
+step
+  turnin 3130
+step
+  accept 2869
+step
+  tip Kill: Hatecrest Screamer (about 38% drop chance)
+  collect 9247 x10 quest 2869.1 @28.5,53 map 1444
+step
+  turnin 2869
+step
+  turnin 4125
+step
+  accept 4127
+step
+  tip Kill: Gordunni Warlock, Gordunni Shaman
+  kill 5240 x8 quest 2982.1 @60.8,56.8 map 1444
+  kill 5236 x8 quest 2982.2
+  kill 5232 x8 quest 2982.3 @60.8,56.8 map 1444
+step
+  tip Starts from OOX-22/FE Distress Beacon, which drops in this area.
+  accept 2766 @73.1,56.9 map 1444
+step
+  turnin 2766
+step
+  accept 2767
+step
+  complete 2767 @45.6,43.4 map 1444
+step
+  turnin 4127
+step
+  accept 4129
+step
+  turnin 2982
+step
+  accept 2870
+step
+  turnin 4129
+step
+  accept 4130
+step
+  turnin 4130
+step
+  accept 4131
+step
+  tip Lord Shalzaru has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Lord Shalzaru
+  collect 9248 quest 2870.1 @28.5,70.5 map 1444
+step
+  turnin 2870
+step
+  accept 2871
+step
+  turnin 2871
+step
+  turnin 4131
+step
+  tip Starts from Undelivered Parcel, which drops in this area.
+  accept 4281 @73.3,56.3 map 1444
+step
+  accept 4135
+step
+  turnin 4135
+step
+  turnin 4281
+step
+  getfp "Thalanaar"
+step
+  fly "Booty Bay"
+step
+  zone map 1434
+  turnin 2767
+step
+  only Rogue
+  tip Ian Strom is right here: pick up your new Rogue spells.
+  train class
+step
+  tip Fleet Master Firallon has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Captain Stillwater, Captain Keelhaul
+  kill 2550 quest 608.1
+  kill 2548 quest 608.2
+  kill 2546 quest 608.3 @30.6,90.6 map 1434
+step
+  turnin 608
+step
+  tip Mokk the Savage has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Mokk the Savage
+  collect 2797 quest 348.1 @35,60.9 map 1434
+step
+  tip Kill: Zanzil Witch Doctor
+  collect 4016 x12 quest 621.1 @38.7,56.6 map 1434
+step
+  turnin 348
+step
+  turnin 621
+step
+  fly "Thalanaar"
+step
+  zone map 1444
+  accept 2969
+step
+  accept 4265
+step
+  accept 2821
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 44
+step
+  tip Kill: Feral Scar Yeti (about 62% drop chance)
+  collect 8973 x10 quest 2821.1 @55,56.3 map 1444
+step
+  complete 4265 @72.1,63.8 map 1444
+step
+  turnin 4265
+step
+  accept 4266
+step
+  turnin 4266
+step
+  turnin 2821
+step
+  accept 7733
+step
+  zone map 1455
+  only Mage
+  tip Time to train: head to Dink in Ironforge for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1457
+  only Priest
+  tip Time to train: head to Priestess Alathea in Darnassus for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1453
+  only Warlock
+  tip Time to train: head to Demisette Cloyce in Stormwind City for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1445
+  only Paladin
+  tip Time to train: head to Brother Karman in Theramore for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1457
+  only Druid
+  tip Time to train: head to Mathrengyl Bearwalker in Darnassus for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Hunter
+  tip Time to train: head to Jeen'ra Nightrunner in Darnassus for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1455
+  only Shaman
+  tip Time to train: head to Eldrun Stormbreaker in Ironforge for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Gadgetzan"

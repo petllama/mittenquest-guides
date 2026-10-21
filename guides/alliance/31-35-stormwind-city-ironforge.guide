@@ -1,0 +1,246 @@
+guide mittenquest/alliance/31-35-stormwind-city-ironforge
+title "Alliance 31-35 Stormwind City, Ironforge"
+levels 31-35
+zone map 1453
+coords era
+faction Alliance
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/alliance/35-40-desolace-dustwallow-marsh-stranglethorn-vale
+step
+  accept 388
+step
+  when onquest 388
+  tip Dungeon: The Stockade. Find a group for The Stockade. Quests you skip there are dropped automatically.
+  complete 388 @52.41,70.01 map 1453
+step
+  turnin 388
+step
+  turnin 98190
+step
+  turnin 337
+step
+  accept 2928
+step
+  zone map 1426
+  when onquest 2928
+  tip Dungeon: Gnomeregan. Find a group for Gnomeregan. Quests you skip there are dropped automatically.
+  complete 2928 @24.3,39.8 map 1426
+step
+  zone map 1453
+  turnin 2928
+step
+  turnin 269
+step
+  accept 1274
+step
+  accept 92456
+step
+  zone map 1416
+  when onquest 92456
+  tip Dungeon: City of Dalaran. Find a group for City of Dalaran. Quests you skip there are dropped automatically.
+  complete 92456 @8.46,59.21 map 1416
+step
+  zone map 1453
+  turnin 92456
+step
+  only Priest
+  tip Nara Meideros is right here: pick up your new Priest spells.
+  train class
+step
+  only Druid
+  tip Sheldras Moontree is right here: pick up your new Druid spells.
+  train class
+step
+  accept 92489
+step
+  only Mage
+  tip Jennea Cannon is right here: pick up your new Mage spells.
+  train class
+step
+  only Warlock
+  tip Demisette Cloyce is right here: pick up your new Warlock spells.
+  train class
+step
+  zone map 1416
+  when onquest 92489
+  tip Dungeon: City of Dalaran. Find a group for City of Dalaran. Quests you skip there are dropped automatically.
+  complete 92489 @8.46,59.21 map 1416
+step
+  zone map 1453
+  turnin 92489
+step
+  turnin 1274
+step
+  accept 1241
+step
+  turnin 1241
+step
+  accept 1242
+step
+  turnin 1242
+step
+  zone map 1455
+  goto 68.8,49 "Travel to Ironforge" map 1455
+step
+  accept 2929
+step
+  accept 2930
+step
+  accept 2924
+step
+  turnin 98824
+step
+  zone map 1426
+  when onquest 2924,2929,2930
+  tip Dungeon: Gnomeregan. Find a group for Gnomeregan. Quests you skip there are dropped automatically.
+  complete 2924 @24.3,39.8 map 1426
+  complete 2929 @24.3,39.8 map 1426
+  complete 2930 @24.3,39.8 map 1426
+step
+  zone map 1455
+  accept 1453
+step
+  accept 1050
+step
+  turnin 98313
+step
+  turnin 2924
+step
+  turnin 2930
+step
+  turnin 2929
+step
+  turnin 98300
+step
+  getfp "Ironforge"
+step
+  only Mage
+  tip Time to train: head to Dink in Ironforge for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Mage
+  accept 1947
+step
+  zone map 1445
+  only Mage
+  turnin 1947
+step
+  only Mage
+  accept 1949
+step
+  zone map 1441
+  only Mage
+  turnin 1949
+step
+  only Mage
+  accept 1950
+step
+  only Mage
+  tip "Plucky" Johnson has only one spawn point. If others are waiting for it, group up to share it. Kill: "Plucky" Johnson
+  kill 6626 quest 1950.1 @79.6,75.6 map 1441
+step
+  only Mage
+  turnin 1950
+step
+  zone map 1455
+  only Warlock
+  tip Time to train: head to Alexander Calder in Ironforge for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1413
+  only Warlock
+  accept 4783
+step
+  zone map 1443
+  only Warlock
+  tip Kill: Hatefury Trickster, Lesser Infernal (about 6% drop chance)
+  collect 6989 x10 quest 4783.1
+  collect 6990 quest 4783.2 @51.5,75.6 map 1443
+step
+  zone map 1413
+  only Warlock
+  turnin 4783
+step
+  only Warlock
+  accept 4784
+step
+  zone map 1417
+  only Warlock
+  tip Xizk Goodstitch has only one spawn point. If others are waiting for it, group up to share it. Kill: Xizk Goodstitch, Burning Exile (about 1% drop chance)
+  collect 12293 quest 4784.1 @25.8,30.6 map 1417
+  collect 6991 x2 quest 4784.2 @25.8,30.6 map 1417
+  collect 6265 quest 4784.3 @25.8,30.6 map 1417
+step
+  zone map 1413
+  only Warlock
+  turnin 4784
+step
+  only Warlock
+  accept 4786
+step
+  only Warlock
+  tip Menara Voidrender has only one spawn point. If others are waiting for it, group up to share it. Kill: Menara Voidrender
+  kill 6266 quest 4786.1 @62.5,35.5 map 1413
+step
+  only Warlock
+  turnin 4786
+step
+  zone map 1455
+  only Warlock
+  tip Optional: skip it if you don't take it.
+  accept 4965
+step
+  zone map 1413
+  only Warlock
+  when onquest 4965
+  turnin 4965
+step
+  zone map 1455
+  only Warrior
+  tip Time to train: head to Bilban Tosslespanner in Ironforge for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  accept 1718
+step
+  zone map 1413
+  only Warrior
+  turnin 1718
+step
+  only Warrior
+  accept 1719
+step
+  only Warrior
+  tip Big Will has only one spawn point. If others are waiting for it, group up to share it. Kill: Big Will
+  kill 6238 quest 1719.1 @68.6,48.7 map 1413
+step
+  only Warrior
+  turnin 1719
+step
+  only Warrior
+  accept 1791
+step
+  zone map 1416
+  only Warrior
+  turnin 1791
+step
+  zone map 1455
+  only Paladin
+  tip Time to train: head to Brandur Ironhammer in Ironforge for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Rogue
+  tip Time to train: head to Fenthwick in Ironforge for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Hunter
+  tip Time to train: head to Regnus Thundergranite in Ironforge for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Shaman
+  tip Time to train: head to Eldrun Stormbreaker in Ironforge for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1443
+  goto 66.7,10.9 "Travel to Desolace - take the boat (Auberdine <-> Menethil Harbor, Theramore <-> Menethil Harbor)" map 1443

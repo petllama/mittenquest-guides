@@ -1,0 +1,460 @@
+guide mittenquest/horde/34-38-arathi-highlands-stranglethorn-vale-desolace
+title "Horde 34-38 Arathi Highlands, Stranglethorn Vale, Desolace"
+levels 34-38
+zone map 1417
+coords era
+faction Horde
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/horde/38-42-stranglethorn-vale-undercity-swamp-of-sorrows
+step
+  accept 677
+step
+  getfp "Hammerfall"
+step
+  accept 655
+step
+  turnin 638
+step
+  accept 671
+step
+  turnin 655
+step
+  accept 672
+step
+  tip Kill: Highland Strider (about 22% drop chance)
+  collect 4512 x10 quest 672.1 @63.4,42.2 map 1417
+step
+  turnin 672
+step
+  accept 674
+step
+  turnin 674
+step
+  accept 675
+step
+  turnin 675
+step
+  tip Kill: Boulderfist Ogre, Boulderfist Enforcer
+  kill 2562 x8 quest 676.1
+  kill 2564 x10 quest 676.2 @33.6,44.6 map 1417
+step
+  tip Kill: Syndicate Pathstalker (about 36% drop chance)
+  collect 4495 x10 quest 671.1 @32.3,28.3 map 1417
+step
+  turnin 676
+step
+  turnin 671
+step
+  tip Kill: Witherbark Axe Thrower, Witherbark Headhunter
+  kill 2554 x10 quest 677.1
+  kill 2556 x10 quest 677.2 @68.2,79.5 map 1417
+  kill 2555 x8 quest 677.3 @68.2,79.5 map 1417
+step
+  turnin 677
+step
+  fly "Booty Bay"
+step
+  zone map 1434
+  accept 570
+step
+  accept 569
+step
+  fly "Shadowprey Village"
+step
+  zone map 1443
+  tip Kill: Enraged Reef Crawler
+  collect 15924 x10 quest 6142.1 @32.8,26.6 map 1443
+step
+  tip Kill: Slitherblade Myrmidon, Slitherblade Naga
+  kill 4714 x7 quest 6143.1
+  kill 4711 x7 quest 6143.2 @35.4,22 map 1443
+  kill 4712 x5 quest 6143.3
+step
+  tip Kill: Drysnap Pincer, Slitherblade Naga
+  collect 15878 quest 6161.1
+  collect 15881 quest 6161.2 @37,21.9 map 1443
+step
+  turnin 6161
+step
+  tip Kill: Slitherblade Oracle
+  collect 6442 quest 1482.1 @27.7,7.9 map 1443
+step
+  accept 6027
+step
+  turnin 1482
+step
+  accept 1484
+step
+  turnin 1484
+step
+  complete 5821 @67.2,56.6 map 1443
+step
+  turnin 5821
+step
+  collect 6069 x6 quest 1370.1 @73.2,75.1 map 1443
+step
+  accept 5943
+step
+  turnin 1370
+step
+  turnin 6143
+step
+  turnin 6142
+step
+  accept 5381
+step
+  tip Kill: Khan Dez'hepah
+  collect 6066 quest 1365.1 @74.4,44.8 map 1443
+step
+  turnin 1365
+step
+  when turnedin 1365
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 1366
+step
+  when onquest 1366
+  tip Warug's Bodyguard has only 2 spawn points. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Warug's Bodyguard (about 33% drop chance)
+  collect 6067 x15 quest 1366.1 @75.4,68 map 1443
+step
+  when onquest 1366
+  turnin 1366
+step
+  zone map 1456
+  only Paladin
+  tip Time to train: head to Alodan the Hopeful in Thunder Bluff for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  tip Time to train: head to Torm Ragetotem in Thunder Bluff for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1454
+  only Shaman
+  tip Time to train: head to Sian'tsu in Orgrimmar for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warlock
+  tip Time to train: head to Grol'dar in Orgrimmar for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1413
+  only Warlock
+  accept 4786
+step
+  only Warlock
+  tip Menara Voidrender has only one spawn point. If others are waiting for it, group up to share it. Kill: Menara Voidrender
+  kill 6266 quest 4786.1 @62.5,35.5 map 1413
+step
+  only Warlock
+  turnin 4786
+step
+  zone map 1454
+  only Warlock
+  tip Optional: skip it if you don't take it.
+  accept 4967
+step
+  zone map 1413
+  only Warlock
+  when onquest 4967
+  turnin 4967
+step
+  zone map 1456
+  only Mage
+  tip Time to train: head to Archmage Shymm in Thunder Bluff for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Mage
+  accept 1947
+step
+  zone map 1445
+  only Mage
+  turnin 1947
+step
+  only Mage
+  accept 1949
+step
+  zone map 1441
+  only Mage
+  turnin 1949
+step
+  only Mage
+  accept 1950
+step
+  only Mage
+  tip "Plucky" Johnson has only one spawn point. If others are waiting for it, group up to share it. Kill: "Plucky" Johnson
+  kill 6626 quest 1950.1 @79.6,75.6 map 1441
+step
+  only Mage
+  turnin 1950
+step
+  fly "Brackenwall Village"
+step
+  zone map 1445
+  accept 1322
+step
+  tip Kill: Theramore Infiltrator
+  kill 4834 x9 quest 1201.1 @40.9,25.5 map 1445
+step
+  turnin 1201
+step
+  accept 1202
+step
+  tip Kill: Darkfang Venomspitter (about 27% drop chance)
+  collect 5959 x6 quest 1322.1 @52,32.7 map 1445
+step
+  turnin 1322
+step
+  accept 1323
+step
+  turnin 1323
+step
+  accept 1269
+step
+  turnin 1269
+step
+  accept 1273
+step
+  complete 1273 @42.5,38.1 map 1445
+step
+  turnin 1273
+step
+  accept 1270
+step
+  complete 1270 @48.9,24.6 map 1445
+step
+  tip Kill: Mirefin Muckdweller (about 23% drop chance)
+  collect 5847 x12 quest 1177.1 @59.1,9.1 map 1445
+step
+  turnin 1177
+step
+  collect 5882 quest 1202.1 @71.5,51.2 map 1445
+step
+  turnin 1202
+step
+  zone map 1456
+  only Druid
+  tip Time to train: head to Turak Runetotem in Thunder Bluff for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  hearth "Camp Taurajo"
+step
+  zone map 1413
+  turnin 1111
+step
+  turnin 1270
+step
+  accept 6626
+step
+  when onquest 6626
+  tip Dungeon: Razorfen Downs. Find a group for Razorfen Downs. Quests you skip there are dropped automatically.
+  complete 6626 @49,93.9 map 1413
+step
+  turnin 6626
+step
+  fly "Shadowprey Village"
+step
+  zone map 1443
+  complete 5943 @55.7,67.8 map 1443
+step
+  turnin 5943
+step
+  accept 92743
+step
+  turnin 92743
+step
+  tip Demon Spirit has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Demon Spirit
+  collect 13542 quest 5381.1 @55,26.6 map 1443
+step
+  tip Lord Kragaru has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Lord Kragaru
+  collect 15803 quest 6027.1 @28.2,6.7 map 1443
+step
+  turnin 6027
+step
+  turnin 5381
+step
+  accept 5581
+step
+  tip Kill: Demon Portal Guardian
+  kill 11937 x6 quest 5581.1 @52.2,80.2 map 1443
+step
+  turnin 5581
+step
+  zone map 1454
+  only Rogue
+  tip Time to train: head to Gest in Orgrimmar for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1456
+  only Warrior
+  tip Time to train: head to Torm Ragetotem in Thunder Bluff for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1416
+  only Warrior
+  accept 1712
+step
+  zone map 1434
+  only Warrior
+  tip Kill: Bloodscalp Axe Thrower
+  collect 3357 x8 quest 1712.1 @33.3,20.4 map 1434
+  collect 3901 x30 quest 1712.2
+  collect 6851 quest 1712.3 @33.3,20.4 map 1434
+step
+  zone map 1416
+  only Warrior
+  turnin 1712
+step
+  only Warrior
+  when turnedin 1712
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 1713
+step
+  only Warrior
+  when onquest 1713
+  tip Cyclonian has only one spawn point. If others are waiting for it, group up to share it. Kill: Cyclonian
+  collect 6894 quest 1713.1 @80.3,62.1 map 1416 optional -- Cyclonian is elite: grouping up is advised.
+step
+  only Warrior
+  when onquest 1713
+  turnin 1713
+step
+  only Warrior
+  accept 1792
+step
+  only Warrior
+  turnin 1792
+step
+  zone map 1454
+  only Shaman
+  tip Time to train: head to Sian'tsu in Orgrimmar for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1456
+  only Mage
+  tip Time to train: head to Archmage Shymm in Thunder Bluff for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1445
+  only Mage
+  accept 1948
+step
+  zone map 1417
+  only Mage
+  collect 1529 quest 1948.1 @33.1,44.5 map 1417
+  collect 7272 quest 1948.2
+step
+  zone map 1445
+  only Mage
+  turnin 1948
+step
+  zone map 1441
+  only Mage
+  accept 1951
+step
+  only Mage
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC).
+  collect 7274 quest 1951.1 @78.3,75.7 map 1441
+step
+  zone map 1445
+  only Mage
+  turnin 1951
+step
+  only Mage
+  accept 1952
+step
+  only Mage
+  turnin 1952
+step
+  zone map 1456
+  only Mage
+  tip Optional: skip it if you don't take it.
+  accept 1953
+step
+  zone map 1445
+  only Mage
+  when onquest 1953
+  turnin 1953
+step
+  only Mage
+  accept 1954
+step
+  zone map 1443
+  only Mage
+  tip Kill: Burning Blade Summoner
+  collect 7291 quest 1954.1 @80.5,77.8 map 1443
+step
+  zone map 1445
+  only Mage
+  turnin 1954
+step
+  only Mage
+  when turnedin 1954
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 1955
+step
+  only Mage
+  when onquest 1955
+  tip Demon of the Orb has only one spawn point. If others are waiting for it, group up to share it. Kill: Demon of the Orb
+  kill 6549 quest 1955.1 @45.8,57 map 1445 optional -- Demon of the Orb is elite: grouping up is advised.
+step
+  only Mage
+  when onquest 1955
+  turnin 1955
+step
+  only Mage
+  when turnedin 1955
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 1956
+step
+  only Mage
+  when onquest 1956
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Obsidian Sentinel
+  collect 8053 quest 1956.1 @46.1,57.1 map 1445 optional -- Obsidian Sentinel is elite: grouping up is advised.
+step
+  only Mage
+  when onquest 1956
+  turnin 1956
+step
+  only Mage
+  accept 1957
+step
+  only Mage
+  tip Mana Surge has only one spawn point. If others are waiting for it, group up to share it. Kill: Mana Surge
+  kill 6550 x12 quest 1957.1 @45.8,56.9 map 1445
+step
+  only Mage
+  turnin 1957
+step
+  only Mage
+  accept 1958
+step
+  only Mage
+  turnin 1958
+step
+  fly "Thunder Bluff"
+step
+  zone map 1456
+  turnin 1102
+step
+  only Orc,Troll,Tauren
+  accept 1049
+step
+  zone map 1420
+  when onquest 1049
+  tip Dungeon: Scarlet Monastery. Find a group for Scarlet Monastery. Quests you skip there are dropped automatically.
+  complete 1049 @82.6,33.8 map 1420
+step
+  zone map 1456
+  only Orc,Troll,Tauren
+  turnin 1049
+step
+  only Hunter
+  tip Time to train: head to Urek Thunderhorn in Thunder Bluff for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Priest
+  tip Time to train: head to Malakai Cross in Thunder Bluff for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Booty Bay"

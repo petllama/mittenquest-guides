@@ -1,0 +1,245 @@
+guide mittenquest/alliance/56-60-eastern-plaguelands-western-plaguelands-blasted-lands
+title "Alliance 56-60 Eastern Plaguelands, Western Plaguelands, Blasted Lands"
+levels 56-60
+zone map 1423
+coords era
+faction Alliance
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+step
+  accept 5211
+step
+  getfp "Light's Hope Chapel"
+step
+  turnin 6030
+step
+  accept 5281
+step
+  tip Kill: Darrowshire Spirit
+  kill 11064 x15 quest 5211.1 @57.3,32 map 1423
+step
+  turnin 5245
+step
+  turnin 5281
+step
+  accept 6164
+step
+  collect 15884 quest 6164.1 @14,24.2 map 1423
+step
+  turnin 6164
+step
+  accept 5542
+step
+  accept 5544
+step
+  accept 5543
+step
+  tip Kill: Plaguebat
+  kill 8600 x30 quest 5543.1 @13.6,67 map 1423
+step
+  turnin 5142
+step
+  tip Kill: Carrion Grub
+  collect 13853 x15 quest 5544.1 @51,45.7 map 1423
+step
+  tip Kill: Plaguehound Runt, Plaguehound
+  kill 8596 x20 quest 5542.1 @45,31.4 map 1423
+  kill 8597 x20 quest 5542.2 @45,31.4 map 1423
+  kill 8598 x5 quest 5542.3 @45,31.4 map 1423
+step
+  turnin 5211
+step
+  turnin 5542
+step
+  turnin 5544
+step
+  turnin 5543
+step
+  when turnedin 5542
+  when turnedin 5543
+  when turnedin 5544
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 5742
+step
+  when onquest 5742
+  tip Tirion Fordring has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Tirion Fordring
+  kill 1855 quest 5742.1 @5.2,35.6 map 1423
+step
+  when onquest 5742
+  turnin 5742
+step
+  accept 5781
+step
+  tip Mercutio Filthgorger has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Mercutio Filthgorger
+  collect 14613 quest 5781.1 @23.9,74.2 map 1423
+step
+  turnin 5781
+step
+  accept 5845
+step
+  collect 14625 quest 5845.1 @62.5,26.8 map 1423
+step
+  turnin 5845
+step
+  accept 5846
+step
+  fly "Chillwind Camp"
+step
+  zone map 1422
+  accept 5225
+step
+  accept 211
+step
+  turnin 5846
+step
+  tip Cauldron Lord Soulwrath has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Cauldron Lord Soulwrath
+  collect 13196 quest 5225.1 @62.2,59.1 map 1422
+step
+  turnin 5225
+step
+  accept 5226
+step
+  turnin 5226
+step
+  accept 5237
+step
+  turnin 5237
+step
+  collect 17114 quest 211.1 @45.3,69.2 map 1422
+step
+  turnin 211
+step
+  accept 6025
+step
+  complete 6025 @45.8,18.2 map 1422
+step
+  turnin 6025
+step
+  zone map 1455
+  only Mage
+  tip Time to train: head to Dink in Ironforge for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1453
+  only Priest
+  tip Time to train: head to High Priestess Laurena in Stormwind City for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Paladin
+  tip Time to train: head to Lord Grayson Shadowbreaker in Stormwind City for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Druid
+  tip Time to train: head to Sheldras Moontree in Stormwind City for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Hunter
+  tip Time to train: head to Einris Brightspear in Stormwind City for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Nethergarde Keep"
+step
+  zone map 1419
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 2521
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 3501
+step
+  when onquest 2521
+  tip Teremus the Devourer has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Teremus the Devourer
+  collect 8244 quest 2521.1 @51.2,50.1 map 1419
+step
+  when onquest 2521
+  turnin 2521
+step
+  when onquest 3501
+  tip Kill: Nethergarde Analyst
+  collect 10593 quest 3501.1 @64,21.3 map 1419
+step
+  when onquest 3501
+  turnin 3501
+step
+  zone map 1451
+  goto 49.7,37.5 "Travel to Silithus - take the boat (Auberdine <-> Menethil Harbor, Theramore <-> Menethil Harbor)" map 1451
+step
+  accept 8284
+step
+  getfp "Cenarion Hold"
+step
+  accept 8304
+step
+  accept 8280
+step
+  tip Kill: Dredge Striker
+  kill 11740 x15 quest 8280.1 @56,13.8 map 1451
+step
+  turnin 8280
+step
+  accept 8281
+step
+  tip Kill: Dredge Crusher
+  kill 11741 x20 quest 8281.1 @31,43.5 map 1451
+step
+  turnin 8281
+step
+  tip Starts from Brann Bronzebeard's Lost Letter, which drops in this area.
+  accept 8308 @36.7,63.2 map 1451
+step
+  turnin 8308
+step
+  tip Rutgar Glyphshaper has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Frankal Stonebridge, Rutgar Glyphshaper
+  kill 15171 quest 8304.1 @40.8,88.9 map 1451
+  kill 15170 quest 8304.2 @40.8,88.9 map 1451
+step
+  turnin 8304
+step
+  collect 20378 x8 quest 8284.1 @21.8,10.3 map 1451
+step
+  turnin 8284
+step
+  accept 8285
+step
+  turnin 8285
+step
+  accept 8279
+step
+  accept 8309
+step
+  tip Twilight Keeper Mayna has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Twilight Keeper Mayna, Twilight Keeper Exeter
+  collect 20394 quest 8279.1 @26.4,36.6 map 1451
+  collect 20395 quest 8279.2
+  collect 20396 quest 8279.3
+step
+  collect 20455 quest 8309.1 @50.9,26.8 map 1451
+  collect 20454 quest 8309.2 @50.9,26.8 map 1451
+  collect 20456 quest 8309.3 @50.9,26.8 map 1451
+step
+  turnin 8279
+step
+  accept 8287
+step
+  turnin 8309
+step
+  turnin 8287
+step
+  fly "Thalanaar"
+step
+  zone map 1444
+  accept 7441
+step
+  when onquest 7441
+  tip Dungeon: Dire Maul. Find a group for Dire Maul. Quests you skip there are dropped automatically.
+  complete 7441 @59.2,45.1 map 1444
+step
+  turnin 7441
+step
+  turnin 4142
+step
+  accept 7488
+step
+  when onquest 7488
+  tip Dungeon: Dire Maul. Find a group for Dire Maul. Quests you skip there are dropped automatically.
+  complete 7488 @59.2,45.1 map 1444
+step
+  turnin 7488

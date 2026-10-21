@@ -1,0 +1,1431 @@
+guide mittenquest/alliance/1-20-dun-morogh-duskwood-loch-modan-westfall-redridge-mountains-dwarf-gnome
+title "Alliance 1-20 Dun Morogh, Duskwood, Loch Modan, Westfall, Redridge Mountains (Dwarf/Gnome)"
+levels 1-20
+zone map 1426
+coords era
+faction Alliance
+race Dwarf, Gnome
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/alliance/19-23-wetlands-stormwind-city
+step
+  accept 179
+step
+  tip Kill: Ragged Young Wolf
+  collect 750 x8 quest 179.1 @28.8,73.8 map 1426
+step
+  turnin 179
+step
+  accept 233
+step
+  accept 170
+step
+  accept 2160
+step
+  tip Kill: Rockjaw Trogg, Burly Rockjaw Trogg
+  kill 707 x6 quest 170.1 @30.7,75.7 map 1426
+  kill 724 x6 quest 170.2 @30.7,75.7 map 1426
+step
+  turnin 170
+step
+  only Mage
+  tip Marryk Nurribit is right here: pick up your new Mage spells.
+  train class
+step
+  only Mage,Gnome
+  accept 3114
+step
+  only Mage,Gnome
+  turnin 3114
+step
+  only Priest
+  tip Branstock Khalder is right here: pick up your new Priest spells.
+  train class
+step
+  only Priest,Dwarf
+  accept 3110
+step
+  only Priest,Dwarf
+  turnin 3110
+step
+  only Priest,Gnome
+  accept 98574
+step
+  only Priest,Gnome
+  turnin 98574
+step
+  only Warlock
+  tip Alamar Grimm is right here: pick up your new Warlock spells.
+  train class
+step
+  only Warlock,Gnome
+  accept 3115
+step
+  only Warlock,Gnome
+  turnin 3115
+step
+  only Warlock
+  accept 1599
+step
+  only Warlock
+  tip Kill: Frostmane Novice (about 47% drop chance)
+  collect 6753 x3 quest 1599.1 @29.4,81.1 map 1426
+step
+  only Warlock
+  turnin 1599
+step
+  only Warrior
+  tip Thran Khorman is right here: pick up your new Warrior spells.
+  train class
+step
+  only Warrior,Dwarf
+  accept 3106
+step
+  only Warrior,Dwarf
+  turnin 3106
+step
+  only Warrior,Gnome
+  accept 3112
+step
+  only Warrior,Gnome
+  turnin 3112
+step
+  only Paladin
+  tip Bromos Grummner is right here: pick up your new Paladin spells.
+  train class
+step
+  only Paladin,Dwarf
+  accept 3107
+step
+  only Paladin,Dwarf
+  turnin 3107
+step
+  only Rogue
+  tip Solm Hargrin is right here: pick up your new Rogue spells.
+  train class
+step
+  only Rogue,Dwarf
+  accept 3109
+step
+  only Rogue,Dwarf
+  turnin 3109
+step
+  only Rogue,Gnome
+  accept 3113
+step
+  only Rogue,Gnome
+  turnin 3113
+step
+  only Hunter
+  tip Thorgas Grimson is right here: pick up your new Hunter spells.
+  train class
+step
+  only Hunter,Dwarf
+  accept 3108
+step
+  only Hunter,Dwarf
+  turnin 3108
+step
+  only Shaman
+  tip Teo Hammerstorm is right here: pick up your new Shaman spells.
+  train class
+step
+  only Shaman,Dwarf
+  accept 98581
+step
+  only Shaman,Dwarf
+  turnin 98581
+step
+  turnin 233
+step
+  accept 183
+step
+  accept 234
+step
+  tip Kill: Small Crag Boar
+  kill 708 x12 quest 183.1 @21.9,71.3 map 1426
+step
+  turnin 183
+step
+  turnin 234
+step
+  accept 182
+step
+  tip Kill: Frostmane Troll Whelp
+  kill 706 x14 quest 182.1 @26.8,79.9 map 1426
+step
+  turnin 182
+step
+  only Mage
+  tip Marryk Nurribit is right here: pick up your new Mage spells.
+  train class
+step
+  only Priest
+  tip Branstock Khalder is right here: pick up your new Priest spells.
+  train class
+step
+  only Warlock
+  tip Alamar Grimm is right here: pick up your new Warlock spells.
+  train class
+step
+  only Warrior
+  tip Thran Khorman is right here: pick up your new Warrior spells.
+  train class
+step
+  only Paladin
+  tip Bromos Grummner is right here: pick up your new Paladin spells.
+  train class
+step
+  only Rogue
+  tip Solm Hargrin is right here: pick up your new Rogue spells.
+  train class
+step
+  only Hunter
+  tip Thorgas Grimson is right here: pick up your new Hunter spells.
+  train class
+step
+  only Shaman
+  tip Teo Hammerstorm is right here: pick up your new Shaman spells.
+  train class
+step
+  only Shaman
+  accept 94373
+step
+  only Shaman
+  tip Kill: Frostmane Troll Whelp
+  collect 264356 quest 94373.1 @26.8,79.9 map 1426
+step
+  only Shaman
+  turnin 94373
+step
+  only Shaman
+  accept 94374
+step
+  only Shaman
+  turnin 94374
+step
+  only Shaman
+  accept 94375
+step
+  only Shaman
+  turnin 94375
+step
+  accept 3364
+step
+  turnin 3364
+step
+  accept 3365
+step
+  turnin 3365
+step
+  turnin 2160
+step
+  only Priest
+  tip Maxan Anvol is right here: pick up your new Priest spells.
+  train class
+step
+  only Priest,Dwarf,Gnome
+  accept 5625
+step
+  only Priest,Dwarf,Gnome
+  tip Mountaineer Dolf has only one spawn point. If others are waiting for it, group up to share it. Kill: Mountaineer Dolf
+  kill 12427 quest 5625.1 @45.8,54.6 map 1426
+step
+  only Priest,Dwarf,Gnome
+  turnin 5625
+step
+  only Priest,Dwarf,Gnome
+  tip Optional: skip it if you don't take it.
+  accept 5626
+step
+  only Priest,Dwarf,Gnome
+  when onquest 5626
+  turnin 5626
+step
+  tip Optional: skip it if you don't take it.
+  accept 99158
+step
+  accept 400
+step
+  accept 98321
+step
+  accept 98322
+step
+  turnin 98322
+step
+  turnin 400
+step
+  accept 5541
+step
+  turnin 99158
+step
+  accept 99159
+step
+  collect 286339 x14 quest 99159.1 @57.2,54.9 map 1426
+step
+  turnin 99159
+step
+  accept 99160
+step
+  accept 99162
+step
+  tip Kill: Minor Ice Elemental
+  kill 276003 x10 quest 99160.1 @55.5,44.8 map 1426
+step
+  only Mage
+  tip Magis Sparkmantle is right here: pick up your new Mage spells.
+  train class
+step
+  only Warrior
+  tip Granis Swiftaxe is right here: pick up your new Warrior spells.
+  train class
+step
+  only Paladin
+  tip Azar Stronghammer is right here: pick up your new Paladin spells.
+  train class
+step
+  only Rogue
+  tip Hogral Bakkan is right here: pick up your new Rogue spells.
+  train class
+step
+  only Shaman
+  tip Ingrid Dunwald is right here: pick up your new Shaman spells.
+  train class
+step
+  turnin 99160
+step
+  collect 286360 quest 99162.1 @53.2,58.8 map 1426
+  collect 286359 quest 99162.2 @53.2,58.8 map 1426
+  collect 286358 quest 99162.3 @53.2,58.8 map 1426
+step
+  only Warlock
+  tip Gimrizz Shadowcog is right here: pick up your new Warlock spells.
+  train class
+step
+  only Hunter
+  tip Grif Wildheart is right here: pick up your new Hunter spells.
+  train class
+step
+  collect 13850 quest 5541.1 @44.1,57 map 1426
+step
+  turnin 5541
+step
+  collect 280413 quest 98321.1 @41.1,47.2 map 1426
+step
+  turnin 98321
+step
+  only Priest
+  tip Maxan Anvol is right here: pick up your new Priest spells.
+  train class
+step
+  accept 287
+step
+  accept 412
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 313
+step
+  turnin 99162
+step
+  accept 95212
+step
+  accept 433
+step
+  accept 432
+step
+  tip Kill: Rockjaw Skullthumper
+  kill 1115 x6 quest 432.1 @71,56 map 1426
+step
+  turnin 432
+step
+  tip Starts from Empty Powder Keg, which drops in this area.
+  accept 95213 @74.5,56.2 map 1426
+step
+  tip Kill: Elder Snow Leopard
+  collect 267414 x6 quest 95212.1 @75.1,57.4 map 1426
+step
+  tip Kill: Rockjaw Ambusher
+  collect 268548 quest 95213.1 @73.4,55.1 map 1426
+step
+  turnin 95213
+step
+  accept 95214
+step
+  tip Kill: Rockjaw Ambusher
+  collect 267415 x16 quest 95214.1 @73.4,55.1 map 1426
+step
+  turnin 95214
+step
+  tip Kill: Rockjaw Bonesnapper
+  kill 1117 x10 quest 433.1 @71.8,52.4 map 1426
+step
+  turnin 433
+step
+  turnin 95212
+step
+  when onquest 313
+  tip Kill: Young Wendigo (about 64% drop chance)
+  collect 2671 x8 quest 313.1 @42.5,55 map 1426
+step
+  only Mage
+  tip Magis Sparkmantle is right here: pick up your new Mage spells.
+  train class
+step
+  only Warlock
+  tip Gimrizz Shadowcog is right here: pick up your new Warlock spells.
+  train class
+step
+  only Warrior
+  tip Granis Swiftaxe is right here: pick up your new Warrior spells.
+  train class
+step
+  only Paladin
+  tip Azar Stronghammer is right here: pick up your new Paladin spells.
+  train class
+step
+  only Rogue
+  tip Hogral Bakkan is right here: pick up your new Rogue spells.
+  train class
+step
+  only Hunter
+  tip Grif Wildheart is right here: pick up your new Hunter spells.
+  train class
+step
+  only Shaman
+  tip Ingrid Dunwald is right here: pick up your new Shaman spells.
+  train class
+step
+  when onquest 313
+  turnin 313
+step
+  accept 312
+step
+  accept 315
+step
+  accept 310
+step
+  tip Kill: Frostmane Headhunter
+  kill 1123 x5 quest 287.1 @23.4,51.4 map 1426
+step
+  tip Gibblewilt has only 2 spawn points. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Gibblewilt (about 49% drop chance)
+  collect 3083 x8 quest 412.1 @27.4,36.2 map 1426
+  collect 3084 x8 quest 412.2 @27.4,36.2 map 1426
+step
+  tip Kill: Frostmane Seer (about 50% drop chance)
+  collect 2676 x6 quest 315.1 @41.4,44.4 map 1426
+step
+  turnin 412
+step
+  turnin 310
+step
+  only Priest
+  tip Maxan Anvol is right here: pick up your new Priest spells.
+  train class
+step
+  accept 311
+step
+  turnin 287
+step
+  tip Optional: skip it if you don't take it.
+  accept 96408
+step
+  collect 2667 quest 312.1 @38.5,53.9 map 1426
+step
+  turnin 312
+step
+  turnin 315
+step
+  accept 413
+step
+  turnin 311
+step
+  turnin 96408
+step
+  turnin 413
+step
+  accept 414
+step
+  accept 419
+step
+  turnin 419
+step
+  only Mage
+  tip Time to train: head to Magis Sparkmantle in Dun Morogh for your new Mage spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Mage,Human,Gnome
+  tip Optional: skip it if you don't take it.
+  accept 1879
+step
+  zone map 1455
+  only Mage,Human,Gnome
+  when onquest 1879
+  turnin 1879
+step
+  only Mage,Human,Gnome
+  accept 1880
+step
+  zone map 1426
+  only Mage,Human,Gnome
+  collect 7226 quest 1880.1 @27.7,36.4 map 1426
+step
+  zone map 1455
+  only Mage,Human,Gnome
+  turnin 1880
+step
+  zone map 1426
+  only Priest
+  tip Time to train: head to Maxan Anvol in Dun Morogh for your new Priest spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Priest,Human,Dwarf
+  accept 5637
+step
+  zone map 1453
+  only Priest,Human,Dwarf
+  turnin 5637
+step
+  zone map 1455
+  only Priest,Gnome
+  accept 94817
+step
+  only Priest,Gnome
+  turnin 94817
+step
+  zone map 1426
+  only Warlock
+  tip Time to train: head to Gimrizz Shadowcog in Dun Morogh for your new Warlock spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1455
+  only Warlock
+  accept 1715
+step
+  zone map 1453
+  only Warlock
+  turnin 1715
+step
+  only Warlock
+  accept 1688
+step
+  zone map 1429
+  only Warlock
+  tip Surena Caledon has only one spawn point. If others are waiting for it, group up to share it. Kill: Surena Caledon
+  collect 6810 quest 1688.1 @71,80.8 map 1429
+step
+  zone map 1453
+  only Warlock
+  turnin 1688
+step
+  only Warlock
+  accept 1689
+step
+  only Warlock
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Summoned Voidwalker
+  kill 5676 quest 1689.1
+step
+  only Warlock
+  turnin 1689
+step
+  zone map 1426
+  only Warrior
+  tip Time to train: head to Granis Swiftaxe in Dun Morogh for your new Warrior spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Warrior
+  tip Optional: skip it if you don't take it.
+  accept 1679
+step
+  zone map 1455
+  only Warrior
+  when onquest 1679
+  turnin 1679
+step
+  only Warrior
+  accept 1678
+step
+  zone map 1426
+  only Warrior
+  tip Vejrek has only one spawn point. If others are waiting for it, group up to share it. Kill: Vejrek
+  collect 6799 quest 1678.1 @27.8,58 map 1426
+step
+  zone map 1455
+  only Warrior
+  turnin 1678
+step
+  only Warrior
+  when turnedin 1678
+  tip Optional: skip it if you don't take it.
+  accept 1680
+step
+  only Warrior
+  when onquest 1680
+  turnin 1680
+step
+  only Warrior
+  accept 1681
+step
+  zone map 1426
+  only Warrior
+  collect 6800 quest 1681.1 @78,62.2 map 1426
+step
+  zone map 1455
+  only Warrior
+  turnin 1681
+step
+  only Warrior
+  accept 1682
+step
+  only Warrior
+  turnin 1682
+step
+  zone map 1453
+  only Druid
+  tip Time to train: head to Sheldras Moontree in Stormwind City for your new Druid spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1426
+  only Rogue
+  tip Time to train: head to Hogral Bakkan in Dun Morogh for your new Rogue spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Rogue
+  accept 2218
+step
+  zone map 1455
+  only Rogue
+  turnin 2218
+step
+  only Rogue
+  accept 2238
+step
+  zone map 1426
+  only Rogue
+  turnin 2238
+step
+  only Rogue
+  accept 2239
+step
+  zone map 1455
+  only Rogue
+  turnin 2239
+step
+  zone map 1426
+  only Hunter
+  tip Time to train: head to Grif Wildheart in Dun Morogh for your new Hunter spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Hunter,Dwarf
+  accept 6064
+step
+  only Hunter,Dwarf
+  tip Kill: Large Crag Boar
+  kill 1126 quest 6064.1 @38.1,51 map 1426
+step
+  only Hunter,Dwarf
+  turnin 6064
+step
+  zone map 1455
+  only Hunter,Dwarf
+  tip Optional: skip it if you don't take it.
+  accept 6074
+step
+  zone map 1426
+  only Hunter,Dwarf
+  when onquest 6074
+  turnin 6074
+step
+  only Hunter,Dwarf
+  accept 6084
+step
+  only Hunter,Dwarf
+  tip Kill: Snow Leopard
+  kill 1201 quest 6084.1 @59.1,58.6 map 1426
+step
+  only Hunter,Dwarf
+  turnin 6084
+step
+  only Hunter,Dwarf
+  accept 6085
+step
+  only Hunter,Dwarf
+  tip Kill: Ice Claw Bear
+  kill 1196 quest 6085.1 @28.1,43.1 map 1426
+step
+  only Hunter,Dwarf
+  turnin 6085
+step
+  only Hunter,Dwarf
+  accept 6086
+step
+  zone map 1455
+  only Hunter,Dwarf
+  turnin 6086
+step
+  zone map 1426
+  only Shaman
+  tip Time to train: head to Ingrid Dunwald in Dun Morogh for your new Shaman spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1455
+  only Shaman
+  accept 94449
+step
+  zone map 1426
+  only Shaman
+  turnin 94449
+step
+  zone map 1455
+  only Shaman
+  accept 96243
+step
+  zone map 1426
+  only Shaman
+  turnin 96243 @28.8,66.2 map 1426
+step
+  only Shaman
+  accept 94465
+step
+  zone map 1432
+  only Shaman
+  turnin 94465
+step
+  zone map 1436
+  goto 54,53 "Travel to Westfall" map 1436
+step
+  tip Talk to Innkeeper Heather and make this inn your home.
+  sethome "Sentinel Hill"
+step
+  accept 92745
+step
+  getfp "Sentinel Hill"
+step
+  accept 92744
+step
+  accept 12
+step
+  accept 109
+step
+  accept 36
+step
+  accept 151
+step
+  accept 64
+step
+  turnin 36
+step
+  accept 38
+step
+  collect 841 quest 64.1 @49.3,19.3 map 1436
+step
+  tip Kill: Defias Trapper, Defias Smuggler
+  kill 504 x15 quest 12.1 @44.5,24.6 map 1436
+  kill 95 x15 quest 12.2 @44.5,24.6 map 1436
+step
+  turnin 64
+step
+  turnin 12
+step
+  turnin 109
+step
+  accept 13
+step
+  accept 102
+step
+  accept 153
+step
+  accept 92747
+step
+  tip Kill: Salt Flats Vulture, Bluegill Raider (about 40% drop chance)
+  collect 729 x3 quest 38.1 @63.6,61.4 map 1436
+  collect 730 x3 quest 38.2
+  collect 731 x3 quest 38.3
+  collect 732 x3 quest 38.4 @63.6,61.4 map 1436
+step
+  turnin 38
+step
+  accept 22
+step
+  accept 9
+step
+  accept 92909
+step
+  tip Starts from Precessive Autocognition Assembly, which drops in this area.
+  accept 92910 @37.4,49.3 map 1436
+step
+  tip Kill: Murloc Warrior
+  collect 254548 x7 quest 92744.1 @28.4,32.9 map 1436
+step
+  turnin 92910
+step
+  turnin 92744
+step
+  zone map 1453
+  only Warlock
+  tip Time to train: head to Demisette Cloyce in Stormwind City for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1429
+  only Warlock
+  tip Optional: skip it if you don't take it.
+  accept 1685
+step
+  zone map 1453
+  only Warlock
+  when onquest 1685
+  turnin 1685
+step
+  only Warrior
+  tip Time to train: head to Ander Germaine in Stormwind City for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  accept 1640
+step
+  only Warrior
+  tip Bartleby has only one spawn point. If others are waiting for it, group up to share it. Kill: Bartleby
+  kill 6090 quest 1640.1 @76.8,52.5 map 1453
+step
+  only Warrior
+  turnin 1640
+step
+  only Warrior
+  accept 1665
+step
+  only Warrior
+  turnin 1665
+step
+  only Warrior
+  accept 1666
+step
+  zone map 1429
+  only Warrior
+  turnin 1666
+step
+  only Warrior
+  accept 1667
+step
+  only Warrior
+  collect 6782 quest 1667.1 @89.3,78.9 map 1429
+step
+  only Warrior
+  turnin 1667
+step
+  zone map 1455
+  only Rogue
+  tip Time to train: head to Hulfdan Blackbeard in Ironforge for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Shaman
+  tip Time to train: head to Eldrun Stormbreaker in Ironforge for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1432
+  only Shaman
+  accept 94466
+step
+  zone map 1413
+  only Shaman
+  tip Kill: Razormane Geomancer, Burning Blade Cultist (about 1% drop chance)
+  collect 5026 quest 94466.1 @57.3,24.6 map 1413
+  collect 6652 quest 94466.2 @57.3,24.6 map 1413
+step
+  zone map 1432
+  only Shaman
+  turnin 94466
+step
+  only Shaman
+  accept 94467
+step
+  zone map 1411
+  only Shaman
+  tip Minor Manifestation of Fire has only 2 spawn points. If others are waiting for it, group up to share it. Kill: Minor Manifestation of Fire
+  collect 6655 quest 94467.1 @38.7,58.3 map 1411
+step
+  zone map 1432
+  only Shaman
+  turnin 94467
+step
+  only Shaman
+  accept 94468
+step
+  zone map 1426
+  only Shaman
+  turnin 94468
+step
+  zone map 1432
+  goto 34.8,49.3 "Travel to Loch Modan" map 1432
+step
+  tip Talk to Innkeeper Hearthstove and make this inn your home.
+  sethome "Thelsamar"
+step
+  only Dwarf,Gnome
+  accept 6387
+step
+  getfp "Thelsamar"
+step
+  only Dwarf,Gnome
+  turnin 6387
+step
+  accept 416
+step
+  turnin 414
+step
+  tip Optional: skip it if you don't take it.
+  accept 1339
+step
+  tip Kill: Tunnel Rat Scout (about 49% drop chance)
+  collect 3110 x12 quest 416.1 @25.4,29.8 map 1432
+step
+  turnin 1339
+step
+  accept 307
+step
+  turnin 416
+step
+  accept 224
+step
+  accept 267
+step
+  tip Kill: Stonesplinter Trogg, Stonesplinter Scout
+  kill 1161 x10 quest 224.1 @32,74.9 map 1432
+  kill 1162 x10 quest 224.2 @32,74.9 map 1432
+step
+  tip Kill: Stonesplinter Scout
+  collect 2536 x8 quest 267.1 @33.3,75.9 map 1432
+step
+  turnin 267
+step
+  turnin 224
+step
+  accept 237
+step
+  accept 298
+step
+  accept 86758
+step
+  only Hunter
+  tip Dargh Trueaim is right here: pick up your new Hunter spells.
+  train class
+step
+  accept 257
+step
+  hearth "Thelsamar"
+step
+  turnin 298
+step
+  zone map 1453
+  only Paladin
+  tip Time to train: head to Lord Grayson Shadowbreaker in Stormwind City for your new Paladin spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Paladin,Dwarf
+  tip Optional: skip it if you don't take it.
+  accept 3000
+step
+  zone map 1455
+  only Paladin,Dwarf
+  when onquest 3000
+  turnin 3000
+step
+  fly "Sentinel Hill"
+step
+  zone map 1436
+  tip Kill: Defias Pillager, Defias Looter
+  kill 589 x15 quest 13.1 @43.7,69.3 map 1436
+  kill 590 x15 quest 13.2 @43.7,69.3 map 1436
+step
+  turnin 13
+step
+  collect 1528 x8 quest 151.1 @51.8,19.2 map 1436
+step
+  tip Kill: Kobold Digger, Riverpaw Miner
+  kill 1236 x4 quest 92745.1 @45.3,20.5 map 1436
+  kill 1426 x6 quest 92745.2
+step
+  tip Riverpaw Shaman has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Riverpaw Shaman (about 50% drop chance)
+  collect 725 x8 quest 102.1 @41.6,20.8 map 1436
+step
+  tip Starts from Captain Sander's Treasure Map, which drops in this area.
+  accept 136 @35,16.9 map 1436
+step
+  turnin 151
+step
+  tip Kill: Defias Smuggler (about 45% drop chance)
+  collect 829 x15 quest 153.1 @45.5,21.7 map 1436
+step
+  turnin 102
+step
+  accept 14
+step
+  turnin 153
+step
+  accept 92753
+step
+  turnin 92745
+step
+  tip Kill: Harvest Watcher
+  kill 114 x20 quest 9.1 @38.1,50.8 map 1436
+step
+  tip Kill: Harvest Watcher
+  collect 255007 x14 quest 92909.1 @38.1,50.8 map 1436
+  collect 255010 x5 quest 92909.2 @38.1,50.8 map 1436
+step
+  turnin 136
+step
+  accept 138
+step
+  turnin 138
+step
+  accept 139
+step
+  turnin 92909
+step
+  turnin 9
+step
+  accept 65
+step
+  collect 254676 x8 quest 92747.1 @42.5,68.7 map 1436
+step
+  turnin 92753
+step
+  accept 92819
+step
+  turnin 92819
+step
+  turnin 92747
+step
+  turnin 139
+step
+  accept 140
+step
+  turnin 140
+step
+  zone map 1455
+  only Mage
+  tip Time to train: head to Dink in Ironforge for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1453
+  only Priest
+  tip Time to train: head to High Priestess Laurena in Stormwind City for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Druid
+  tip Time to train: head to Sheldras Moontree in Stormwind City for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  hearth "Thelsamar"
+step
+  zone map 1432
+  tip Optional: skip it if you don't take it.
+  accept 436
+step
+  collect 2640 x4 quest 307.1 @34.9,24.9 map 1432
+step
+  turnin 307
+step
+  tip Kill: Daggerfang
+  collect 279591 quest 86758.1 @62.5,46.5 map 1432
+step
+  accept 2038
+step
+  turnin 436
+step
+  accept 297
+step
+  tip Starts from Excavation Tools, which drops in this area.
+  accept 86613 @69.4,67.5 map 1432
+step
+  tip Kill: Mountain Buzzard
+  kill 1194 x6 quest 257.1 @76.3,74.8 map 1432
+step
+  turnin 257
+step
+  only Hunter
+  tip Dargh Trueaim is right here: pick up your new Hunter spells.
+  train class
+step
+  accept 258
+step
+  turnin 86758
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 385
+step
+  tip Kill: Elder Mountain Boar
+  kill 1192 x5 quest 258.1 @62.4,38.4 map 1432
+step
+  when onquest 385
+  tip Kill: Loch Crocolisk (about 22% drop chance)
+  collect 2924 x5 quest 385.1 @56.1,37.8 map 1432
+  collect 2925 x6 quest 385.2 @56.1,37.8 map 1432
+step
+  collect 7343 quest 2038.1 @48.7,30.1 map 1432
+  collect 7345 quest 2038.2
+  collect 7346 quest 2038.3
+  collect 7376 quest 2038.4
+step
+  turnin 2038
+step
+  when onquest 385
+  turnin 385
+step
+  turnin 258
+step
+  tip Kill: Stonesplinter Skullthumper, Stonesplinter Seer
+  kill 1163 x10 quest 237.1 @34,85 map 1432
+  kill 1166 x10 quest 237.2 @34,85 map 1432
+step
+  accept 86585
+step
+  tip Kill: Headsplitter
+  kill 269185 quest 86585.1 @32,86.9 map 1432
+step
+  turnin 237
+step
+  accept 263
+step
+  turnin 86585
+step
+  tip Kill: Stonesplinter Shaman, Stonesplinter Bonesnapper
+  kill 1197 x10 quest 263.1 @35.9,92.1 map 1432
+  kill 1164 x10 quest 263.2 @35.9,92.1 map 1432
+step
+  turnin 263
+step
+  accept 217
+step
+  tip Brawler has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Grawmug, Gnasher
+  kill 1205 quest 217.1 @34.6,90.5 map 1432
+  kill 1206 quest 217.2 @34.6,90.5 map 1432
+  kill 1207 quest 217.3 @34.6,90.5 map 1432
+step
+  turnin 217
+step
+  accept 86614
+step
+  turnin 86614
+step
+  accept 250
+step
+  turnin 250
+step
+  accept 199
+step
+  turnin 199
+step
+  tip Kill: Berserk Trogg (about 91% drop chance)
+  collect 2636 x8 quest 297.1 @70.9,64.3 map 1432
+step
+  collect 278398 x6 quest 86613.1 @69.4,67.5 map 1432
+  collect 278049 x6 quest 86613.2 @69.4,67.5 map 1432
+step
+  turnin 86613
+step
+  turnin 297
+step
+  zone map 1453
+  only Warlock
+  tip Time to train: head to Demisette Cloyce in Stormwind City for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  tip Time to train: head to Ander Germaine in Stormwind City for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Paladin
+  tip Time to train: head to Lord Grayson Shadowbreaker in Stormwind City for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1455
+  only Rogue
+  tip Time to train: head to Hulfdan Blackbeard in Ironforge for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Rogue
+  accept 2298
+step
+  zone map 1453
+  only Rogue
+  turnin 2298
+step
+  only Rogue
+  accept 2281
+step
+  zone map 1433
+  only Rogue
+  turnin 2281
+step
+  zone map 1426
+  only Rogue
+  tip Optional: skip it if you don't take it.
+  accept 2299
+step
+  zone map 1455
+  only Rogue
+  when onquest 2299
+  turnin 2299
+step
+  zone map 1433
+  only Rogue
+  accept 2282
+step
+  only Rogue
+  collect 7871 quest 2282.1 @47,44.7 map 1433
+step
+  only Rogue
+  turnin 2282
+step
+  zone map 1455
+  only Shaman
+  tip Time to train: head to Eldrun Stormbreaker in Ironforge for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1433
+  goto 24.4,46.1 "Travel to Redridge Mountains" map 1433
+step
+  accept 125
+step
+  getfp "Lakeshire"
+step
+  accept 98407
+step
+  accept 3741
+step
+  collect 10958 quest 3741.1 @20.8,54.1 map 1433
+step
+  turnin 3741
+step
+  accept 98386
+step
+  accept 127
+step
+  accept 129
+step
+  turnin 65
+step
+  accept 132
+step
+  tip Kill: Great Goretusk (about 35% drop chance)
+  collect 723 x8 quest 22.1 @11.7,52.3 map 1433
+step
+  tip Kill: Redridge Thrasher
+  collect 280911 x5 quest 98407.1 @11.4,63.5 map 1433
+step
+  turnin 129
+step
+  accept 130
+step
+  accept 244
+step
+  turnin 98407
+step
+  turnin 244
+step
+  accept 246
+step
+  collect 1309 quest 125.1 @36.4,54.7 map 1433
+step
+  turnin 125
+step
+  accept 89
+step
+  turnin 130
+step
+  accept 131
+step
+  turnin 131
+step
+  tip Kill: Redridge Mongrel, Redridge Poacher
+  kill 423 x10 quest 246.1 @26.9,82.7 map 1433
+  kill 424 x6 quest 246.2 @26.9,82.7 map 1433
+step
+  turnin 246
+step
+  fly "Sentinel Hill"
+step
+  zone map 1436
+  turnin 132
+step
+  turnin 22
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 92911
+step
+  when onquest 92911
+  tip Kill: Harvest Watcher, Peacekeeper Security Suit (about 3% drop chance)
+  collect 255007 x8 quest 92911.1 @38.1,50.8 map 1436
+  collect 4363 x4 quest 92911.2 @38.1,50.8 map 1436
+step
+  when onquest 92911
+  turnin 92911
+step
+  tip Kill: Defias Highwayman, Defias Pathstalker
+  kill 122 x15 quest 14.1 @51.7,77.2 map 1436
+  kill 121 x5 quest 14.2
+  kill 449 x5 quest 14.3 @51.7,77.2 map 1436
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 103
+step
+  accept 104
+step
+  accept 152
+step
+  tip Old Murk-Eye has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Old Murk-Eye
+  collect 3636 quest 104.1 @29.3,76 map 1436
+step
+  tip Kill: Murloc Coastrunner, Murloc Warrior
+  kill 126 x7 quest 152.1
+  kill 171 x7 quest 152.2
+  kill 127 x7 quest 152.3 @27.1,72.7 map 1436
+  kill 517 x7 quest 152.4 @27.1,72.7 map 1436
+step
+  turnin 104
+step
+  turnin 152
+step
+  turnin 14
+step
+  when onquest 103
+  tip Kill: Harvest Reaper (about 48% drop chance)
+  collect 814 x5 quest 103.1 @63.6,61.4 map 1436
+step
+  when onquest 103
+  turnin 103
+step
+  zone map 1455
+  only Mage
+  tip Time to train: head to Dink in Ironforge for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1453
+  only Priest
+  tip Time to train: head to High Priestess Laurena in Stormwind City for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Druid
+  tip Time to train: head to Sheldras Moontree in Stormwind City for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Lakeshire"
+step
+  zone map 1433
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 92
+step
+  when onquest 92
+  tip Kill: Great Goretusk, Dire Condor
+  collect 2296 x5 quest 92.1 @11.7,52.3 map 1433
+  collect 1080 x5 quest 92.2 @11.7,52.3 map 1433
+  collect 1081 x5 quest 92.3 @11.7,52.3 map 1433
+step
+  when onquest 92
+  turnin 92
+step
+  tip Kill: Redridge Brute (about 22% drop chance)
+  collect 2856 x5 quest 89.1 @33.8,31.8 map 1433
+  collect 1013 x5 quest 89.2 @33.8,31.8 map 1433
+step
+  turnin 89
+step
+  zone map 1431
+  goto 75.3,48.8 "Travel to Duskwood" map 1431
+step
+  tip Optional: skip it if you don't take it.
+  accept 163
+step
+  getfp "Darkshire"
+step
+  accept 245
+step
+  turnin 163
+step
+  accept 5
+step
+  turnin 5
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 19
+step
+  tip Optional: skip it if you don't take it.
+  accept 164
+step
+  tip Kill: Pygmy Venom Web Spider
+  kill 539 x15 quest 245.1 @69.6,18.6 map 1431
+step
+  turnin 245
+step
+  turnin 164
+step
+  accept 226
+step
+  tip Kill: Starving Dire Wolf, Rabid Dire Wolf
+  kill 213 x12 quest 226.1 @20.4,25.4 map 1431
+  kill 565 x8 quest 226.2 @20.4,25.4 map 1431
+step
+  turnin 226
+step
+  zone map 1453
+  only Hunter
+  tip Time to train: head to Einris Brightspear in Stormwind City for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Lakeshire"
+step
+  zone map 1433
+  tip Kill: Greater Tarantula
+  kill 505 x12 quest 98386.1 @46.8,41.2 map 1433
+step
+  turnin 98386
+step
+  tip Kill: Murloc Shorestriker (about 31% drop chance)
+  collect 1467 x10 quest 127.1 @43.7,70.1 map 1433
+step
+  turnin 127
+step
+  zone map 1455
+  only Rogue
+  tip Time to train: head to Hulfdan Blackbeard in Ironforge for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1433
+  only Rogue
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 2358
+step
+  only Rogue
+  when onquest 2358
+  tip Kill: Blackrock Renegade
+  collect 7906 quest 2358.1 @72.6,69.4 map 1433
+step
+  only Rogue
+  when onquest 2358
+  turnin 2358
+step
+  hearth "Thelsamar"
+step
+  zone map 1432
+  tip Optional: skip it if you don't take it.
+  accept 468
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 255
+step
+  turnin 468
+step
+  when onquest 255
+  tip Kill: Mo'grosh Ogre, Mo'grosh Brute
+  kill 1178 x4 quest 255.1 @69.5,22.6 map 1432 optional -- Mo'grosh Ogre is elite: grouping up is advised.
+  kill 1180 x4 quest 255.2 @69.5,22.6 map 1432 optional -- Mo'grosh Brute is elite: grouping up is advised.
+  kill 1179 x4 quest 255.3 @69.5,22.6 map 1432 optional -- Mo'grosh Enforcer is elite: grouping up is advised.
+step
+  when onquest 255
+  turnin 255
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 20
+step
+  zone map 1437
+  goto 9.49,59.69 "Travel to Menethil Harbor, Wetlands" map 1437

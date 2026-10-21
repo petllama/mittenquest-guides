@@ -1,0 +1,236 @@
+guide mittenquest/alliance/44-48-tanaris-dustwallow-marsh-desolace
+title "Alliance 44-48 Tanaris, Dustwallow Marsh, Desolace"
+levels 44-48
+zone map 1446
+coords era
+faction Alliance
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/alliance/48-52-feralas-darnassus-blasted-lands
+step
+  collect 8585 quest 992.1 @39,29 map 1446
+step
+  turnin 992
+step
+  accept 82
+step
+  tip Caliph Scorpidsting has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Caliph Scorpidsting
+  collect 8723 quest 2781.1 @61.8,38.2 map 1446
+step
+  turnin 2781
+step
+  accept 3161
+step
+  tip Kill: Southsea Pirate (about 35% drop chance)
+  collect 20519 x20 quest 8365.1 @72,45.8 map 1446
+step
+  collect 9244 quest 2873.1 @72.2,46.8 map 1446
+step
+  tip Starts from OOX-17/TN Distress Beacon, which drops in this area.
+  accept 351 @74,46.6 map 1446
+step
+  tip Kill: Southsea Pirate, Southsea Freebooter
+  kill 7855 x10 quest 8366.1 @74,46.6 map 1446
+  kill 7856 x10 quest 8366.2 @74,46.6 map 1446
+  kill 7857 x10 quest 8366.3 @74,46.6 map 1446
+  kill 7858 x10 quest 8366.4
+step
+  tip Andre Firebeard has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Andre Firebeard
+  collect 9246 quest 2875.1 @73.4,47.1 map 1446
+step
+  turnin 351
+step
+  turnin 2873
+step
+  turnin 8366
+step
+  turnin 2875
+step
+  turnin 8365
+step
+  fly "Theramore"
+step
+  zone map 1445
+  only Warrior
+  tip Captain Evencane is right here: pick up your new Warrior spells.
+  train class
+step
+  turnin 623
+step
+  turnin 2861
+step
+  fly "Nijel's Point"
+step
+  zone map 1443
+  accept 7028
+step
+  accept 7067
+step
+  zone map 1427
+  goto 65.6,62.2 "Travel to Searing Gorge - take the boat (Auberdine <-> Menethil Harbor, Theramore <-> Menethil Harbor)" map 1427
+step
+  accept 3367
+step
+  tip Starts from Grimesilt Outhouse Key, which drops in this area.
+  accept 4451 @42.6,31.6 map 1427
+step
+  getfp "Thorium Point"
+step
+  turnin 4451
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 45
+step
+  accept 7723
+step
+  accept 7724
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 46
+step
+  accept 7728
+step
+  zone map 1446
+  when onquest 2768,2865,3042
+  tip Dungeon: Zul'Farrak. Find a group for Zul'Farrak. Quests you skip there are dropped automatically.
+  complete 2768 @38.7,20.1 map 1446
+  complete 2865 @38.7,20.1 map 1446
+  complete 3042 @38.7,20.1 map 1446
+step
+  zone map 1427
+  accept 7729
+step
+  tip Kill: Dark Iron Taskmaster, Dark Iron Slaver
+  kill 5846 x15 quest 7729.1 @42.6,31.6 map 1427
+  kill 5844 x15 quest 7729.2 @42.6,31.6 map 1427
+step
+  turnin 7729
+step
+  tip Kill: Dark Iron Steamsmith, Dark Iron Lookout
+  collect 18959 quest 7728.1
+  collect 18960 quest 7728.2 @52.5,58 map 1427
+step
+  turnin 7728
+step
+  complete 3367 @74.5,19.4 map 1427
+step
+  turnin 3367
+step
+  accept 3368
+step
+  fly "Gadgetzan"
+step
+  zone map 1446
+  turnin 3042
+step
+  accept 2605
+step
+  turnin 2768
+step
+  accept 5863
+step
+  turnin 2865
+step
+  tip Kill: Centipaar Wasp
+  collect 8587 x5 quest 82.1 @33.3,44.4 map 1446
+step
+  turnin 82
+step
+  zone map 1443
+  when onquest 7028,7041,7067
+  tip Dungeon: Maraudon. Find a group for Maraudon. Quests you skip there are dropped automatically.
+  complete 7028 @29.1,62.5 map 1443
+  complete 7041 @29.1,62.5 map 1443
+  complete 7067 @29.1,62.5 map 1443
+step
+  zone map 1446
+  accept 10
+step
+  tip Gor'marok the Ravager has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Dunemaul Brute, Dunemaul Enforcer
+  kill 5474 x10 quest 5863.1 @40,54.5 map 1446
+  kill 5472 x10 quest 5863.2 @40,54.5 map 1446
+  kill 12046 quest 5863.3
+step
+  tip Kill: Thistleshrub Dew Collector
+  collect 8428 quest 2605.1 @29.4,66.3 map 1446
+step
+  collect 8443 x30 quest 3161.1 @41.5,73.7 map 1446
+step
+  collect 8593 quest 10.1 @56,71.2 map 1446
+step
+  turnin 3161
+step
+  turnin 2605
+step
+  accept 2606
+step
+  turnin 5863
+step
+  turnin 2606
+step
+  turnin 10
+step
+  accept 110
+step
+  turnin 110
+step
+  accept 113
+step
+  turnin 113
+step
+  accept 162
+step
+  zone map 1457
+  only Rogue
+  tip Time to train: head to Syurna in Darnassus for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Nijel's Point"
+step
+  zone map 1443
+  turnin 7041
+step
+  turnin 7028
+step
+  turnin 7067
+step
+  zone map 1455
+  only Mage
+  tip Time to train: head to Dink in Ironforge for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1457
+  only Priest
+  tip Time to train: head to Priestess Alathea in Darnassus for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1453
+  only Warlock
+  tip Time to train: head to Demisette Cloyce in Stormwind City for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1457
+  only Warrior
+  tip Time to train: head to Darnath Bladesinger in Darnassus for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1445
+  only Paladin
+  tip Time to train: head to Brother Karman in Theramore for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1457
+  only Druid
+  tip Time to train: head to Mathrengyl Bearwalker in Darnassus for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Hunter
+  tip Time to train: head to Jeen'ra Nightrunner in Darnassus for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1455
+  only Shaman
+  tip Time to train: head to Eldrun Stormbreaker in Ironforge for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Thalanaar"

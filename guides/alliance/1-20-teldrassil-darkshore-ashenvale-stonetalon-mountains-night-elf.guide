@@ -1,0 +1,1303 @@
+guide mittenquest/alliance/1-20-teldrassil-darkshore-ashenvale-stonetalon-mountains-night-elf
+title "Alliance 1-20 Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains (Night Elf)"
+levels 1-20
+zone map 1438
+coords era
+faction Alliance
+race NightElf
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/alliance/19-23-wetlands-stormwind-city
+step
+  accept 458
+step
+  accept 456
+step
+  turnin 458
+step
+  accept 459
+step
+  tip Kill: Grell (about 79% drop chance)
+  collect 3297 x8 quest 459.1 @56,45.6 map 1438
+step
+  turnin 459
+step
+  tip Kill: Young Nightsaber, Young Thistle Boar
+  kill 2031 x7 quest 456.1 @61.3,43.7 map 1438
+  kill 1984 x4 quest 456.2 @61.3,43.7 map 1438
+step
+  accept 4495
+step
+  turnin 456
+step
+  only Priest
+  tip Shanda is right here: pick up your new Priest spells.
+  train class
+step
+  only Priest,NightElf
+  accept 3119
+step
+  only Priest,NightElf
+  turnin 3119
+step
+  only Warrior
+  tip Alyissia is right here: pick up your new Warrior spells.
+  train class
+step
+  only Warrior,NightElf
+  accept 3116
+step
+  only Warrior,NightElf
+  turnin 3116
+step
+  only Druid
+  tip Mardant Strongoak is right here: pick up your new Druid spells.
+  train class
+step
+  only Druid,NightElf
+  accept 3120
+step
+  only Druid,NightElf
+  turnin 3120
+step
+  only Rogue
+  tip Frahun Shadewhisper is right here: pick up your new Rogue spells.
+  train class
+step
+  only Rogue,NightElf
+  accept 3118
+step
+  only Rogue,NightElf
+  turnin 3118
+step
+  only Hunter
+  tip Ayanna Everstride is right here: pick up your new Hunter spells.
+  train class
+step
+  only Hunter,NightElf
+  accept 3117
+step
+  only Hunter,NightElf
+  turnin 3117
+step
+  accept 457
+step
+  accept 2159
+step
+  accept 2438
+step
+  turnin 2159
+step
+  collect 8048 quest 2438.1 @68,59.6 map 1438
+step
+  turnin 2438
+step
+  accept 916
+step
+  tip Kill: Mangy Nightsaber, Thistle Boar
+  kill 2032 x7 quest 457.1 @61.4,36 map 1438
+  kill 1985 x7 quest 457.2 @61.4,36 map 1438
+step
+  turnin 4495
+step
+  only Priest
+  tip Shanda is right here: pick up your new Priest spells.
+  train class
+step
+  only Warrior
+  tip Alyissia is right here: pick up your new Warrior spells.
+  train class
+step
+  only Druid
+  tip Mardant Strongoak is right here: pick up your new Druid spells.
+  train class
+step
+  only Rogue
+  tip Frahun Shadewhisper is right here: pick up your new Rogue spells.
+  train class
+step
+  only Hunter
+  tip Ayanna Everstride is right here: pick up your new Hunter spells.
+  train class
+step
+  accept 3519
+step
+  tip Kill: Webwood Spider (about 35% drop chance)
+  collect 5166 x10 quest 916.1 @56.9,28.2 map 1438
+step
+  tip Starts from Fang of Githyiss, which drops in this area.
+  accept 97236 @56.6,26.3 map 1438
+step
+  turnin 916
+step
+  turnin 97236
+step
+  accept 917
+step
+  turnin 457
+step
+  only Priest
+  tip Shanda is right here: pick up your new Priest spells.
+  train class
+step
+  only Priest,NightElf
+  accept 5621
+step
+  only Priest,NightElf
+  tip Sentinel Shaya has only one spawn point. If others are waiting for it, group up to share it. Kill: Sentinel Shaya
+  kill 12429 quest 5621.1 @57.2,63.5 map 1438
+step
+  only Priest,NightElf
+  turnin 5621
+step
+  only Priest,NightElf
+  tip Optional: skip it if you don't take it.
+  accept 5622
+step
+  only Priest,NightElf
+  when onquest 5622
+  turnin 5622
+step
+  turnin 3519
+step
+  accept 3521
+step
+  accept 488
+step
+  accept 475
+step
+  accept 997
+step
+  accept 87288
+step
+  accept 932
+step
+  accept 2459
+step
+  tip Optional: skip it if you don't take it.
+  accept 99046
+step
+  accept 487
+step
+  tip Kill: Nightsaber, Strigid Owl (about 22% drop chance)
+  collect 3409 x3 quest 488.1 @51.8,58.5 map 1438
+  collect 3411 x3 quest 488.2 @51.8,58.5 map 1438
+  collect 3412 x3 quest 488.3 @51.8,58.5 map 1438
+step
+  tip Kill: Nightsaber
+  collect 280087 x6 quest 87288.1 @51.6,60.2 map 1438
+step
+  turnin 87288
+step
+  turnin 488
+step
+  turnin 475
+step
+  only Warrior
+  tip Kyra Windblade is right here: pick up your new Warrior spells.
+  train class
+step
+  only Druid
+  tip Kal is right here: pick up your new Druid spells.
+  train class
+step
+  only Rogue
+  tip Jannok Breezesong is right here: pick up your new Rogue spells.
+  train class
+step
+  only Hunter
+  tip Dazalar is right here: pick up your new Hunter spells.
+  train class
+step
+  accept 476
+step
+  tip Kill: Gnarlpine Mystic
+  kill 7235 x7 quest 2459.1 @68.6,52.9 map 1438
+  collect 8050 quest 2459.2 @68.6,52.9 map 1438
+step
+  turnin 476
+step
+  accept 483
+step
+  turnin 2459
+step
+  accept 489
+step
+  collect 3418 x3 quest 489.1 @56.9,63.8 map 1438
+step
+  turnin 997
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 918
+step
+  accept 919
+step
+  when onquest 918
+  tip Kill: Timberling (about 56% drop chance)
+  collect 5168 x8 quest 918.1 @60.3,66.4 map 1438
+step
+  when onquest 918
+  turnin 918
+step
+  collect 5169 x12 quest 919.1 @52.9,71.4 map 1438
+step
+  turnin 919
+step
+  turnin 489
+step
+  tip Kill: Lord Melenas
+  collect 5221 quest 932.1 @51.3,50.2 map 1438
+step
+  tip Kill: Gnarlpine Ambusher
+  kill 2152 x6 quest 487.1 @46.5,53.4 map 1438
+step
+  accept 99053
+step
+  accept 2541
+step
+  collect 3405 quest 483.1
+  collect 3406 quest 483.2 @44.4,60.7 map 1438
+  collect 3407 quest 483.3
+  collect 3408 quest 483.4 @44.4,60.7 map 1438
+step
+  tip Kill: Gnarlpine Shaman
+  collect 8363 quest 2541.1 @45.1,60.1 map 1438
+step
+  turnin 2541
+step
+  only Druid
+  tip Kal is right here: pick up your new Druid spells.
+  train class
+step
+  accept 2561
+step
+  tip Rageclaw has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Rageclaw
+  kill 7318 quest 2561.1 @45.5,58.6 map 1438
+step
+  turnin 2561
+step
+  turnin 487
+step
+  turnin 932
+step
+  accept 98403
+step
+  turnin 483
+step
+  tip Kill: Befouled Webwood, Xethorr the Wicked
+  kill 272096 x8 quest 98403.1 @49.5,45.4 map 1438
+  collect 281023 quest 98403.2 @49.5,45.4 map 1438 optional -- Xethorr the Wicked is elite: grouping up is advised.
+step
+  complete 99053 @43.1,51.6 map 1438
+step
+  accept 490
+step
+  tip Kill: Gnarlpine Defender
+  collect 5220 x15 quest 490.1 @44.8,58.7 map 1438
+step
+  turnin 490
+step
+  turnin 99046
+step
+  accept 99047
+step
+  accept 937
+step
+  tip Kill: Bloodfeather Harpy (about 41% drop chance)
+  collect 5204 x6 quest 937.1 @36.8,38.9 map 1438
+step
+  turnin 937
+step
+  accept 98392
+step
+  tip Hatescreech has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Hatescreech, Windmistress Gaedress
+  collect 280831 quest 98392.1 @33.2,36.1 map 1438
+  collect 280832 quest 98392.2 @33.2,36.1 map 1438
+  collect 280834 quest 98392.3 @33.2,36.1 map 1438
+step
+  turnin 98392
+step
+  accept 98398
+step
+  turnin 98398
+step
+  accept 931
+step
+  accept 938
+step
+  complete 938 @38.3,34.4 map 1438
+step
+  turnin 938
+step
+  tip Kill: Grellkin, Webwood Spider (about 3% drop chance)
+  collect 10639 x7 quest 3521.1
+  collect 10641 x4 quest 3521.2
+  collect 10640 quest 3521.3 @56.9,28.2 map 1438
+step
+  collect 5167 quest 917.1 @56.8,26.5 map 1438
+step
+  turnin 917
+step
+  accept 920
+step
+  turnin 920
+step
+  accept 921
+step
+  turnin 3521
+step
+  accept 3522
+step
+  collect 5184 quest 921.1 @60,33 map 1438
+step
+  turnin 3522
+step
+  turnin 921
+step
+  accept 928
+step
+  turnin 99047
+step
+  only Druid
+  tip Kal is right here: pick up your new Druid spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1457
+  only Druid,NightElf
+  accept 5921
+step
+  zone map 1450
+  only Druid,NightElf
+  turnin 5921
+step
+  zone map 1457
+  only Druid,NightElf
+  tip Optional: skip it if you don't take it.
+  accept 5923
+step
+  only Druid,NightElf
+  when onquest 5923
+  turnin 5923
+step
+  zone map 1450
+  only Druid,NightElf
+  accept 5929
+step
+  only Druid,NightElf
+  tip Great Bear Spirit has only one spawn point. If others are waiting for it, group up to share it. Kill: Great Bear Spirit
+  kill 11956 quest 5929.1 @39.1,27.5 map 1450
+step
+  only Druid,NightElf
+  turnin 5929
+step
+  only Druid,NightElf
+  accept 5931
+step
+  zone map 1457
+  only Druid,NightElf
+  turnin 5931
+step
+  only Druid,NightElf
+  accept 6001
+step
+  only Druid,NightElf
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Lunaclaw Spirit
+  kill 12144 quest 6001.1 @35.4,8.4 map 1457
+step
+  only Druid,NightElf
+  turnin 6001
+step
+  zone map 1438
+  accept 99050
+step
+  turnin 98403
+step
+  turnin 99053
+step
+  turnin 928
+step
+  accept 929
+step
+  tip Kill: Lasher Sproutling
+  collect 286017 x6 quest 99050.1 @57.9,66.6 map 1438
+  collect 3371 quest 99050.2 @57.9,66.6 map 1438
+  collect 159 quest 99050.3 @57.9,66.6 map 1438
+step
+  turnin 931
+step
+  accept 2399
+step
+  turnin 2399
+step
+  collect 5639 quest 929.1 @63.4,58.1 map 1438
+step
+  turnin 929
+step
+  accept 933
+step
+  turnin 99050
+step
+  accept 99073
+step
+  collect 5645 quest 933.1 @42.4,67.1 map 1438
+step
+  accept 930
+step
+  turnin 933
+step
+  accept 7383
+step
+  turnin 930
+step
+  only NightElf
+  accept 6341
+step
+  getfp "Rut'theran Village"
+step
+  only NightElf
+  turnin 6341
+step
+  only NightElf
+  accept 6342
+step
+  turnin 99073
+step
+  collect 18151 quest 7383.1 @38.4,34.1 map 1438
+step
+  turnin 7383
+step
+  only Druid
+  tip Kal is right here: pick up your new Druid spells.
+  train class
+step
+  zone map 1455
+  only Mage
+  tip Time to train: head to Dink in Ironforge for your new Mage spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1457
+  only Priest
+  tip Time to train: head to Priestess Alathea in Darnassus for your new Priest spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1438
+  only Priest,NightElf
+  accept 5629
+step
+  zone map 1457
+  only Priest,NightElf
+  turnin 5629
+step
+  zone map 1453
+  only Warlock
+  tip Time to train: head to Demisette Cloyce in Stormwind City for your new Warlock spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1429
+  only Warlock
+  accept 1598
+step
+  only Warlock
+  collect 6785 quest 1598.1 @56.7,44 map 1429
+step
+  only Warlock
+  turnin 1598
+step
+  only Warlock
+  tip Optional: skip it if you don't take it.
+  accept 1685
+step
+  zone map 1453
+  only Warlock
+  when onquest 1685
+  turnin 1685
+step
+  only Warlock
+  accept 1688
+step
+  zone map 1429
+  only Warlock
+  tip Surena Caledon has only one spawn point. If others are waiting for it, group up to share it. Kill: Surena Caledon
+  collect 6810 quest 1688.1 @71,80.8 map 1429
+step
+  zone map 1453
+  only Warlock
+  turnin 1688
+step
+  only Warlock
+  accept 1689
+step
+  only Warlock
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Summoned Voidwalker
+  kill 5676 quest 1689.1
+step
+  only Warlock
+  turnin 1689
+step
+  zone map 1457
+  only Warrior
+  tip Time to train: head to Darnath Bladesinger in Darnassus for your new Warrior spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Warrior
+  accept 1683
+step
+  zone map 1438
+  only Warrior
+  tip Vorlus Vilehoof has only one spawn point. If others are waiting for it, group up to share it. Kill: Vorlus Vilehoof
+  collect 6805 quest 1683.1 @47.2,63.6 map 1438
+step
+  zone map 1457
+  only Warrior
+  turnin 1683
+step
+  only Warrior
+  accept 1686
+step
+  zone map 1439
+  only Warrior
+  tip Shade of Elura has only one spawn point. If others are waiting for it, group up to share it. Kill: Shade of Elura (about 69% drop chance)
+  collect 6808 x8 quest 1686.1 @32.2,44.4 map 1439
+  collect 6809 quest 1686.2 @32.2,44.4 map 1439
+step
+  zone map 1457
+  only Warrior
+  turnin 1686
+step
+  only Warrior
+  accept 1692
+step
+  only Warrior
+  turnin 1692
+step
+  only Warrior
+  accept 1693
+step
+  only Warrior
+  turnin 1693
+step
+  zone map 1445
+  only Paladin
+  tip Time to train: head to Brother Karman in Theramore for your new Paladin spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1457
+  only Rogue
+  tip Time to train: head to Syurna in Darnassus for your new Rogue spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1438
+  only Rogue
+  accept 2241
+step
+  zone map 1457
+  only Rogue
+  turnin 2241
+step
+  only Rogue
+  accept 2242
+step
+  zone map 1438
+  only Rogue
+  tip Sethir the Ancient has only one spawn point. If others are waiting for it, group up to share it. Kill: Sethir the Ancient
+  collect 7737 quest 2242.1 @37.1,22.8 map 1438
+step
+  zone map 1457
+  only Rogue
+  turnin 2242
+step
+  only Hunter
+  tip Time to train: head to Jeen'ra Nightrunner in Darnassus for your new Hunter spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1438
+  only Hunter,NightElf
+  accept 6063
+step
+  only Hunter,NightElf
+  tip Kill: Webwood Lurker
+  kill 1998 quest 6063.1 @60.8,57.1 map 1438
+step
+  only Hunter,NightElf
+  turnin 6063
+step
+  zone map 1457
+  only Hunter,NightElf
+  tip Optional: skip it if you don't take it.
+  accept 6071
+step
+  zone map 1438
+  only Hunter,NightElf
+  when onquest 6071
+  turnin 6071
+step
+  only Hunter,NightElf
+  accept 6101
+step
+  only Hunter,NightElf
+  tip Kill: Nightsaber Stalker
+  kill 2043 quest 6101.1 @40.8,57 map 1438
+step
+  only Hunter,NightElf
+  turnin 6101
+step
+  only Hunter,NightElf
+  accept 6102
+step
+  only Hunter,NightElf
+  tip Kill: Strigid Screecher
+  kill 1996 quest 6102.1 @39.5,53 map 1438
+step
+  only Hunter,NightElf
+  turnin 6102
+step
+  only Hunter,NightElf
+  accept 6103
+step
+  zone map 1457
+  only Hunter,NightElf
+  turnin 6103
+step
+  zone map 1455
+  only Shaman
+  tip Time to train: head to Eldrun Stormbreaker in Ironforge for your new Shaman spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1426
+  only Shaman
+  accept 94373
+step
+  only Shaman
+  tip Kill: Frostmane Troll Whelp
+  collect 264356 quest 94373.1 @26.8,79.9 map 1426
+step
+  only Shaman
+  turnin 94373
+step
+  only Shaman
+  accept 94374
+step
+  only Shaman
+  turnin 94374
+step
+  only Shaman
+  accept 94375
+step
+  only Shaman
+  turnin 94375
+step
+  zone map 1455
+  only Shaman
+  accept 94449
+step
+  zone map 1426
+  only Shaman
+  turnin 94449
+step
+  zone map 1455
+  only Shaman
+  accept 96243
+step
+  zone map 1426
+  only Shaman
+  turnin 96243 @28.8,66.2 map 1426
+step
+  only Shaman
+  accept 94465
+step
+  zone map 1432
+  only Shaman
+  turnin 94465
+step
+  only Shaman
+  accept 94466
+step
+  zone map 1413
+  only Shaman
+  tip Kill: Razormane Geomancer, Burning Blade Cultist (about 1% drop chance)
+  collect 5026 quest 94466.1 @57.3,24.6 map 1413
+  collect 6652 quest 94466.2 @57.3,24.6 map 1413
+step
+  zone map 1432
+  only Shaman
+  turnin 94466
+step
+  only Shaman
+  accept 94467
+step
+  zone map 1411
+  only Shaman
+  tip Minor Manifestation of Fire has only 2 spawn points. If others are waiting for it, group up to share it. Kill: Minor Manifestation of Fire
+  collect 6655 quest 94467.1 @38.7,58.3 map 1411
+step
+  zone map 1432
+  only Shaman
+  turnin 94467
+step
+  only Shaman
+  accept 94468
+step
+  zone map 1426
+  only Shaman
+  turnin 94468
+step
+  zone map 1439
+  goto 37.7,43.4 "Travel to Darkshore" map 1439
+step
+  accept 98025
+step
+  getfp "Auberdine"
+step
+  accept 3524
+step
+  accept 983
+step
+  only NightElf
+  turnin 6342
+step
+  accept 2118
+step
+  accept 984
+step
+  accept 954
+step
+  accept 958
+step
+  tip Kill: Pygmy Tide Crawler (about 41% drop chance)
+  collect 5385 x6 quest 983.1 @36.5,39.4 map 1439
+step
+  turnin 983
+step
+  accept 1001
+step
+  collect 12242 quest 3524.1 @36.4,50.9 map 1439
+step
+  turnin 3524
+step
+  accept 4681
+step
+  collect 12289 quest 4681.1 @31.8,46.3 map 1439
+step
+  turnin 4681
+step
+  tip Kill: Darkshore Thresher (about 35% drop chance)
+  collect 5412 x3 quest 1001.1 @33.8,38.4 map 1439
+step
+  accept 4723
+step
+  turnin 1001
+step
+  accept 1002
+step
+  tip Kill: Rabid Thistle Bear
+  kill 2164 quest 2118.1 @49,31.1 map 1439
+step
+  complete 984 @50.9,34.7 map 1439
+step
+  complete 954 @44.3,36.4 map 1439
+step
+  turnin 954
+step
+  accept 955
+step
+  tip Kill: Wild Grell (about 42% drop chance)
+  collect 5336 x8 quest 955.1 @46.5,38.1 map 1439
+step
+  turnin 955
+step
+  accept 956
+step
+  tip Kill: Deth'ryll Satyr
+  collect 5338 quest 956.1 @47.3,37.7 map 1439
+step
+  turnin 956
+step
+  turnin 984
+step
+  accept 985
+step
+  accept 4761
+step
+  turnin 2118
+step
+  accept 2138
+step
+  accept 947
+step
+  accept 982
+step
+  turnin 4761
+step
+  accept 4762
+step
+  turnin 4723
+step
+  tip Kill: Blackwood Pathfinder, Blackwood Windtalker
+  kill 2167 x8 quest 985.1 @39.7,54.4 map 1439
+  kill 2324 x5 quest 985.2 @39.7,54.4 map 1439
+step
+  tip Kill: Cursed Highborne (about 41% drop chance)
+  collect 5360 x7 quest 958.1 @42,58.4 map 1439
+step
+  tip Kill: Jai'vhanel
+  collect 281038 quest 98025.1 @44.8,58.3 map 1439
+step
+  accept 4722
+step
+  tip Kill: Moonstalker (about 28% drop chance)
+  collect 5413 x6 quest 1002.1 @41,67.4 map 1439
+step
+  accept 4728
+step
+  accept 4730
+step
+  accept 98042
+step
+  turnin 4722
+step
+  turnin 4728
+step
+  turnin 4730
+step
+  accept 965
+step
+  turnin 985
+step
+  turnin 98025
+step
+  turnin 958
+step
+  tip Kill: Rabid Thistle Bear
+  kill 2164 x20 quest 2138.1 @49,31.1 map 1439
+step
+  collect 12349 quest 4762.1 @50.8,25.6 map 1439
+step
+  turnin 1002
+step
+  accept 1003
+step
+  turnin 965
+step
+  accept 966
+step
+  accept 4727
+step
+  accept 4725
+step
+  turnin 4762
+step
+  turnin 2138
+step
+  accept 1138
+step
+  turnin 4727
+step
+  turnin 4725
+step
+  accept 4763
+step
+  collect 12191 quest 982.1 @38.2,28.8 map 1439
+  collect 12192 quest 982.2
+step
+  turnin 982
+step
+  collect 5271 x5 quest 947.1 @55.5,35.3 map 1439
+  collect 5270 quest 947.2 @55.5,35.3 map 1439
+step
+  tip Kill: Encrusted Tide Crawler (about 38% drop chance)
+  collect 12237 x6 quest 1138.1 @52.2,20.9 map 1439
+step
+  turnin 947
+step
+  accept 948
+step
+  turnin 1138
+step
+  turnin 948
+step
+  accept 944
+step
+  tip Kill: Grizzled Thistle Bear (about 31% drop chance)
+  collect 5414 x4 quest 1003.1 @39.8,80.8 map 1439
+step
+  turnin 1003
+step
+  accept 98013
+step
+  tip Kill: Twilight Thug
+  collect 279279 quest 98042.1 @39.1,86.6 map 1439
+step
+  accept 945
+step
+  complete 944 @38.5,86.5 map 1439
+step
+  turnin 944
+step
+  accept 949
+step
+  turnin 949
+step
+  accept 950
+step
+  complete 945 @40.5,87.1 map 1439
+step
+  accept 5713
+step
+  complete 5713 @45.9,90.4 map 1439
+step
+  turnin 950
+step
+  accept 951
+step
+  accept 4731
+step
+  accept 4732
+step
+  accept 4733
+step
+  turnin 4731
+step
+  turnin 4732
+step
+  turnin 4733
+step
+  accept 87760
+step
+  accept 2139
+step
+  accept 986
+step
+  accept 729
+step
+  turnin 98042
+step
+  tip Den Mother has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Den Mother
+  kill 6788 quest 2139.1 @51.5,38.3 map 1439
+step
+  collect 12355 quest 4763.1 @52.5,33.4 map 1439
+step
+  tip Kill: Dark Strand Fanatic (about 45% drop chance)
+  collect 5348 x4 quest 966.1 @56.5,26.5 map 1439
+step
+  turnin 966
+step
+  accept 967
+step
+  accept 2098
+step
+  turnin 4763
+step
+  turnin 2139
+step
+  tip Starts from Clouded Water Globe, which drops in this area.
+  accept 98028 @59.3,22.7 map 1439
+step
+  turnin 98028
+step
+  accept 5321
+step
+  turnin 729
+step
+  accept 731
+step
+  zone map 1455
+  only Mage
+  tip Time to train: head to Dink in Ironforge for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1457
+  only Priest
+  tip Time to train: head to Priestess Alathea in Darnassus for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1453
+  only Warlock
+  tip Time to train: head to Demisette Cloyce in Stormwind City for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1457
+  only Warrior
+  tip Time to train: head to Darnath Bladesinger in Darnassus for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1445
+  only Paladin
+  tip Time to train: head to Brother Karman in Theramore for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1457
+  only Druid
+  tip Time to train: head to Mathrengyl Bearwalker in Darnassus for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Druid,NightElf
+  accept 6121
+step
+  zone map 1450
+  only Druid,NightElf
+  turnin 6121
+step
+  only Druid,NightElf
+  accept 6122
+step
+  zone map 1439
+  only Druid,NightElf
+  collect 15845 quest 6122.1 @54.9,33.3 map 1439
+step
+  only Druid,NightElf
+  turnin 6122
+step
+  only Druid,NightElf
+  accept 6123
+step
+  zone map 1438
+  only Druid,NightElf
+  tip Kill: Lasher Sproutling
+  collect 2449 x5 quest 6123.1 @57.9,66.6 map 1438
+  collect 15851 x12 quest 6123.2 @57.9,66.6 map 1438
+step
+  zone map 1439
+  only Druid,NightElf
+  turnin 6123
+step
+  only Druid,NightElf
+  accept 6124
+step
+  only Druid,NightElf
+  tip Kill: Sickly Deer
+  kill 12298 x10 quest 6124.1 @46,41.4 map 1439
+step
+  zone map 1450
+  only Druid,NightElf
+  turnin 6124
+step
+  only Druid,NightElf
+  accept 6125
+step
+  zone map 1457
+  only Druid,NightElf
+  turnin 6125
+step
+  only Druid,NightElf
+  accept 26
+step
+  zone map 1450
+  only Druid,NightElf
+  turnin 26
+step
+  only Druid,NightElf
+  accept 29
+step
+  only Druid,NightElf
+  tip Shrine Of Remulos has only one spawn point. If others are waiting for it, group up to share it.
+  interact 15885 quest 29.1 @36,41.4 map 1450
+step
+  only Druid,NightElf
+  turnin 29
+step
+  only Druid,NightElf
+  accept 272
+step
+  only Druid,NightElf
+  collect 15885 quest 272.1 @36,41.4 map 1450
+step
+  only Druid,NightElf
+  turnin 272
+step
+  only Druid,NightElf
+  accept 5061
+step
+  zone map 1457
+  only Druid,NightElf
+  turnin 5061
+step
+  only Rogue
+  tip Time to train: head to Syurna in Darnassus for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1438
+  only Rogue
+  tip Optional: skip it if you don't take it.
+  accept 2259
+step
+  zone map 1457
+  only Rogue
+  when onquest 2259
+  turnin 2259
+step
+  only Rogue
+  accept 2260
+step
+  zone map 1453
+  only Rogue
+  turnin 2260
+step
+  only Rogue
+  accept 2281
+step
+  zone map 1433
+  only Rogue
+  turnin 2281
+step
+  only Rogue
+  accept 2282
+step
+  only Rogue
+  collect 7871 quest 2282.1 @47,44.7 map 1433
+step
+  only Rogue
+  turnin 2282
+step
+  zone map 1457
+  only Hunter
+  tip Time to train: head to Jeen'ra Nightrunner in Darnassus for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1455
+  only Shaman
+  tip Time to train: head to Eldrun Stormbreaker in Ironforge for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1440
+  goto 34.7,48.8 "Travel to Ashenvale" map 1440
+step
+  accept 1008
+step
+  getfp "Astranaar"
+step
+  tip Optional: skip it if you don't take it.
+  accept 1070
+step
+  turnin 945
+step
+  turnin 967
+step
+  accept 970
+step
+  turnin 5713
+step
+  tip Kill: Wrathtail Wave Rider (about 83% drop chance)
+  collect 5490 x20 quest 1008.1 @14.7,17.8 map 1440
+step
+  turnin 1008
+step
+  tip Optional: skip it if you don't take it.
+  accept 1056
+step
+  accept 991
+step
+  turnin 991
+step
+  accept 1023
+step
+  fly "Auberdine"
+step
+  zone map 1439
+  tip Kill: Stormscale Myrmidon, Stormscale Sorceress
+  kill 2181 x12 quest 98013.1 @58.9,20.9 map 1439
+  kill 2182 x8 quest 98013.2 @58.9,20.9 map 1439
+  kill 2183 x6 quest 98013.3
+step
+  collect 5273 x6 quest 951.1 @60.3,21.7 map 1439
+step
+  tip Kill: Stormscale Beastmistress
+  collect 280686 quest 87760.1 @48.9,13.1 map 1439
+step
+  turnin 87760
+step
+  turnin 951
+step
+  turnin 98013
+step
+  collect 13536 quest 5321.1 @44.4,76.3 map 1439
+step
+  complete 731 @35.7,84 map 1439
+step
+  tip Kill: Giant Foreststrider, Greymist Tidehunter
+  collect 7498 quest 2098.1 @39.1,91.3 map 1439
+  collect 7499 quest 2098.2
+  collect 7500 quest 2098.3
+step
+  tip Kill: Moonstalker Matriarch (about 34% drop chance)
+  collect 5386 x5 quest 986.1 @39.4,91.8 map 1439
+step
+  turnin 986
+step
+  accept 993
+step
+  turnin 731
+step
+  turnin 2098
+step
+  turnin 993
+step
+  fly "Astranaar"
+step
+  zone map 1440
+  turnin 5321
+step
+  tip Kill: Dark Strand Cultist
+  collect 5366 quest 970.1 @31,30.9 map 1440
+step
+  turnin 970
+step
+  tip Kill: Saltspittle Warrior
+  collect 5463 quest 1023.1 @21.1,43.1 map 1440
+step
+  accept 1007
+step
+  collect 5424 quest 1007.1 @14.2,20.6 map 1440
+step
+  turnin 1007
+step
+  turnin 1023
+step
+  accept 1024
+step
+  turnin 1024
+step
+  zone map 1442
+  goto 71.9,60 "Travel to Stonetalon Mountains" map 1442
+step
+  accept 1090
+step
+  turnin 1070
+step
+  accept 1085
+step
+  turnin 1085
+step
+  accept 1071
+step
+  accept 1093
+step
+  tip Kill: Venture Co. Operator
+  collect 5734 quest 1093.1 @65.6,51.6 map 1442
+step
+  tip Kill: Venture Co. Logger, Venture Co. Deforester
+  kill 3989 x10 quest 1071.1 @67.2,51.5 map 1442
+  kill 3991 x10 quest 1071.2 @67.2,51.5 map 1442
+step
+  tip Piznik has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Piznik
+  kill 4276 quest 1090.1 @71.9,60 map 1442
+step
+  turnin 1090
+step
+  accept 1092
+step
+  turnin 1093
+step
+  turnin 1092
+step
+  turnin 1071
+step
+  accept 79980
+step
+  turnin 79980
+step
+  turnin 1056
+step
+  getfp "Stonetalon Peak"
+step
+  zone map 1437
+  goto 9.49,59.69 "Travel to Menethil Harbor, Wetlands - take the boat (Auberdine <-> Menethil Harbor, Theramore <-> Menethil Harbor)" map 1437

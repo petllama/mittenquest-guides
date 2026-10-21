@@ -1,0 +1,703 @@
+guide mittenquest/horde/1-13-durotar-orc-troll
+title "Horde 1-13 Durotar (Orc/Troll)"
+levels 1-13
+zone map 1411
+coords era
+faction Horde
+race Orc, Troll
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/horde/12-19-the-barrens
+step
+  tip Optional: skip it if you don't take it.
+  accept 4641
+step
+  accept 788
+step
+  turnin 4641
+step
+  tip Kill: Mottled Boar
+  kill 3098 x10 quest 788.1 @44.5,64.1 map 1411
+step
+  turnin 788
+step
+  only Hunter
+  tip Jen'shan is right here: pick up your new Hunter spells.
+  train class
+step
+  only Hunter,Troll
+  accept 3082
+step
+  only Hunter,Troll
+  turnin 3082
+step
+  only Hunter,Orc
+  accept 3087
+step
+  only Hunter,Orc
+  turnin 3087
+step
+  only Rogue
+  tip Rwag is right here: pick up your new Rogue spells.
+  train class
+step
+  only Rogue,Troll
+  accept 3083
+step
+  only Rogue,Troll
+  turnin 3083
+step
+  only Rogue,Orc
+  accept 3088
+step
+  only Rogue,Orc
+  turnin 3088
+step
+  only Priest
+  tip Ken'jai is right here: pick up your new Priest spells.
+  train class
+step
+  only Priest,Troll
+  accept 3085
+step
+  only Priest,Troll
+  turnin 3085
+step
+  only Warrior
+  tip Frang is right here: pick up your new Warrior spells.
+  train class
+step
+  only Warrior,Orc
+  accept 2383
+step
+  only Warrior,Orc
+  turnin 2383
+step
+  only Warrior,Troll
+  accept 3065
+step
+  only Warrior,Troll
+  turnin 3065
+step
+  only Shaman
+  tip Shikrik is right here: pick up your new Shaman spells.
+  train class
+step
+  only Shaman,Troll
+  accept 3084
+step
+  only Shaman,Troll
+  turnin 3084
+step
+  only Shaman,Orc
+  accept 3089
+step
+  only Shaman,Orc
+  turnin 3089
+step
+  only Warlock
+  tip Nartok is right here: pick up your new Warlock spells.
+  train class
+step
+  only Warlock,Orc
+  accept 3090
+step
+  only Warlock,Orc
+  turnin 3090
+step
+  only Warlock,Troll
+  accept 98575
+step
+  only Warlock,Troll
+  turnin 98575
+step
+  only Warlock
+  accept 1485
+step
+  only Warlock
+  tip Kill: Vile Familiar (about 5% drop chance)
+  collect 6487 x6 quest 1485.1 @44.2,55.3 map 1411
+step
+  only Warlock
+  turnin 1485
+step
+  only Warlock
+  accept 1499
+step
+  only Warlock
+  turnin 1499
+step
+  only Mage
+  tip Mai'ah is right here: pick up your new Mage spells.
+  train class
+step
+  only Mage,Troll
+  accept 3086
+step
+  only Mage,Troll
+  turnin 3086
+step
+  only Mage,Orc
+  accept 98576
+step
+  only Mage,Orc
+  turnin 98576
+step
+  accept 789
+step
+  only Warrior,Paladin,Hunter,Rogue,Priest,Shaman,Mage,Druid
+  accept 792
+step
+  accept 4402
+step
+  tip Kill: Scorpid Worker (about 60% drop chance)
+  collect 4862 x10 quest 789.1 @41.4,63.4 map 1411
+step
+  collect 11583 x10 quest 4402.1 @43.8,62.8 map 1411
+step
+  turnin 4402
+step
+  turnin 789
+step
+  accept 5441
+step
+  accept 2161
+step
+  accept 96821
+step
+  tip Starts from Aged Envelope, which drops in this area.
+  accept 830 @59.3,57.6 map 1411
+step
+  tip Kill: Ridgeshade Creeper, Ridgeshade Lurker
+  kill 266850 x6 quest 96821.1 @51.5,57.1 map 1411
+  kill 266849 x6 quest 96821.2 @51.5,57.1 map 1411
+step
+  only Warrior,Paladin,Hunter,Rogue,Priest,Shaman,Mage,Druid
+  tip Kill: Vile Familiar
+  kill 3101 x12 quest 792.1 @44.2,55.3 map 1411
+step
+  tip Kill: Lazy Peon
+  kill 10556 x5 quest 5441.1 @43.9,57.8 map 1411
+step
+  turnin 5441
+step
+  only Hunter
+  tip Jen'shan is right here: pick up your new Hunter spells.
+  train class
+step
+  only Rogue
+  tip Rwag is right here: pick up your new Rogue spells.
+  train class
+step
+  only Priest
+  tip Ken'jai is right here: pick up your new Priest spells.
+  train class
+step
+  only Warrior
+  tip Frang is right here: pick up your new Warrior spells.
+  train class
+step
+  only Shaman
+  tip Shikrik is right here: pick up your new Shaman spells.
+  train class
+step
+  only Shaman
+  accept 1516
+step
+  only Shaman
+  tip Kill: Felstalker
+  collect 6640 x2 quest 1516.1 @44.3,54.2 map 1411
+step
+  only Shaman
+  turnin 1516
+step
+  only Shaman
+  accept 1517
+step
+  only Shaman
+  turnin 1517
+step
+  only Shaman
+  accept 1518
+step
+  only Shaman
+  turnin 1518
+step
+  only Warlock
+  tip Nartok is right here: pick up your new Warlock spells.
+  train class
+step
+  only Mage
+  tip Mai'ah is right here: pick up your new Mage spells.
+  train class
+step
+  accept 6394
+step
+  only Warrior,Paladin,Hunter,Rogue,Priest,Shaman,Mage,Druid
+  turnin 792
+step
+  accept 99123
+step
+  accept 823
+step
+  collect 16332 quest 6394.1 @43.7,53.8 map 1411
+step
+  turnin 96821
+step
+  only Priest
+  tip Tai'jin is right here: pick up your new Priest spells.
+  train class
+step
+  only Priest,Troll
+  accept 5648
+step
+  only Priest,Troll
+  tip Grunt Kor'ja has only one spawn point. If others are waiting for it, group up to share it. Kill: Grunt Kor'ja
+  kill 12430 quest 5648.1 @53.1,46.5 map 1411
+step
+  only Priest,Troll
+  turnin 5648
+step
+  only Priest,Troll
+  tip Optional: skip it if you don't take it.
+  accept 5649
+step
+  only Priest,Troll
+  when onquest 5649
+  turnin 5649
+step
+  turnin 830
+step
+  accept 784
+step
+  turnin 823
+step
+  accept 96825
+step
+  turnin 2161
+step
+  accept 791
+step
+  accept 96822
+step
+  collect 275718 x8 quest 96825.1 @46.8,49 map 1411
+step
+  turnin 96825
+step
+  only Hunter
+  tip Thotar is right here: pick up your new Hunter spells.
+  train class
+step
+  only Rogue
+  tip Kaplak is right here: pick up your new Rogue spells.
+  train class
+step
+  only Warrior
+  tip Tarshaw Jaggedscar is right here: pick up your new Warrior spells.
+  train class
+step
+  only Shaman
+  tip Swart is right here: pick up your new Shaman spells.
+  train class
+step
+  only Warlock
+  tip Dhugru Gorelust is right here: pick up your new Warlock spells.
+  train class
+step
+  accept 815
+step
+  accept 837
+step
+  tip Starts from Ukor's Lost Pack, which drops in this area.
+  accept 96876 @50.7,56.3 map 1411
+step
+  collect 275713 quest 96822.1 @57.4,56.4 map 1411
+  collect 275716 quest 96822.2 @57.4,56.4 map 1411
+  collect 275717 quest 96822.3 @57.4,56.4 map 1411
+step
+  tip Lieutenant Benedict has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Kul Tiras Sailor, Kul Tiras Marine
+  kill 3128 x10 quest 784.1 @58.2,56.8 map 1411
+  kill 3129 x8 quest 784.2 @58.2,56.8 map 1411
+  kill 3192 quest 784.3
+step
+  tip Kill: Kul Tiras Marine (about 35% drop chance)
+  collect 4870 x8 quest 791.1 @59.2,56.7 map 1411
+step
+  turnin 96876
+step
+  only Mage
+  tip Un'Thuwa is right here: pick up your new Mage spells.
+  train class
+step
+  turnin 6394
+step
+  accept 817
+step
+  accept 818
+step
+  accept 97225
+step
+  accept 808
+step
+  accept 826
+step
+  complete 99123 @51.4,79.3 map 1411
+step
+  tip Kill: Makrura Shellhide, Pygmy Surf Crawler (about 52% drop chance)
+  collect 4887 x4 quest 818.1 @55.2,81.8 map 1411
+  collect 4888 x8 quest 818.2 @55.2,81.8 map 1411
+step
+  turnin 99123
+step
+  turnin 818
+step
+  collect 4890 x3 quest 815.1 @67,71.4 map 1411
+step
+  collect 277135 x8 quest 97225.1 @65.5,84.7 map 1411
+step
+  tip Zalazane has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Hexed Troll, Voodoo Troll
+  kill 3207 x8 quest 826.1 @67.1,85 map 1411
+  kill 3206 x8 quest 826.2
+  collect 4866 quest 826.3
+step
+  collect 4864 quest 808.1 @67.4,87.8 map 1411
+step
+  tip Kill: Durotar Tiger (about 42% drop chance)
+  collect 4892 x4 quest 817.1 @61.4,91.3 map 1411
+step
+  turnin 97225
+step
+  turnin 808
+step
+  turnin 826
+step
+  turnin 817
+step
+  turnin 784
+step
+  only Hunter
+  tip Thotar is right here: pick up your new Hunter spells.
+  train class
+step
+  only Rogue
+  tip Kaplak is right here: pick up your new Rogue spells.
+  train class
+step
+  only Priest
+  tip Tai'jin is right here: pick up your new Priest spells.
+  train class
+step
+  only Warrior
+  tip Tarshaw Jaggedscar is right here: pick up your new Warrior spells.
+  train class
+step
+  only Shaman
+  tip Swart is right here: pick up your new Shaman spells.
+  train class
+step
+  only Warlock
+  tip Dhugru Gorelust is right here: pick up your new Warlock spells.
+  train class
+step
+  accept 825
+step
+  turnin 815
+step
+  turnin 791
+step
+  accept 99048
+step
+  turnin 96822
+step
+  turnin 99048
+step
+  accept 99049
+step
+  collect 286012 quest 99049.1 @58.9,44.4 map 1411
+  collect 286011 quest 99049.2 @58.9,44.4 map 1411
+  collect 286010 quest 99049.3 @58.9,44.4 map 1411
+step
+  turnin 99049
+step
+  accept 99051
+step
+  tip Kill: Razormane Quilboar, Razormane Scout
+  kill 3111 x4 quest 837.1
+  kill 3112 x4 quest 837.2
+  kill 3113 x4 quest 837.3 @43.2,39.4 map 1411
+  kill 3114 x4 quest 837.4 @43.2,39.4 map 1411
+step
+  turnin 837
+step
+  accept 816
+step
+  accept 834
+step
+  collect 4918 x5 quest 834.1 @49.9,26.9 map 1411
+step
+  turnin 834
+step
+  accept 835
+step
+  tip Starts from Dull Storm Orb, which drops in this area.
+  accept 97281 @52,21.4 map 1411
+step
+  tip Kill: Dustwind Savage, Dustwind Storm Witch
+  kill 3117 x12 quest 835.1 @53.3,21.6 map 1411
+  kill 3118 x8 quest 835.2 @53.3,21.6 map 1411
+step
+  turnin 835
+step
+  turnin 97281
+step
+  accept 97282
+step
+  tip Kill: Thunder Lizard
+  collect 277665 x5 quest 97282.1 @39.1,29.3 map 1411
+step
+  turnin 97282
+step
+  tip Kill: Spitelash Scout
+  collect 286008 x9 quest 99051.1 @58.9,26.1 map 1411
+step
+  turnin 99051
+step
+  only Hunter
+  tip Thotar is right here: pick up your new Hunter spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Hunter,Orc,Troll
+  accept 6062
+step
+  only Hunter,Orc,Troll
+  tip Kill: Dire Mottled Boar
+  kill 3099 quest 6062.1 @43.7,46.4 map 1411
+step
+  only Hunter,Orc,Troll
+  turnin 6062
+step
+  zone map 1454
+  only Hunter,Orc,Troll
+  tip Optional: skip it if you don't take it.
+  accept 6068
+step
+  zone map 1411
+  only Hunter,Orc,Troll
+  when onquest 6068
+  turnin 6068
+step
+  only Hunter,Orc,Troll
+  accept 6083
+step
+  only Hunter,Orc,Troll
+  tip Kill: Surf Crawler
+  kill 3107 quest 6083.1 @63.6,93.2 map 1411
+step
+  only Hunter,Orc,Troll
+  turnin 6083
+step
+  only Hunter,Orc,Troll
+  accept 6082
+step
+  only Hunter,Orc,Troll
+  tip Kill: Armored Scorpid
+  kill 3126 quest 6082.1 @40.2,39.4 map 1411
+step
+  only Hunter,Orc,Troll
+  turnin 6082
+step
+  only Hunter,Orc,Troll
+  accept 6081
+step
+  zone map 1454
+  only Hunter,Orc,Troll
+  turnin 6081
+step
+  zone map 1411
+  only Rogue
+  tip Kaplak is right here: pick up your new Rogue spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Rogue,Orc
+  tip Optional: skip it if you don't take it.
+  accept 1859
+step
+  zone map 1454
+  only Rogue,Orc
+  when onquest 1859
+  turnin 1859
+step
+  only Rogue,Orc,Troll
+  accept 1963
+step
+  zone map 1413
+  only Rogue,Orc,Troll
+  tip Tazan has only one spawn point. If others are waiting for it, group up to share it. Kill: Tazan
+  collect 7209 quest 1963.1 @63.1,44.3 map 1413
+step
+  zone map 1454
+  only Rogue,Orc,Troll
+  turnin 1963
+step
+  only Rogue,Orc,Troll
+  accept 1858
+step
+  only Rogue,Orc,Troll
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC).
+  collect 7295 quest 1858.1 @42.7,53.5 map 1454
+step
+  only Rogue,Orc,Troll
+  turnin 1858
+step
+  zone map 1411
+  only Priest
+  tip Tai'jin is right here: pick up your new Priest spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1454
+  only Priest,Troll
+  accept 5652
+step
+  only Priest,Troll
+  turnin 5652
+step
+  zone map 1411
+  only Warrior
+  tip Tarshaw Jaggedscar is right here: pick up your new Warrior spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Shaman
+  tip Swart is right here: pick up your new Shaman spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1454
+  only Shaman
+  tip Optional: skip it if you don't take it.
+  accept 1522
+step
+  zone map 1413
+  only Shaman
+  when onquest 1522
+  turnin 1522
+step
+  only Shaman
+  accept 1524
+step
+  zone map 1411
+  only Shaman
+  turnin 1524
+step
+  only Shaman
+  accept 1525
+step
+  zone map 1413
+  only Shaman
+  tip Kill: Razormane Geomancer, Burning Blade Cultist (about 1% drop chance)
+  collect 5026 quest 1525.1 @57.3,24.6 map 1413
+  collect 6652 quest 1525.2 @57.3,24.6 map 1413
+step
+  zone map 1411
+  only Shaman
+  turnin 1525
+step
+  only Shaman
+  accept 1526
+step
+  only Shaman
+  tip Minor Manifestation of Fire has only 2 spawn points. If others are waiting for it, group up to share it. Kill: Minor Manifestation of Fire
+  collect 6655 quest 1526.1 @38.7,58.3 map 1411
+step
+  only Shaman
+  turnin 1526
+step
+  only Shaman
+  accept 1527
+step
+  zone map 1413
+  only Shaman
+  turnin 1527
+step
+  zone map 1411
+  only Warlock
+  tip Dhugru Gorelust is right here: pick up your new Warlock spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Warlock
+  tip Optional: skip it if you don't take it.
+  accept 1506
+step
+  zone map 1454
+  only Warlock
+  when onquest 1506
+  turnin 1506
+step
+  only Warlock,Orc
+  accept 1501
+step
+  zone map 1411
+  only Warlock,Orc
+  collect 6535 quest 1501.1 @51.6,9.8 map 1411
+step
+  zone map 1454
+  only Warlock,Orc
+  turnin 1501
+step
+  only Warlock,Orc
+  accept 1504
+step
+  only Warlock,Orc
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Summoned Voidwalker
+  kill 5676 quest 1504.1 @48.2,45.3 map 1454
+step
+  only Warlock,Orc
+  turnin 1504
+step
+  zone map 1411
+  collect 4863 x3 quest 825.1 @63.3,57.3 map 1411
+step
+  turnin 825
+step
+  tip Corrupted Dreadmaw Crocolisk has only 2 spawn points. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Corrupted Dreadmaw Crocolisk
+  collect 4891 quest 816.1 @34.3,52.7 map 1411
+step
+  turnin 816
+step
+  zone map 1456
+  only Paladin
+  tip Time to train: head to Alodan the Hopeful in Thunder Bluff for your new Paladin spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Druid
+  tip Time to train: head to Turak Runetotem in Thunder Bluff for your new Druid spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Mage
+  tip Time to train: head to Archmage Shymm in Thunder Bluff for your new Mage spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Mage
+  tip Optional: skip it if you don't take it.
+  accept 1883
+step
+  zone map 1411
+  only Mage
+  when onquest 1883
+  turnin 1883
+step
+  only Mage,Orc,Troll,Undead
+  accept 1884
+step
+  only Mage,Orc,Troll,Undead
+  interact 102986 quest 1884.1 @67.8,83.4 map 1411
+step
+  only Mage,Orc,Troll,Undead
+  turnin 1884
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 12
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 13
+step
+  zone map 1413
+  goto 51.5,30.34 "Travel to Crossroads, The Barrens" map 1413

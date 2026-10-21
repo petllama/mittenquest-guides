@@ -1,0 +1,879 @@
+guide mittenquest/horde/1-14-tirisfal-glades-undead
+title "Horde 1-14 Tirisfal Glades (Undead)"
+levels 1-14
+zone map 1420
+coords era
+faction Horde
+race Undead
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/horde/12-19-the-barrens
+step
+  only Undead
+  tip Optional: skip it if you don't take it.
+  accept 363
+step
+  only Undead
+  turnin 363
+step
+  accept 364
+step
+  tip Kill: Mindless Zombie, Wretched Zombie
+  kill 1501 x8 quest 364.1 @32.9,63.5 map 1420
+  kill 1502 x8 quest 364.2 @32.9,63.5 map 1420
+step
+  turnin 364
+step
+  only Rogue
+  tip David Trias is right here: pick up your new Rogue spells.
+  train class
+step
+  only Rogue,Undead
+  accept 3096
+step
+  only Rogue,Undead
+  turnin 3096
+step
+  only Priest
+  tip Dark Cleric Duesten is right here: pick up your new Priest spells.
+  train class
+step
+  only Priest,Undead
+  accept 3097
+step
+  only Priest,Undead
+  turnin 3097
+step
+  only Paladin
+  tip Aramis Hammerhand is right here: pick up your new Paladin spells.
+  train class
+step
+  only Paladin,Undead
+  accept 98601
+step
+  only Paladin,Undead
+  turnin 98601
+step
+  only Paladin,Undead
+  accept 90902
+step
+  only Paladin,Undead
+  turnin 90902
+step
+  only Warrior
+  tip Dannal Stern is right here: pick up your new Warrior spells.
+  train class
+step
+  only Warrior,Undead
+  accept 3095
+step
+  only Warrior,Undead
+  turnin 3095
+step
+  only Warlock
+  tip Maximillion is right here: pick up your new Warlock spells.
+  train class
+step
+  only Warlock,Undead
+  accept 3099
+step
+  only Warlock,Undead
+  turnin 3099
+step
+  only Warlock
+  accept 1470
+step
+  only Warlock
+  tip Kill: Rattlecage Skeleton (about 13% drop chance)
+  collect 6281 x3 quest 1470.1 @32.9,61.6 map 1420
+step
+  only Warlock
+  turnin 1470
+step
+  only Mage
+  tip Isabella is right here: pick up your new Mage spells.
+  train class
+step
+  only Mage,Undead
+  accept 3098
+step
+  only Mage,Undead
+  turnin 3098
+step
+  accept 3901
+step
+  accept 376
+step
+  accept 98389
+step
+  turnin 98389
+step
+  tip Kill: Young Scavenger, Duskbat (about 61% drop chance)
+  collect 3265 x6 quest 376.1
+  collect 3264 x6 quest 376.2 @30.7,69.3 map 1420
+step
+  turnin 376
+step
+  accept 3902
+step
+  accept 380
+step
+  collect 11127 x6 quest 3902.1 @32.5,64.3 map 1420
+step
+  turnin 3902
+step
+  tip Kill: Rattlecage Skeleton
+  kill 1890 x12 quest 3901.1 @32.9,61.6 map 1420
+step
+  turnin 3901
+step
+  only Rogue
+  tip David Trias is right here: pick up your new Rogue spells.
+  train class
+step
+  only Priest
+  tip Dark Cleric Duesten is right here: pick up your new Priest spells.
+  train class
+step
+  only Paladin
+  tip Aramis Hammerhand is right here: pick up your new Paladin spells.
+  train class
+step
+  only Paladin,Undead
+  accept 91208
+step
+  only Paladin,Undead
+  turnin 91208
+step
+  only Paladin,Undead
+  accept 91209
+step
+  only Paladin,Undead
+  turnin 91209
+step
+  only Warrior
+  tip Dannal Stern is right here: pick up your new Warrior spells.
+  train class
+step
+  only Warlock
+  tip Maximillion is right here: pick up your new Warlock spells.
+  train class
+step
+  only Mage
+  tip Isabella is right here: pick up your new Mage spells.
+  train class
+step
+  tip Kill: Young Night Web Spider, Night Web Spider
+  kill 1504 x10 quest 380.1 @27.1,59.2 map 1420
+  kill 1505 x8 quest 380.2 @27.1,59.2 map 1420
+step
+  turnin 380
+step
+  accept 381
+step
+  tip Kill: Scarlet Initiate (about 72% drop chance)
+  collect 3266 x12 quest 381.1 @37.4,67.8 map 1420
+step
+  turnin 381
+step
+  accept 382
+step
+  tip Meven Korgal has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Meven Korgal
+  collect 2885 quest 382.1 @36.6,68.5 map 1420
+step
+  turnin 382
+step
+  only Priest
+  tip Dark Cleric Duesten is right here: pick up your new Priest spells.
+  train class
+step
+  only Priest,Undead
+  accept 5650
+step
+  only Priest,Undead
+  tip Deathguard Kel has only one spawn point. If others are waiting for it, group up to share it. Kill: Deathguard Kel
+  kill 12428 quest 5650.1 @59.2,46.5 map 1420
+step
+  only Priest,Undead
+  turnin 5650
+step
+  only Priest,Undead
+  tip Optional: skip it if you don't take it.
+  accept 5651
+step
+  only Priest,Undead
+  when onquest 5651
+  turnin 5651
+step
+  accept 383
+step
+  accept 8
+step
+  accept 365
+step
+  accept 5481
+step
+  collect 12737 x3 quest 5481.1 @45.3,56.2 map 1420
+step
+  collect 2846 x10 quest 365.1 @35.9,50.5 map 1420
+step
+  accept 99144
+step
+  turnin 5481
+step
+  accept 5482
+step
+  accept 404
+step
+  accept 86784
+step
+  turnin 365
+step
+  only Rogue
+  tip Marion Call is right here: pick up your new Rogue spells.
+  train class
+step
+  only Paladin
+  tip Shari Stilwell is right here: pick up your new Paladin spells.
+  train class
+step
+  only Warrior
+  tip Austil de Mon is right here: pick up your new Warrior spells.
+  train class
+step
+  only Warlock
+  tip Rupert Boch is right here: pick up your new Warlock spells.
+  train class
+step
+  only Mage
+  tip Cain Firesong is right here: pick up your new Mage spells.
+  train class
+step
+  accept 367
+step
+  accept 407
+step
+  turnin 99144
+step
+  accept 427
+step
+  turnin 383
+step
+  accept 99134
+step
+  turnin 99134
+step
+  accept 358
+step
+  turnin 407
+step
+  turnin 8
+step
+  collect 279991 x6 quest 86784.1 @57,52.5 map 1420
+step
+  turnin 86784
+step
+  only Priest
+  tip Dark Cleric Beryl is right here: pick up your new Priest spells.
+  train class
+step
+  tip Kill: Ravaged Corpse (about 48% drop chance)
+  collect 2855 x7 quest 404.1 @52.2,56.5 map 1420
+step
+  turnin 404
+step
+  accept 426
+step
+  accept 99142
+step
+  accept 375
+step
+  accept 97558
+step
+  accept 356
+step
+  tip Kill: Greater Duskbat
+  collect 2876 x5 quest 375.1 @63.3,41.7 map 1420
+  collect 2320 quest 375.2 @63.3,41.7 map 1420
+step
+  collect 13702 x10 quest 5482.1 @57.8,38.4 map 1420
+step
+  tip Kill: Rot Hide Graverobber, Rot Hide Mongrel (about 50% drop chance)
+  kill 1941 x8 quest 358.1 @55.8,42.3 map 1420
+  kill 1675 x5 quest 358.2
+  collect 2834 x8 quest 358.3 @55.8,42.3 map 1420
+step
+  turnin 5482
+step
+  turnin 358
+step
+  accept 359
+step
+  turnin 375
+step
+  only Rogue
+  tip Marion Call is right here: pick up your new Rogue spells.
+  train class
+step
+  only Paladin
+  tip Shari Stilwell is right here: pick up your new Paladin spells.
+  train class
+step
+  only Paladin,Undead
+  accept 91285
+step
+  only Paladin,Undead
+  tip Kill: Vile Fin Attacker, Vile Fin Seer
+  kill 250283 x8 quest 91285.1 @15.6,56.3 map 1420
+  kill 250282 x8 quest 91285.2 @15.6,56.3 map 1420
+step
+  only Paladin,Undead
+  turnin 91285
+step
+  only Paladin,Undead
+  accept 91282
+step
+  only Paladin,Undead
+  turnin 91282
+step
+  only Paladin,Undead
+  accept 91294
+step
+  only Paladin,Undead
+  turnin 91294
+step
+  only Paladin,Undead
+  accept 91316
+step
+  only Paladin,Undead
+  collect 246213 x12 quest 91316.1 @10,66.4 map 1420
+step
+  only Paladin,Undead
+  turnin 91316
+step
+  only Warrior
+  tip Austil de Mon is right here: pick up your new Warrior spells.
+  train class
+step
+  only Warlock
+  tip Rupert Boch is right here: pick up your new Warlock spells.
+  train class
+step
+  only Mage
+  tip Cain Firesong is right here: pick up your new Mage spells.
+  train class
+step
+  turnin 359
+step
+  accept 360
+step
+  turnin 360
+step
+  collect 286204 x5 quest 99142.1 @76.3,60.8 map 1420
+step
+  tip Kill: Bleeding Horror, Wandering Spirit
+  kill 1529 x8 quest 356.1 @76.5,60.7 map 1420
+  kill 1532 x8 quest 356.2 @76.5,60.7 map 1420
+step
+  turnin 356
+step
+  turnin 99142
+step
+  tip Kill: Rattlecage Soldier, Darkeye Bonecaster (about 31% drop chance)
+  collect 3162 x5 quest 426.1 @46.9,34.9 map 1420
+  collect 3163 x3 quest 426.2 @46.9,34.9 map 1420
+step
+  tip Kill: Decrepit Darkhound (about 26% drop chance)
+  collect 2858 x5 quest 367.1 @40,43.7 map 1420
+step
+  tip Kill: Scarlet Warrior
+  kill 1535 x10 quest 427.1 @32.1,47.4 map 1420
+step
+  accept 99152
+step
+  accept 99153
+step
+  tip Starts from A Letter to Yvette, which drops in this area.
+  accept 361 @9.2,61.8 map 1420
+step
+  tip Kill: Shadowvale Lurcher
+  collect 286259 x6 quest 99152.1 @9.8,66.4 map 1420
+step
+  collect 286269 quest 99153.1 @9.8,69.3 map 1420
+step
+  turnin 99153
+step
+  only Paladin
+  tip Hilda the Breaker is right here: pick up your new Paladin spells.
+  train class
+step
+  only Paladin,Undead
+  accept 91317
+step
+  only Paladin,Undead
+  tip Kill: Tarnished Drudge, Tarnished Zealot
+  kill 259434 x8 quest 91317.1 @12.9,63.8 map 1420
+  kill 259433 x6 quest 91317.2 @12.9,63.8 map 1420
+  collect 270435 quest 91317.3 @12.9,63.8 map 1420
+step
+  only Paladin,Undead
+  turnin 91317
+step
+  only Paladin,Undead
+  accept 95803
+step
+  zone map 1458
+  only Paladin,Undead
+  turnin 95803
+step
+  zone map 1420
+  turnin 99152
+step
+  accept 590
+step
+  complete 590 @38.2,56.7 map 1420
+step
+  turnin 590
+step
+  turnin 426
+step
+  only Priest
+  tip Dark Cleric Beryl is right here: pick up your new Priest spells.
+  train class
+step
+  accept 445
+step
+  turnin 367
+step
+  accept 368
+step
+  turnin 427
+step
+  only Rogue
+  tip Marion Call is right here: pick up your new Rogue spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Rogue,Undead
+  tip Optional: skip it if you don't take it.
+  accept 1885
+step
+  zone map 1458
+  only Rogue,Undead
+  when onquest 1885
+  turnin 1885
+step
+  only Rogue,Undead
+  accept 1886
+step
+  zone map 1421
+  only Rogue,Undead
+  tip Astor Hadren has only one spawn point. If others are waiting for it, group up to share it. Kill: Astor Hadren
+  collect 7231 quest 1886.1 @49.7,32.2 map 1421
+step
+  zone map 1458
+  only Rogue,Undead
+  turnin 1886
+step
+  only Rogue,Undead
+  accept 1898
+step
+  only Rogue,Undead
+  turnin 1898
+step
+  only Rogue,Undead
+  accept 1899
+step
+  only Rogue,Undead
+  collect 7294 quest 1899.1 @55.4,77 map 1458
+step
+  only Rogue,Undead
+  turnin 1899
+step
+  only Rogue,Undead
+  accept 1978
+step
+  only Rogue,Undead
+  turnin 1978
+step
+  zone map 1420
+  only Priest
+  tip Dark Cleric Beryl is right here: pick up your new Priest spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1458
+  only Priest,Undead
+  accept 5658
+step
+  only Priest,Undead
+  turnin 5658
+step
+  zone map 1420
+  only Warrior
+  tip Austil de Mon is right here: pick up your new Warrior spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Warrior
+  tip Optional: skip it if you don't take it.
+  accept 1818
+step
+  only Warrior
+  when onquest 1818
+  turnin 1818
+step
+  only Warrior
+  accept 1819
+step
+  only Warrior
+  tip Ulag the Cleaver has only one spawn point. If others are waiting for it, group up to share it. Kill: Ulag the Cleaver
+  kill 6390 quest 1819.1 @59.5,48.3 map 1420
+step
+  only Warrior
+  turnin 1819
+step
+  only Warrior
+  when turnedin 1819
+  tip Optional: skip it if you don't take it.
+  accept 1820
+step
+  only Warrior
+  when onquest 1820
+  turnin 1820
+step
+  only Warrior
+  accept 1821
+step
+  only Warrior
+  collect 7567 quest 1821.1 @52.7,25.9 map 1420
+  collect 7568 quest 1821.2
+  collect 7569 quest 1821.3 @52.7,25.9 map 1420
+  collect 7566 quest 1821.4 @52.7,25.9 map 1420
+step
+  only Warrior
+  turnin 1821
+step
+  only Warrior
+  accept 1822
+step
+  only Warrior
+  turnin 1822
+step
+  only Warlock
+  tip Rupert Boch is right here: pick up your new Warlock spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1458
+  only Warlock,Undead
+  accept 1473
+step
+  zone map 1420
+  only Warlock,Undead
+  collect 6285 quest 1473.1 @51.1,67.6 map 1420
+step
+  zone map 1458
+  only Warlock,Undead
+  turnin 1473
+step
+  only Warlock,Undead
+  accept 1471
+step
+  only Warlock,Undead
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Summoned Voidwalker
+  kill 5676 quest 1471.1 @85.1,26 map 1458
+step
+  only Warlock,Undead
+  turnin 1471
+step
+  zone map 1420
+  only Warlock
+  tip Optional: skip it if you don't take it.
+  accept 1478
+step
+  zone map 1458
+  only Warlock
+  when onquest 1478
+  turnin 1478
+step
+  zone map 1420
+  only Mage
+  tip Cain Firesong is right here: pick up your new Mage spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Mage,Troll,Undead
+  tip Optional: skip it if you don't take it.
+  accept 1881
+step
+  zone map 1458
+  only Mage,Troll,Undead
+  when onquest 1881
+  turnin 1881
+step
+  only Mage,Troll,Undead
+  accept 1882
+step
+  zone map 1420
+  only Mage,Troll,Undead
+  collect 7227 quest 1882.1 @77.6,62 map 1420
+step
+  zone map 1458
+  only Mage,Troll,Undead
+  turnin 1882
+step
+  zone map 1420
+  accept 370
+step
+  accept 374
+step
+  turnin 361
+step
+  accept 96895
+step
+  accept 99156
+step
+  accept 96899
+step
+  turnin 96895
+step
+  accept 96897
+step
+  accept 96898
+step
+  tip Captain Perrine has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Captain Perrine, Scarlet Zealot
+  kill 1662 quest 370.1 @51.2,67.6 map 1420
+  kill 1537 x3 quest 370.2 @51.2,67.6 map 1420
+  kill 1536 x3 quest 370.3 @51.2,67.6 map 1420
+step
+  tip Kill: Scarlet Missionary (about 51% drop chance)
+  collect 2875 x10 quest 374.1 @50.2,66.9 map 1420
+step
+  turnin 370
+step
+  accept 371
+step
+  turnin 374
+step
+  tip Captain Vachon has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Captain Vachon, Scarlet Friar
+  kill 1664 quest 371.1 @79.4,56.2 map 1420
+  kill 1538 x5 quest 371.2 @79.4,56.2 map 1420
+step
+  turnin 371
+step
+  tip Kill: Vampiric Duskbat, Cursed Darkhound
+  collect 278242 x8 quest 97558.1 @72.8,28.5 map 1420
+  collect 278243 x6 quest 97558.2 @72.8,28.5 map 1420
+  collect 278244 x3 quest 97558.3 @72.8,28.5 map 1420
+step
+  turnin 97558
+step
+  only Paladin
+  tip Shari Stilwell is right here: pick up your new Paladin spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  tip Kill: Dark Neophyte, Dark Enforcer
+  kill 267006 x8 quest 96897.1 @68,64.4 map 1420
+  kill 275437 x8 quest 96897.2 @68,64.4 map 1420
+  kill 1547 quest 96897.3 @68,64.4 map 1420
+step
+  tip Kill: Dark Enforcer
+  collect 275851 x12 quest 96898.1 @68,64.4 map 1420
+step
+  turnin 96897
+step
+  turnin 96898
+step
+  tip Kill: Riptear
+  collect 286326 quest 99156.1 @83.4,44.3 map 1420 optional -- Riptear is elite: grouping up is advised.
+step
+  turnin 99156
+step
+  tip Kill: Vile Fin Puddlejumper (about 58% drop chance)
+  collect 2859 x5 quest 368.1 @34.3,44.2 map 1420
+step
+  turnin 96899
+step
+  accept 96896
+step
+  turnin 96896
+step
+  turnin 368
+step
+  only Rogue
+  tip Marion Call is right here: pick up your new Rogue spells.
+  train class
+step
+  only Priest
+  tip Dark Cleric Beryl is right here: pick up your new Priest spells.
+  train class
+step
+  only Paladin
+  tip Shari Stilwell is right here: pick up your new Paladin spells.
+  train class
+step
+  only Paladin,Undead
+  accept 94427
+step
+  zone map 1458
+  only Paladin,Undead
+  turnin 94427
+step
+  zone map 1420
+  only Warrior
+  tip Austil de Mon is right here: pick up your new Warrior spells.
+  train class
+step
+  only Warlock
+  tip Rupert Boch is right here: pick up your new Warlock spells.
+  train class
+step
+  only Mage
+  tip Cain Firesong is right here: pick up your new Mage spells.
+  train class
+step
+  accept 369
+step
+  tip Kill: Vicious Night Web Spider (about 40% drop chance)
+  collect 2872 x4 quest 369.1 @87.3,51.2 map 1420
+step
+  turnin 369
+step
+  accept 492
+step
+  turnin 492
+step
+  zone map 1435
+  only Hunter
+  tip Time to train: head to Ogromm in Stonard for your new Hunter spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1456
+  only Druid
+  tip Time to train: head to Turak Runetotem in Thunder Bluff for your new Druid spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1435
+  only Shaman
+  tip Time to train: head to Haromm in Stonard for your new Shaman spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1421
+  goto 43.4,40.9 "Travel to Silverpine Forest" map 1421
+step
+  tip Talk to Innkeeper Bates and make this inn your home.
+  sethome "The Sepulcher"
+step
+  tip Optional: skip it if you don't take it.
+  accept 428
+step
+  getfp "The Sepulcher"
+step
+  accept 477
+step
+  accept 437
+step
+  turnin 445
+step
+  accept 91921
+step
+  only Undead
+  accept 6321
+step
+  accept 98298
+step
+  accept 421
+step
+  only Undead
+  turnin 6321
+step
+  turnin 477
+step
+  accept 478
+step
+  turnin 478
+step
+  accept 481
+step
+  turnin 481
+step
+  accept 482
+step
+  turnin 482
+step
+  accept 479
+step
+  tip Kill: Nightlash
+  collect 3622 quest 437.1 @45,21 map 1421
+step
+  tip Kill: Moonrage Whitescalp
+  kill 1769 x5 quest 421.1 @53.6,22.5 map 1421
+step
+  turnin 428
+step
+  turnin 91921
+step
+  accept 435
+step
+  complete 435 @54.4,13.4 map 1421
+step
+  turnin 435
+step
+  accept 449
+step
+  tip Starts from A Talking Head, which drops in this area.
+  accept 460 @65.7,24 map 1421
+step
+  turnin 460
+step
+  turnin 421
+step
+  accept 422
+step
+  turnin 437
+step
+  turnin 449
+step
+  accept 438
+step
+  accept 3221
+step
+  turnin 3221
+step
+  turnin 438
+step
+  accept 439
+step
+  collect 3155 quest 422.1 @52.8,28.6 map 1421
+step
+  turnin 422
+step
+  accept 423
+step
+  turnin 439
+step
+  tip Kill: Moonrage Glutton, Moonrage Darksoul (about 47% drop chance)
+  collect 3156 x6 quest 423.1 @57.3,45.7 map 1421
+  collect 3157 x3 quest 423.2 @57.3,45.7 map 1421
+step
+  turnin 423
+step
+  accept 424
+step
+  tip Grimson the Pale has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Grimson the Pale
+  collect 3634 quest 424.1 @58.6,44.9 map 1421
+step
+  turnin 424
+step
+  accept 461
+step
+  turnin 461
+step
+  tip Kill: Dalaran Mage (about 39% drop chance)
+  collect 3354 x8 quest 479.1 @60.2,65.2 map 1421
+step
+  tip Kill: Moonrage Bloodhowler
+  collect 280375 x6 quest 98298.1 @50.8,77 map 1421
+step
+  turnin 479
+step
+  turnin 98298
+step
+  zone map 1413
+  goto 51.5,30.34 "Travel to Crossroads, The Barrens - take the zeppelin (Orgrimmar <-> Undercity / Grom'gol)" map 1413

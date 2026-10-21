@@ -1,0 +1,355 @@
+guide mittenquest/alliance/27-31-wetlands
+title "Alliance 27-31 Wetlands"
+levels 27-31
+zone map 1437
+coords era
+faction Alliance
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/alliance/31-35-stormwind-city-ironforge
+step
+  tip Talk to Innkeeper Helbrek and make this inn your home.
+  sethome "Menethil Harbor"
+step
+  accept 98230
+step
+  accept 98221
+step
+  turnin 98221
+step
+  accept 472
+step
+  accept 98815
+step
+  when onquest 98815
+  tip Dungeon: Excavation Site: Wetlands. Find a group for Excavation Site: Wetlands. Quests you skip there are dropped automatically.
+  complete 98815 @47.79,56.16 map 1437
+step
+  turnin 98815
+step
+  accept 98240
+step
+  tip Kill: Mottled Scytheclaw, Mottled Razormaw
+  kill 1022 x10 quest 295.1
+  kill 1023 x10 quest 295.2 @33.9,48.3 map 1437
+step
+  collect 2658 quest 299.1 @34.2,47.6 map 1437
+  collect 2659 quest 299.2 @34.2,47.6 map 1437
+  collect 2660 quest 299.3 @34.2,47.6 map 1437
+  collect 2661 quest 299.4 @34.2,47.6 map 1437
+step
+  turnin 295
+step
+  accept 296
+step
+  accept 98310
+step
+  turnin 299
+step
+  accept 98824
+step
+  accept 98313
+step
+  accept 98216
+step
+  tip Sarltooth has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Sarltooth
+  collect 3638 quest 296.1 @33.3,51.5 map 1437
+step
+  turnin 296
+step
+  turnin 98230
+step
+  turnin 98240
+step
+  accept 98291
+step
+  accept 98245
+step
+  accept 95646
+step
+  accept 98283
+step
+  tip Kill: Maddened Rotclaw, Carnage
+  collect 280331 quest 98283.1 @62,39.5 map 1437
+  collect 280330 quest 98283.2 @62,39.5 map 1437
+step
+  turnin 98283
+step
+  tip Kill: Highland Razormaw
+  collect 280103 x10 quest 98245.1 @68.1,32.9 map 1437
+step
+  tip Kill: Dragonmaw Reclaimer, Dragonmaw Soulbinder
+  kill 271351 x8 quest 98291.1 @73.6,46.7 map 1437 optional -- Dragonmaw Reclaimer is elite: grouping up is advised.
+  kill 271348 x5 quest 98291.2 @73.6,46.7 map 1437 optional -- Dragonmaw Soulbinder is elite: grouping up is advised.
+  kill 271346 x3 quest 98291.3 @73.6,46.7 map 1437 optional -- Dragonmaw Infiltrator is elite: grouping up is advised.
+step
+  turnin 98291
+step
+  turnin 98245
+step
+  accept 98223
+step
+  turnin 472
+step
+  accept 631
+step
+  accept 87491
+step
+  turnin 87491
+step
+  accept 87318
+step
+  accept 88758
+step
+  turnin 87318
+step
+  turnin 631
+step
+  accept 632
+step
+  turnin 88758
+step
+  turnin 632
+step
+  tip Kill: Fen Creeper
+  kill 1040 x12 quest 275.1 @27.4,37.1 map 1437
+step
+  tip Kill: Giant Wetlands Crocolisk (about 87% drop chance)
+  collect 3348 x6 quest 471.1 @18.4,27 map 1437
+step
+  turnin 471
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 464
+step
+  turnin 98223
+step
+  tip Kill: Goaz Warder
+  collect 279993 quest 98216.1 @34.5,50.8 map 1437
+step
+  turnin 98216
+step
+  when onquest 464
+  tip Kill: Dragonmaw Raider (about 38% drop chance)
+  collect 3337 x8 quest 464.1 @44.9,44.7 map 1437
+step
+  turnin 275
+step
+  hearth "Menethil Harbor"
+step
+  when onquest 464
+  turnin 464
+step
+  accept 465
+step
+  turnin 465
+step
+  when onquest 95646,98824
+  tip Dungeon: Excavation Site: Wetlands. Find a group for Excavation Site: Wetlands. Quests you skip there are dropped automatically.
+  complete 95646 @47.79,56.16 map 1437
+  complete 98824 @47.79,56.16 map 1437
+step
+  accept 98300
+step
+  turnin 95646
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 303
+step
+  tip Kill: Ados, Modr
+  collect 280395 quest 98310.1 @50.7,17.9 map 1437
+  collect 280396 quest 98310.2 @50.7,17.9 map 1437
+  collect 280397 quest 98310.3 @50.7,17.9 map 1437
+  collect 280398 quest 98310.4 @50.7,17.9 map 1437
+step
+  when onquest 303
+  tip Kill: Dark Iron Dwarf, Dark Iron Tunneler
+  kill 1051 x10 quest 303.1 optional -- Dark Iron Dwarf is elite: grouping up is advised.
+  kill 1053 x5 quest 303.2 @61.5,26.2 map 1437 optional -- Dark Iron Tunneler is elite: grouping up is advised.
+  kill 1052 x5 quest 303.3 @61.5,26.2 map 1437 optional -- Dark Iron Saboteur is elite: grouping up is advised.
+  kill 1054 x5 quest 303.4 @61.5,26.2 map 1437 optional -- Dark Iron Demolitionist is elite: grouping up is advised.
+step
+  when onquest 303
+  turnin 303
+step
+  accept 378
+step
+  zone map 1453
+  when onquest 378
+  tip Dungeon: The Stockade. Find a group for The Stockade. Quests you skip there are dropped automatically.
+  complete 378 @52.41,70.01 map 1453
+step
+  zone map 1437
+  turnin 378
+step
+  turnin 98310
+step
+  accept 1302
+step
+  tip Optional: skip it if you don't take it.
+  accept 1132
+step
+  zone map 1455
+  only Mage
+  tip Time to train: head to Dink in Ironforge for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1453
+  only Priest
+  tip Time to train: head to High Priestess Laurena in Stormwind City for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warlock
+  tip Time to train: head to Demisette Cloyce in Stormwind City for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warlock
+  tip Optional: skip it if you don't take it.
+  accept 4738
+step
+  zone map 1413
+  only Warlock
+  when onquest 4738
+  turnin 4738
+step
+  only Warlock
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 1740
+step
+  only Warlock
+  when onquest 1740
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Twilight Acolyte, Shadowfang Darksoul
+  collect 6914 x3 quest 1740.1 @49.3,57.2 map 1413 optional -- Twilight Acolyte is elite: grouping up is advised.
+  collect 6915 quest 1740.2 @49.3,57.2 map 1413 optional -- Shadowfang Darksoul is elite: grouping up is advised.
+step
+  only Warlock
+  when onquest 1740
+  turnin 1740
+step
+  only Warlock
+  accept 1758
+step
+  zone map 1455
+  only Warlock
+  turnin 1758
+step
+  only Warlock
+  tip Optional: skip it if you don't take it.
+  accept 1798
+step
+  zone map 1413
+  only Warlock
+  when onquest 1798
+  turnin 1798
+step
+  zone map 1455
+  only Warlock
+  accept 1802
+step
+  zone map 1424
+  only Warlock
+  collect 6931 quest 1802.1 @27.8,72.8 map 1424
+  collect 6997 quest 1802.2 @27.8,72.8 map 1424
+step
+  zone map 1455
+  only Warlock
+  turnin 1802
+step
+  only Warlock
+  accept 1804
+step
+  zone map 1437
+  only Warlock
+  tip Kill: Dragonmaw Bonewarder (about 20% drop chance)
+  collect 6930 x3 quest 1804.1 @47.6,47 map 1437
+step
+  zone map 1413
+  only Warlock
+  turnin 1804
+step
+  only Warlock
+  accept 1795
+step
+  only Warlock
+  tip Summoned Felhunter has only one spawn point. If others are waiting for it, group up to share it. Kill: Summoned Felhunter
+  kill 6268 quest 1795.1 @62.6,35.3 map 1413
+step
+  only Warlock
+  turnin 1795
+step
+  only Warlock
+  accept 1796
+step
+  only Warlock
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC).
+  collect 5770 quest 1796.1 @62.5,35.5 map 1413
+step
+  only Warlock
+  turnin 1796
+step
+  only Warlock
+  accept 4781
+step
+  zone map 1434
+  only Warlock
+  collect 3577 quest 4781.1 @44.3,45.1 map 1434
+step
+  only Warlock
+  turnin 4781
+step
+  only Warlock
+  accept 4782
+step
+  zone map 1413
+  only Warlock
+  turnin 4782
+step
+  zone map 1453
+  only Warrior
+  tip Time to train: head to Ander Germaine in Stormwind City for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Paladin
+  tip Time to train: head to Lord Grayson Shadowbreaker in Stormwind City for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Druid
+  tip Time to train: head to Sheldras Moontree in Stormwind City for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1455
+  only Rogue
+  tip Time to train: head to Hulfdan Blackbeard in Ironforge for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1453
+  only Hunter
+  tip Time to train: head to Einris Brightspear in Stormwind City for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1455
+  only Shaman
+  tip Time to train: head to Eldrun Stormbreaker in Ironforge for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Shaman
+  accept 94789
+step
+  zone map 1417
+  only Shaman
+  turnin 94789
+step
+  only Shaman
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 96264
+step
+  only Shaman
+  when onquest 96264
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Charlga Razorflank
+  collect 274463 quest 96264.1 @59.8,27.6 map 1417 optional -- Charlga Razorflank is elite: grouping up is advised.
+step
+  only Shaman
+  when onquest 96264
+  turnin 96264
+step
+  fly "Stormwind"

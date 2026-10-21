@@ -1,0 +1,346 @@
+guide mittenquest/horde/42-46-feralas-tanaris-stranglethorn-vale
+title "Horde 42-46 Feralas, Tanaris, Stranglethorn Vale"
+levels 42-46
+zone map 1444
+coords era
+faction Horde
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/horde/46-50-desolace-feralas-the-hinterlands
+step
+  collect 9463 x12 quest 2987.1 @76.5,33.1 map 1444
+step
+  only Druid
+  tip Jannos Lighthoof is right here: pick up your new Druid spells.
+  train class
+step
+  tip Kill: Gordunni Ogre, Gordunni Ogre Mage
+  kill 5229 x10 quest 2975.1 @75.2,28.5 map 1444
+  kill 5237 x10 quest 2975.2 @75.2,28.5 map 1444
+  kill 5232 x5 quest 2975.3 @75.2,28.5 map 1444
+step
+  turnin 2975
+step
+  accept 2979
+step
+  accept 2980
+step
+  turnin 2987
+step
+  tip Kill: Woodpaw Alpha
+  kill 5258 x5 quest 2863.1 @73.3,56.2 map 1444
+step
+  tip Starts from OOX-22/FE Distress Beacon, which drops in this area.
+  accept 2766 @73.1,56.9 map 1444
+step
+  tip Kill: Gordunni Shaman, Gordunni Warlock
+  kill 5236 x10 quest 2980.1
+  kill 5240 x10 quest 2980.2 @61.1,57.5 map 1444
+  kill 5234 x5 quest 2980.3 @61.1,57.5 map 1444
+step
+  turnin 2766
+step
+  turnin 2863
+step
+  accept 2902
+step
+  turnin 2980
+step
+  accept 2973
+step
+  turnin 2902
+step
+  accept 2903
+step
+  turnin 2903
+step
+  accept 7730
+step
+  tip Kill: Sprite Darter (about 41% drop chance)
+  collect 9369 x10 quest 2973.1 @68.4,47.9 map 1444
+step
+  turnin 2973
+step
+  accept 2974
+step
+  tip Kill: Grimtotem Shaman (about 46% drop chance)
+  collect 9460 x20 quest 2974.1 @68.1,46.1 map 1444
+step
+  turnin 2974
+step
+  accept 7731
+step
+  tip Kill: Zukk'ash Worker
+  collect 18961 x20 quest 7730.1 @74.2,60.8 map 1444
+step
+  turnin 7730
+step
+  accept 2822
+step
+  accept 2767
+step
+  complete 2767 @45.6,43.4 map 1444
+step
+  zone map 1454
+  only Rogue
+  tip Time to train: head to Gest in Orgrimmar for your new Rogue spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  zone map 1456
+  only Paladin
+  tip Time to train: head to Alodan the Hopeful in Thunder Bluff for your new Paladin spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  only Warrior
+  tip Time to train: head to Torm Ragetotem in Thunder Bluff for your new Warrior spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  zone map 1454
+  only Shaman
+  tip Time to train: head to Sian'tsu in Orgrimmar for your new Shaman spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  fly "Gadgetzan"
+step
+  zone map 1446
+  tip Kill: Wastewander Bandit, Wastewander Thief
+  kill 5618 x10 quest 1690.1 @63.8,31.4 map 1446
+  kill 5616 x10 quest 1690.2 @63.8,31.4 map 1446
+step
+  tip Kill: Wastewander Shadow Mage (about 53% drop chance)
+  collect 8483 x5 quest 1707.1 @60.8,38.7 map 1446
+step
+  turnin 1690
+step
+  accept 1691
+step
+  turnin 1707
+step
+  tip Kill: Wastewander Rogue, Wastewander Assassin
+  kill 5615 x8 quest 1691.1 @61.7,38.2 map 1446
+  kill 5623 x6 quest 1691.2
+  kill 5617 x10 quest 1691.3
+step
+  turnin 1691
+step
+  accept 2768
+step
+  accept 2873
+step
+  accept 8366
+step
+  accept 2875
+step
+  accept 8365
+step
+  tip Kill: Southsea Pirate (about 35% drop chance)
+  collect 20519 x20 quest 8365.1 @72,45.8 map 1446
+step
+  collect 9244 quest 2873.1 @72.2,46.8 map 1446
+step
+  tip Andre Firebeard has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Andre Firebeard
+  collect 9246 quest 2875.1 @73.4,47.1 map 1446
+step
+  tip Kill: Southsea Pirate, Southsea Freebooter
+  kill 7855 x10 quest 8366.1 @74,46.6 map 1446
+  kill 7856 x10 quest 8366.2 @74,46.6 map 1446
+  kill 7857 x10 quest 8366.3 @74,46.6 map 1446
+  kill 7858 x10 quest 8366.4
+step
+  turnin 2873
+step
+  accept 2874
+step
+  turnin 8366
+step
+  turnin 2875
+step
+  turnin 8365
+step
+  fly "Booty Bay"
+step
+  zone map 1434
+  accept 348
+step
+  turnin 2874
+step
+  turnin 2767
+step
+  tip Kill: Naga Explorer
+  kill 1907 x10 quest 573.1 @26.2,62.4 map 1434
+  collect 737 quest 573.2
+step
+  tip Mokk the Savage has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Mokk the Savage
+  collect 2797 quest 348.1 @35,60.9 map 1434
+step
+  tip Kill: Zanzil Witch Doctor
+  collect 4016 x12 quest 621.1 @38.7,56.6 map 1434
+step
+  turnin 348
+step
+  turnin 621
+step
+  turnin 573
+step
+  only Hunter
+  tip Kragg is right here: pick up your new Hunter spells.
+  train class
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 340
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 341
+step
+  when onquest 340
+  tip Negolash has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Bookie Herod, Negolash (about 3% drop chance)
+  collect 2734 quest 340.1 @45,8.4 map 1434
+  collect 2735 quest 340.2 @45,8.4 map 1434
+  collect 2738 quest 340.3
+  collect 2740 quest 340.4 @45,8.4 map 1434
+step
+  when onquest 341
+  tip Roloch has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Roloch, Bookie Herod
+  collect 2742 quest 341.1 @45,8.4 map 1434
+  collect 2744 quest 341.2 @45,8.4 map 1434
+  collect 2745 quest 341.3 @45,8.4 map 1434
+  collect 2748 quest 341.4
+step
+  when onquest 340
+  turnin 340
+step
+  when onquest 341
+  turnin 341
+step
+  zone map 1458
+  only Warlock
+  tip Time to train: head to Kaal Soulreaper in Undercity for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1425
+  goto 79.2,79.5 "Travel to The Hinterlands" map 1425
+step
+  accept 7828
+step
+  getfp "Revantusk Village"
+step
+  accept 7829
+step
+  accept 7830
+step
+  tip Starts from OOX-09/HL Distress Beacon, which drops in this area.
+  accept 485 @56.8,50.8 map 1425
+step
+  turnin 485
+step
+  fly "Undercity"
+step
+  zone map 1458
+  turnin 2342
+step
+  turnin 3341
+step
+  only Mage
+  tip Kaelystia Hatebringer is right here: pick up your new Mage spells.
+  train class
+step
+  accept 232
+step
+  turnin 232
+step
+  accept 238
+step
+  turnin 238
+step
+  accept 243
+step
+  turnin 1048
+step
+  fly "Revantusk Village"
+step
+  zone map 1425
+  accept 7841
+step
+  fly "Gadgetzan"
+step
+  zone map 1446
+  accept 992
+step
+  turnin 243
+step
+  accept 379
+step
+  tip Kill: Wastewander Shadow Mage (about 53% drop chance)
+  collect 8483 x5 quest 379.1 @60.8,38.7 map 1446
+step
+  turnin 379
+step
+  collect 8585 quest 992.1 @39,29 map 1446
+step
+  turnin 992
+step
+  accept 82
+step
+  accept 2781
+step
+  tip Caliph Scorpidsting has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Caliph Scorpidsting
+  collect 8723 quest 2781.1 @61.8,38.2 map 1446
+step
+  turnin 2781
+step
+  tip Starts from OOX-17/TN Distress Beacon, which drops in this area.
+  accept 351 @74,46.6 map 1446
+step
+  turnin 351
+step
+  tip Kill: Centipaar Wasp
+  collect 8587 x5 quest 82.1 @33.3,44.4 map 1446
+step
+  turnin 82
+step
+  accept 10
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 46
+step
+  accept 3161
+step
+  when onquest 2768,2865,3042
+  tip Dungeon: Zul'Farrak. Find a group for Zul'Farrak. Quests you skip there are dropped automatically.
+  complete 2768 @38.7,20.1 map 1446
+  complete 2865 @38.7,20.1 map 1446
+  complete 3042 @38.7,20.1 map 1446
+step
+  turnin 3042
+step
+  turnin 2768
+step
+  turnin 2865
+step
+  collect 8593 quest 10.1 @56,71.2 map 1446
+step
+  collect 8443 x30 quest 3161.1 @41.5,73.7 map 1446
+step
+  turnin 3161
+step
+  turnin 10
+step
+  accept 110
+step
+  turnin 110
+step
+  accept 113
+step
+  turnin 113
+step
+  zone map 1454
+  only Priest
+  tip Time to train: head to X'yera in Orgrimmar for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1456
+  only Druid
+  tip Time to train: head to Turak Runetotem in Thunder Bluff for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Shadowprey Village"

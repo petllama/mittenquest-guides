@@ -1,0 +1,508 @@
+guide mittenquest/alliance/23-27-redridge-mountains-duskwood
+title "Alliance 23-27 Redridge Mountains, Duskwood"
+levels 23-27
+zone map 1433
+coords era
+faction Alliance
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/alliance/27-31-wetlands
+step
+  accept 95999
+step
+  accept 91
+step
+  accept 180
+step
+  accept 386
+step
+  accept 34
+step
+  tip Bellygrub has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Bellygrub
+  collect 3631 quest 34.1 @10.6,49.3 map 1433
+step
+  turnin 34
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 20
+step
+  getfp "Lakeshire"
+step
+  accept 128
+step
+  when onquest 20
+  tip Kill: Blackrock Grunt (about 46% drop chance)
+  collect 3014 x10 quest 20.1 @56,43.4 map 1433
+step
+  tip Kill: Rabid Shadowhide Gnoll (about 41% drop chance)
+  collect 1075 x10 quest 91.1 @70.5,46.9 map 1433
+step
+  when onquest 20
+  turnin 20
+step
+  when turnedin 20
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 115
+step
+  turnin 91
+step
+  accept 219
+step
+  tip Kill: Blackrock Champion
+  kill 435 x15 quest 128.1 @25.3,9.9 map 1433
+step
+  complete 219 @28.3,48.7 map 1433
+step
+  turnin 219
+step
+  turnin 128
+step
+  when onquest 115
+  tip Kill: Blackrock Shadowcaster (about 53% drop chance)
+  collect 1261 x3 quest 115.1 @63.5,55.6 map 1433 optional -- Blackrock Shadowcaster is elite: grouping up is advised.
+step
+  tip Kill: Incinerator Gar'im
+  collect 271872 quest 95999.1 @71.5,84.3 map 1433 optional -- Incinerator Gar'im is elite: grouping up is advised.
+step
+  when onquest 115
+  turnin 115
+step
+  turnin 95999
+step
+  zone map 1453
+  when onquest 386
+  tip Dungeon: The Stockade. Find a group for The Stockade. Quests you skip there are dropped automatically.
+  complete 386 @52.41,70.01 map 1453
+step
+  zone map 1433
+  turnin 386
+step
+  tip Lieutenant Fangore has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Lieutenant Fangore
+  collect 3632 quest 180.1 @75.1,37.1 map 1433
+step
+  turnin 180
+step
+  zone map 1453
+  only Priest
+  tip Time to train: head to High Priestess Laurena in Stormwind City for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  tip Time to train: head to Ander Germaine in Stormwind City for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1433
+  only Warrior
+  accept 1699
+step
+  only Warrior
+  complete 1699 @14.1,24.7 map 1433
+step
+  only Warrior
+  turnin 1699
+step
+  only Warrior
+  accept 1702
+step
+  zone map 1453
+  only Warrior
+  turnin 1702
+step
+  only Druid
+  tip Time to train: head to Sheldras Moontree in Stormwind City for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1431
+  goto 75.8,47.6 "Travel to Duskwood" map 1431
+step
+  accept 173
+step
+  getfp "Darkshire"
+step
+  accept 66
+step
+  accept 101
+step
+  accept 56
+step
+  turnin 66
+step
+  accept 377
+step
+  tip Optional: skip it if you don't take it.
+  accept 165
+step
+  turnin 95161
+step
+  zone map 1453
+  when onquest 377
+  tip Dungeon: The Stockade. Find a group for The Stockade. Quests you skip there are dropped automatically.
+  complete 377 @52.41,70.01 map 1453
+step
+  zone map 1431
+  turnin 377
+step
+  tip Starts from Merrick's Bow, which drops in this area.
+  accept 96138 @61.9,64.2 map 1431
+step
+  tip Kill: Flesh Eater, Green Recluse (about 15% drop chance)
+  collect 1129 x10 quest 101.1
+  collect 1130 x5 quest 101.2
+  collect 2378 x10 quest 101.3 @78.6,70.8 map 1431
+step
+  tip Kill: Skeletal Warrior, Skeletal Mage
+  kill 48 x8 quest 56.1 @79.5,71.2 map 1431
+  kill 203 x6 quest 56.2 @79.5,71.2 map 1431
+step
+  turnin 56
+step
+  accept 57
+step
+  turnin 101
+step
+  turnin 165
+step
+  accept 148
+step
+  tip Starts from An Old History Book, which drops in this area.
+  accept 337 @16.4,34.1 map 1431
+step
+  accept 95
+step
+  tip Kill: Skeletal Fiend, Skeletal Horror
+  kill 531 x15 quest 57.1 @20.6,46.4 map 1431
+  kill 202 x15 quest 57.2 @20.6,46.4 map 1431
+step
+  turnin 95
+step
+  accept 230
+step
+  tip Kill: Nightbane Shadow Weaver
+  kill 533 x6 quest 173.1 @63.3,70.3 map 1431
+step
+  turnin 57
+step
+  turnin 173
+step
+  accept 221
+step
+  turnin 148
+step
+  accept 149
+step
+  turnin 149
+step
+  accept 154
+step
+  turnin 154
+step
+  accept 157
+step
+  turnin 157
+step
+  accept 158
+step
+  turnin 230
+step
+  accept 262
+step
+  tip Kill: Splinter Fist Warrior, Splinter Fist Taskmaster
+  kill 212 quest 96138.1 @33.8,70.5 map 1431
+  kill 892 quest 96138.2 @33.8,70.5 map 1431
+step
+  turnin 96138
+step
+  turnin 158
+step
+  accept 156
+step
+  turnin 262
+step
+  accept 265
+step
+  turnin 265
+step
+  accept 266
+step
+  turnin 266
+step
+  accept 453
+step
+  tip Kill: Skeletal Horror (about 24% drop chance)
+  collect 1598 x8 quest 156.1 @80.6,59.4 map 1431
+step
+  turnin 156
+step
+  accept 159
+step
+  turnin 159
+step
+  accept 133
+step
+  tip Kill: Bone Chewer (about 14% drop chance)
+  collect 884 x7 quest 133.1 @23.2,32.8 map 1431
+step
+  turnin 133
+step
+  turnin 453
+step
+  accept 268
+step
+  turnin 268
+step
+  accept 323
+step
+  tip Kill: Skeletal Raider, Skeletal Healer
+  kill 1110 x15 quest 323.1 @16.1,37.3 map 1431
+  kill 787 x3 quest 323.2 @16.1,37.3 map 1431
+  kill 785 x3 quest 323.3 @16.1,37.3 map 1431
+step
+  turnin 323
+step
+  accept 269
+step
+  tip Kill: Nightbane Dark Runner
+  kill 205 x12 quest 221.1 @64,73.7 map 1431
+step
+  turnin 221
+step
+  zone map 1455
+  only Mage
+  tip Time to train: head to Dink in Ironforge for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Mage,Human,Gnome
+  tip Optional: skip it if you don't take it.
+  accept 1939
+step
+  zone map 1453
+  only Mage,Human,Gnome
+  when onquest 1939
+  turnin 1939
+step
+  only Mage,Human,Gnome
+  accept 1938
+step
+  zone map 1433
+  only Mage,Human,Gnome
+  collect 7266 quest 1938.1 @73.8,47.6 map 1433
+step
+  zone map 1453
+  only Mage,Human,Gnome
+  turnin 1938
+step
+  only Mage,Human,Gnome
+  accept 1940
+step
+  zone map 1431
+  only Mage,Human,Gnome
+  tip Kill: Carrion Recluse (about 5% drop chance)
+  collect 7267 x8 quest 1940.1 @18.9,42.1 map 1431
+step
+  zone map 1453
+  only Mage,Human,Gnome
+  turnin 1940
+step
+  only Mage,Human,Gnome
+  accept 1942
+step
+  only Mage,Human,Gnome
+  turnin 1942
+step
+  only Warlock
+  tip Time to train: head to Demisette Cloyce in Stormwind City for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  tip Time to train: head to Ander Germaine in Stormwind City for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  when turnedin 1702
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 1701
+step
+  zone map 1437
+  only Warrior
+  when onquest 1701
+  tip Chimaera Matriarch has only one spawn point. If others are waiting for it, group up to share it. Kill: Leech Stalker, Fledgling Chimaera
+  collect 6838 x50 quest 1701.1 @55.3,63.7 map 1437
+  collect 6839 x12 quest 1701.2 @55.3,63.7 map 1437
+  collect 6840 quest 1701.3 @55.3,63.7 map 1437
+  collect 6841 quest 1701.4 @55.3,63.7 map 1437 optional -- Roogug is elite: grouping up is advised.
+step
+  zone map 1453
+  only Warrior
+  when onquest 1701
+  turnin 1701
+step
+  only Warrior
+  accept 1782
+step
+  only Warrior
+  turnin 1782
+step
+  only Warrior,Human
+  when turnedin 1782
+  tip Optional: skip it if you don't take it.
+  accept 1700
+step
+  only Warrior,Human
+  when onquest 1700
+  turnin 1700
+step
+  only Warrior,NightElf
+  when turnedin 1782
+  tip Optional: skip it if you don't take it.
+  accept 1703
+step
+  zone map 1457
+  only Warrior,NightElf
+  when onquest 1703
+  turnin 1703
+step
+  zone map 1453
+  only Warrior,Dwarf,Gnome
+  when turnedin 1782
+  tip Optional: skip it if you don't take it.
+  accept 1704
+step
+  zone map 1455
+  only Warrior,Dwarf,Gnome
+  when onquest 1704
+  turnin 1704
+step
+  only Warrior
+  tip Optional: skip it if you don't take it.
+  accept 1698
+step
+  zone map 1433
+  only Warrior
+  when onquest 1698
+  turnin 1698
+step
+  zone map 1453
+  only Warrior
+  accept 1705
+step
+  zone map 1431
+  only Warrior
+  tip Gutspill has only one spawn point. If others are waiting for it, group up to share it. Kill: Nightbane Tainted One, Gutspill (about 6% drop chance)
+  collect 6844 x20 quest 1705.1 @62.3,82.2 map 1431
+  collect 6845 quest 1705.2
+step
+  zone map 1453
+  only Warrior
+  turnin 1705
+step
+  zone map 1455
+  only Warrior
+  accept 1708
+step
+  zone map 1437
+  only Warrior
+  collect 6848 x20 quest 1708.1 @9.3,68.3 map 1437
+step
+  zone map 1455
+  only Warrior
+  turnin 1708
+step
+  zone map 1453
+  only Warrior
+  accept 1706
+step
+  only Warrior
+  turnin 1706
+step
+  zone map 1455
+  only Warrior
+  accept 1709
+step
+  only Warrior
+  turnin 1709
+step
+  zone map 1457
+  only Warrior
+  accept 1710
+step
+  zone map 1441
+  only Warrior
+  collect 6849 x20 quest 1710.1 @11.4,36.8 map 1441
+step
+  zone map 1457
+  only Warrior
+  turnin 1710
+step
+  only Warrior
+  accept 1711
+step
+  only Warrior
+  turnin 1711
+step
+  zone map 1453
+  only Paladin
+  tip Time to train: head to Lord Grayson Shadowbreaker in Stormwind City for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Paladin,Human,Dwarf
+  accept 78090
+step
+  only Paladin,Human,Dwarf
+  turnin 78090
+step
+  only Paladin,Human,Dwarf
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 78091
+step
+  zone map 1433
+  only Paladin,Human,Dwarf
+  when onquest 78091
+  tip Kill: Incinerator Gar'im
+  collect 209778 x14 quest 78091.1 @71.5,84.3 map 1433
+step
+  zone map 1453
+  only Paladin,Human,Dwarf
+  when onquest 78091
+  turnin 78091
+step
+  only Paladin,Human,Dwarf
+  accept 78092
+step
+  zone map 1440
+  only Paladin,Human,Dwarf
+  tip Kill: Searing Infernal
+  collect 209779 x12 quest 78092.1 @79.4,82.3 map 1440
+step
+  only Paladin,Human,Dwarf
+  turnin 78092
+step
+  only Paladin,Human,Dwarf
+  accept 78089
+step
+  zone map 1453
+  only Paladin,Human,Dwarf
+  turnin 78089
+step
+  zone map 1440
+  only Paladin,Human,Dwarf
+  accept 78093
+step
+  only Paladin,Human,Dwarf
+  turnin 78093
+step
+  zone map 1455
+  only Rogue
+  tip Time to train: head to Hulfdan Blackbeard in Ironforge for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1453
+  only Hunter
+  tip Time to train: head to Einris Brightspear in Stormwind City for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1455
+  only Shaman
+  tip Time to train: head to Eldrun Stormbreaker in Ironforge for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Menethil Harbor"

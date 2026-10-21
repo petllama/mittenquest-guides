@@ -1,0 +1,423 @@
+guide mittenquest/alliance/19-23-wetlands-stormwind-city
+title "Alliance 19-23 Wetlands, Stormwind City"
+levels 19-23
+zone map 1437
+coords era
+faction Alliance
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/alliance/23-27-redridge-mountains-duskwood
+step
+  accept 484
+step
+  getfp "Menethil Harbor"
+step
+  accept 469
+step
+  turnin 469
+step
+  zone map 1453
+  goto 70.3,40.8 "Travel to Stormwind City" map 1453
+step
+  accept 167
+step
+  zone map 1436
+  when onquest 167
+  tip Dungeon: The Deadmines. Find a group for The Deadmines. Quests you skip there are dropped automatically.
+  complete 167 @42.5,71.7 map 1436
+step
+  zone map 1453
+  turnin 167
+step
+  accept 168
+step
+  zone map 1436
+  when onquest 168
+  tip Dungeon: The Deadmines. Find a group for The Deadmines. Quests you skip there are dropped automatically.
+  complete 168 @42.5,71.7 map 1436
+step
+  zone map 1453
+  turnin 168
+step
+  accept 2040
+step
+  zone map 1436
+  when onquest 2040
+  tip Dungeon: The Deadmines. Find a group for The Deadmines. Quests you skip there are dropped automatically.
+  complete 2040 @42.5,71.7 map 1436
+step
+  zone map 1453
+  turnin 2040
+step
+  accept 92750
+step
+  accept 95161
+step
+  only Priest
+  tip High Priestess Laurena is right here: pick up your new Priest spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Priest,Dwarf
+  accept 5645
+step
+  zone map 1455
+  only Priest,Dwarf
+  turnin 5645
+step
+  zone map 1453
+  only Priest,NightElf
+  accept 5673
+step
+  zone map 1457
+  only Priest,NightElf
+  turnin 5673
+step
+  zone map 1453
+  only Priest,Human
+  accept 5676
+step
+  only Priest,Human
+  turnin 5676
+step
+  only Priest,Gnome
+  accept 94819
+step
+  zone map 1455
+  only Priest,Gnome
+  turnin 94819
+step
+  zone map 1453
+  accept 343
+step
+  accept 97234
+step
+  only Druid
+  tip Sheldras Moontree is right here: pick up your new Druid spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  accept 97222
+step
+  getfp "Stormwind"
+step
+  turnin 97222
+step
+  turnin 92750
+step
+  only Warrior
+  tip Ander Germaine is right here: pick up your new Warrior spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Rogue
+  tip Osborne the Night Man is right here: pick up your new Rogue spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1429
+  only Rogue
+  accept 2300
+step
+  zone map 1453
+  only Rogue
+  turnin 2300
+step
+  only Rogue
+  accept 2360
+step
+  zone map 1436
+  only Rogue
+  turnin 2360
+step
+  only Rogue
+  accept 2359
+step
+  only Rogue
+  tip Malformed Defias Drone has only one spawn point. If others are waiting for it, group up to share it. Kill: Malformed Defias Drone
+  collect 7908 quest 2359.1 @69.5,74 map 1436
+  collect 7923 quest 2359.2 @69.5,74 map 1436
+step
+  zone map 1453
+  only Rogue
+  turnin 2359
+step
+  only Rogue
+  accept 2607
+step
+  only Rogue
+  turnin 2607
+step
+  only Rogue
+  accept 2608
+step
+  only Rogue
+  complete 2608 @80.1,70.1 map 1453
+step
+  only Rogue
+  turnin 2608
+step
+  only Rogue
+  accept 2609
+step
+  zone map 1413
+  only Rogue
+  tip Bernard Gump has only one spawn point. If others are waiting for it, group up to share it. Kill: Bernard Gump, Edna Mullby
+  collect 3421 quest 2609.1 @47.8,84.9 map 1413
+  collect 3372 quest 2609.2 @47.8,84.9 map 1413
+  collect 4371 quest 2609.3 @47.8,84.9 map 1413
+  collect 8431 quest 2609.4 @47.8,84.9 map 1413
+step
+  zone map 1453
+  only Rogue
+  turnin 2609
+step
+  accept 92751
+step
+  accept 98191
+step
+  turnin 343
+step
+  only Hunter
+  tip Einris Brightspear is right here: pick up your new Hunter spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  turnin 97234
+step
+  turnin 92751
+step
+  turnin 98191
+step
+  only Paladin
+  tip Lord Grayson Shadowbreaker is right here: pick up your new Paladin spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Mage
+  tip Time to train: head to Jennea Cannon in Stormwind City for your new Mage spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1429
+  only Mage,Human,Gnome
+  tip Optional: skip it if you don't take it.
+  accept 1919
+step
+  zone map 1453
+  only Mage,Human,Gnome
+  when onquest 1919
+  turnin 1919
+step
+  only Mage,Human,Gnome
+  accept 1920
+step
+  zone map 1458
+  only Mage,Human,Gnome
+  collect 7292 x3 quest 1920.1 @85.6,9.9 map 1458
+  collect 7247 quest 1920.2 @85.6,9.9 map 1458
+  collect 7308 quest 1920.3 @85.6,9.9 map 1458
+step
+  zone map 1453
+  only Mage,Human,Gnome
+  turnin 1920
+step
+  only Mage,Human,Gnome
+  accept 1921
+step
+  zone map 1429
+  only Mage,Human,Gnome
+  collect 2589 x10 quest 1921.1
+  collect 7249 x6 quest 1921.2 @76.4,85.8 map 1429
+step
+  zone map 1453
+  only Mage,Human,Gnome
+  turnin 1921
+step
+  only Mage,Human,Gnome
+  accept 1941
+step
+  only Mage,Human,Gnome
+  turnin 1941
+step
+  only Warlock
+  tip Time to train: head to Ursula Deline in Stormwind City for your new Warlock spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Warlock
+  accept 1716
+step
+  zone map 1413
+  only Warlock
+  turnin 1716
+step
+  only Warlock
+  accept 1738
+step
+  zone map 1440
+  only Warlock
+  collect 6912 quest 1738.1 @31.6,31.6 map 1440
+step
+  zone map 1453
+  only Warlock
+  turnin 1738
+step
+  only Warlock
+  accept 1739
+step
+  only Warlock
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Summoned Succubus
+  kill 5677 quest 1739.1
+step
+  only Warlock
+  turnin 1739
+step
+  zone map 1413
+  only Warlock
+  accept 65602
+step
+  zone map 1440
+  only Warlock
+  collect 190309 quest 65602.1 @26.6,22 map 1440
+step
+  zone map 1453
+  only Warlock
+  turnin 65602
+step
+  only Warlock
+  accept 65603
+step
+  zone map 1458
+  only Warlock
+  tip Kill: Summoned Incubus
+  kill 185335 quest 65603.1 @86.5,26.6 map 1458
+step
+  zone map 1453
+  only Warlock
+  turnin 65603
+step
+  zone map 1455
+  only Shaman
+  tip Time to train: head to Eldrun Stormbreaker in Ironforge for your new Shaman spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Shaman
+  accept 94494
+step
+  zone map 1432
+  only Shaman
+  turnin 94494
+step
+  only Shaman
+  accept 94616
+step
+  only Shaman
+  turnin 94616
+step
+  only Shaman
+  accept 94495
+step
+  zone map 1437
+  only Shaman
+  turnin 94495
+step
+  only Shaman
+  accept 94500
+step
+  only Shaman
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC).
+  collect 265773 quest 94500.1 @65.8,76.5 map 1437
+step
+  only Shaman
+  turnin 94500
+step
+  fly "Menethil Harbor"
+step
+  tip Optional: skip it if you don't take it.
+  accept 463
+step
+  accept 98282
+step
+  accept 470
+step
+  accept 98190
+step
+  accept 279
+step
+  accept 98189
+step
+  turnin 98189
+step
+  accept 305
+step
+  tip Gobbler has only 2 spawn points. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Bluegill Murloc, Gobbler
+  kill 1024 x12 quest 279.1 @15.3,39.8 map 1437
+  collect 3618 quest 279.2 @15.3,39.8 map 1437
+step
+  turnin 279
+step
+  accept 281
+step
+  turnin 281
+step
+  accept 284
+step
+  turnin 284
+step
+  accept 285
+step
+  turnin 285
+step
+  accept 286
+step
+  turnin 286
+step
+  turnin 305
+step
+  accept 306
+step
+  accept 294
+step
+  tip Kill: Mottled Raptor, Mottled Screecher
+  kill 1020 x10 quest 294.1 @27.2,46.8 map 1437
+  kill 1021 x10 quest 294.2
+step
+  turnin 294
+step
+  turnin 463
+step
+  accept 276
+step
+  tip Kill: Black Ooze
+  collect 3349 quest 470.1 @45,26.5 map 1437
+step
+  turnin 306
+step
+  turnin 470
+step
+  tip Kill: Leech Stalker
+  collect 280319 quest 98282.1 @55.3,63.7 map 1437
+step
+  tip Kill: Mosshide Gnoll, Mosshide Mongrel
+  kill 1007 x15 quest 276.1 @63.8,62.4 map 1437
+  kill 1008 x10 quest 276.2 @63.8,62.4 map 1437
+step
+  tip Kill: Young Wetlands Crocolisk (about 28% drop chance)
+  collect 3397 x4 quest 484.1 @64,73.6 map 1437
+step
+  turnin 276
+step
+  accept 277
+step
+  tip Kill: Mosshide Brute (about 47% drop chance)
+  collect 2611 x9 quest 277.1 @35,29.9 map 1437
+step
+  turnin 277
+step
+  accept 275
+step
+  turnin 98282
+step
+  turnin 484
+step
+  accept 471
+step
+  accept 295
+step
+  accept 299
+step
+  zone map 1433
+  goto 24.4,46.1 "Travel to Redridge Mountains" map 1433

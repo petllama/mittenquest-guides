@@ -1,0 +1,466 @@
+guide mittenquest/horde/38-42-stranglethorn-vale-undercity-swamp-of-sorrows
+title "Horde 38-42 Stranglethorn Vale, Undercity, Swamp of Sorrows"
+levels 38-42
+zone map 1434
+coords era
+faction Horde
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/horde/42-46-feralas-tanaris-stranglethorn-vale
+step
+  accept 209
+step
+  accept 600
+step
+  accept 606
+step
+  when turnedin 577
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 628
+step
+  accept 595
+step
+  turnin 595
+step
+  accept 597
+step
+  turnin 597
+step
+  accept 599
+step
+  accept 576
+step
+  accept 587
+step
+  turnin 599
+step
+  tip Kill: Shadowmaw Panther, Stranglethorn Tigress (about 4% drop chance)
+  collect 3838 x8 quest 570.1 @39.2,37.9 map 1434
+  collect 3839 quest 570.2 @39.2,37.9 map 1434
+step
+  tip Kill: Mosh'Ogg Brute, Mosh'Ogg Witch Doctor
+  kill 1142 x10 quest 569.1 @37.2,30.8 map 1434
+  kill 1144 x5 quest 569.2 @37.2,30.8 map 1434
+step
+  turnin 570
+step
+  accept 572
+step
+  turnin 569
+step
+  accept 596
+step
+  accept 629
+step
+  when onquest 628
+  tip Kill: Elder Saltwater Crocolisk
+  collect 4105 quest 628.1 @29.3,22.3 map 1434 optional -- Elder Saltwater Crocolisk is elite: grouping up is advised.
+step
+  collect 4094 quest 629.1 @24.8,22.9 map 1434
+step
+  turnin 629
+step
+  tip Sin'Dall has only 2 spawn points. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Sin'Dall
+  collect 3879 quest 188.1 @32.2,17.4 map 1434
+step
+  tip Kill: Bloodscalp Axe Thrower (about 22% drop chance)
+  collect 3915 x25 quest 596.1 @33.5,17 map 1434
+step
+  turnin 188
+step
+  accept 192
+step
+  tip Kill: Bloodscalp Headhunter (about 48% drop chance)
+  collect 1532 x20 quest 582.1 @22.9,10.2 map 1434
+step
+  turnin 582
+step
+  accept 584
+step
+  turnin 596
+step
+  accept 598
+step
+  tip Kill: Shadowmaw Panther
+  kill 684 x10 quest 192.1 @39.2,37.9 map 1434
+step
+  turnin 192
+step
+  when onquest 628
+  turnin 628
+step
+  zone map 1458
+  goto 49.1,70.1 "Travel to Undercity" map 1458
+step
+  accept 1109
+step
+  zone map 1413
+  when onquest 1109
+  tip Dungeon: Razorfen Kraul. Find a group for Razorfen Kraul. Quests you skip there are dropped automatically.
+  complete 1109 @42.9,90.2 map 1413
+step
+  zone map 1458
+  turnin 1109
+step
+  accept 1048
+step
+  accept 2342
+step
+  getfp "Undercity"
+step
+  accept 3341
+step
+  only Paladin
+  tip Time to train: head to Garen Largo in Undercity for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warlock
+  tip Time to train: head to Kaal Soulreaper in Undercity for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Booty Bay"
+step
+  zone map 1434
+  tip Kill: Bloodsail Warlock (about 42% drop chance)
+  collect 3910 x15 quest 587.1 @29.4,81.3 map 1434
+step
+  only Rogue
+  tip Ian Strom is right here: pick up your new Rogue spells.
+  train class
+step
+  turnin 587
+step
+  tip Starts from Cortello's Riddle, which drops in this area.
+  accept 624 @29.2,88.6 map 1434
+step
+  tip Kill: Elder Mistvale Gorilla (about 19% drop chance)
+  collect 3919 x5 quest 606.1 @33,64.8 map 1434
+step
+  turnin 606
+step
+  accept 607
+step
+  turnin 607
+step
+  tip Kill: Jungle Stalker (about 18% drop chance)
+  collect 3863 x10 quest 572.1 @31.4,42 map 1434
+step
+  turnin 572
+step
+  accept 571
+step
+  tip Kill: Venture Co. Surveyor (about 44% drop chance)
+  collect 3917 x10 quest 600.1 @42.1,44.5 map 1434
+step
+  tip Kill: Elder Mistvale Gorilla
+  collect 3862 quest 571.1 @33,64.8 map 1434
+step
+  turnin 600
+step
+  turnin 571
+step
+  tip Gan'zulah has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Gan'zulah, Nezzliok the Dire
+  collect 3904 quest 584.1 @23.4,8.1 map 1434
+  collect 3905 quest 584.2
+step
+  turnin 584
+step
+  accept 585
+step
+  collect 3906 quest 585.1
+  collect 3907 quest 585.2
+  collect 3908 quest 585.3 @47.6,39.5 map 1434
+step
+  turnin 585
+step
+  zone map 1435
+  goto 54.9,34.1 "Travel to Swamp of Sorrows" map 1435
+step
+  tip Starts from Noboru's Cudgel, which drops in this area.
+  accept 1392 @54.9,34.1 map 1435
+step
+  accept 1393
+step
+  complete 1393 @53.1,29.6 map 1435
+step
+  turnin 1393
+step
+  accept 698
+step
+  only Warrior
+  tip Malosh is right here: pick up your new Warrior spells.
+  train class
+step
+  only Shaman
+  tip Haromm is right here: pick up your new Shaman spells.
+  train class
+step
+  getfp "Stonard"
+step
+  turnin 624
+step
+  accept 93176
+step
+  turnin 93176
+step
+  turnin 1392
+step
+  accept 1389
+step
+  tip Kill: Sawtooth Crocolisk (about 24% drop chance)
+  collect 6169 x8 quest 698.1 @60.5,32.2 map 1435
+step
+  collect 6071 x6 quest 1389.1 @62.1,22.4 map 1435
+step
+  turnin 1389
+step
+  turnin 698
+step
+  accept 699
+step
+  tip Kill: Sawtooth Snapper (about 21% drop chance)
+  collect 6168 x6 quest 699.1 @81,19.8 map 1435
+step
+  turnin 699
+step
+  zone map 1456
+  only Druid
+  tip Time to train: head to Turak Runetotem in Thunder Bluff for your new Druid spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  fly "Booty Bay"
+step
+  zone map 1434
+  tip Optional: skip it if you don't take it.
+  accept 2864
+step
+  accept 621
+step
+  tip Kill: Bloodsail Warlock
+  collect 3897 quest 576.1 @29.4,81.3 map 1434
+step
+  turnin 576
+step
+  tip Kill: Skullsplitter Scout (about 18% drop chance)
+  collect 3916 x25 quest 598.1 @46.1,42.1 map 1434
+step
+  tip Kill: Skullsplitter Axe Thrower (about 30% drop chance)
+  collect 1524 x18 quest 209.1 @45,38.1 map 1434
+step
+  turnin 598
+step
+  only Hunter
+  tip Kragg is right here: pick up your new Hunter spells. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  accept 573
+step
+  when turnedin 192
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 193
+step
+  when onquest 193
+  tip Kill: Bhag'thera
+  collect 3876 quest 193.1 @49,23.4 map 1434 optional -- Bhag'thera is elite: grouping up is advised.
+step
+  when onquest 193
+  turnin 193
+step
+  turnin 209
+step
+  zone map 1458
+  only Warlock
+  tip Time to train: head to Kaal Soulreaper in Undercity for your new Warlock spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  only Warlock
+  accept 4489
+step
+  zone map 1413
+  only Warlock
+  turnin 4489
+step
+  only Warlock
+  accept 1799
+step
+  zone map 1443
+  only Warlock
+  tip Kill: Burning Blade Summoner
+  collect 7291 quest 1799.1 @80.5,77.8 map 1443
+step
+  zone map 1445
+  only Warlock
+  turnin 1799
+step
+  zone map 1413
+  only Warlock
+  accept 4962
+step
+  zone map 1443
+  only Warlock
+  tip Mana Eater has only 2 spawn points. If others are waiting for it, group up to share it. Kill: Mana Eater
+  collect 12648 quest 4962.1 @52.9,68.1 map 1443
+step
+  zone map 1413
+  only Warlock
+  turnin 4962
+step
+  zone map 1445
+  only Warlock
+  when turnedin 1799
+  when turnedin 4962
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 4961
+step
+  only Warlock
+  when onquest 4961
+  tip Demon of the Orb has only one spawn point. If others are waiting for it, group up to share it. Kill: Demon of the Orb
+  kill 6549 quest 4961.1 @45.8,57 map 1445 optional -- Demon of the Orb is elite: grouping up is advised.
+step
+  only Warlock
+  when onquest 4961
+  turnin 4961
+step
+  only Warlock
+  accept 4976
+step
+  zone map 1413
+  only Warlock
+  turnin 4976
+step
+  only Warlock
+  accept 4490
+step
+  only Warlock
+  turnin 4490
+step
+  zone map 1418
+  goto 42.4,52.9 "Travel to Badlands" map 1418
+step
+  accept 2418
+step
+  accept 710
+step
+  tip Kill: Lesser Rock Elemental (about 19% drop chance)
+  collect 4626 x10 quest 710.1 @21.3,44.1 map 1418
+step
+  turnin 710
+step
+  accept 711
+step
+  accept 1419
+step
+  getfp "Kargath"
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 2258
+step
+  when onquest 2258
+  tip Kill: Buzzard, Crag Coyote (about 5% drop chance)
+  collect 7847 x5 quest 2258.1
+  collect 7846 x10 quest 2258.2
+  collect 7848 x5 quest 2258.3 @21.3,44.1 map 1418
+step
+  when onquest 2258
+  turnin 2258
+step
+  tip Kill: Elder Crag Coyote (about 53% drop chance)
+  collect 6166 x30 quest 1419.1 @37.9,69.1 map 1418
+step
+  tip Kill: Rock Elemental (about 5% drop chance)
+  collect 4627 x3 quest 711.1 @39,77.8 map 1418
+step
+  accept 709
+step
+  turnin 711
+step
+  accept 712
+step
+  turnin 1419
+step
+  tip Kill: Greater Rock Elemental (about 11% drop chance)
+  collect 4628 x5 quest 712.1 @4.1,79.9 map 1418
+step
+  turnin 712
+step
+  zone map 1446
+  goto 52.5,28.4 "Travel to Tanaris - take the zeppelin (Orgrimmar <-> Undercity / Grom'gol)" map 1446
+step
+  accept 1707
+step
+  getfp "Gadgetzan"
+step
+  accept 2865
+step
+  turnin 2864
+step
+  accept 1690
+step
+  accept 3042
+step
+  zone map 1444
+  goto 75.8,43.6 "Travel to Feralas" map 1444
+step
+  accept 2975
+step
+  getfp "Camp Mojache"
+step
+  accept 2987
+step
+  accept 2862
+step
+  tip Kill: Woodpaw Mongrel (about 45% drop chance)
+  collect 9237 x10 quest 2862.1 @72.8,36.3 map 1444
+step
+  turnin 2862
+step
+  accept 2863
+step
+  tip Starts from Gordunni Scroll, which drops in this area.
+  accept 2978 @74.5,27.9 map 1444
+step
+  turnin 2978
+step
+  zone map 2652
+  goto 21.2,23.2 "Travel to Desolace" map 2652 live
+step
+  accept 93037
+step
+  turnin 93037
+step
+  zone map 1420
+  when onquest 1048
+  tip Dungeon: Scarlet Monastery. Find a group for Scarlet Monastery. Quests you skip there are dropped automatically.
+  complete 1048 @82.6,33.8 map 1420
+step
+  zone map 1418
+  when onquest 709,2342,2418
+  tip Dungeon: Uldaman. Find a group for Uldaman. Quests you skip there are dropped automatically.
+  complete 709 @44.6,12.1 map 1418
+  complete 2342 @44.6,12.1 map 1418
+  complete 2418 @44.6,12.1 map 1418
+step
+  zone map 1413
+  when onquest 3341
+  tip Dungeon: Razorfen Downs. Find a group for Razorfen Downs. Quests you skip there are dropped automatically.
+  complete 3341 @49,93.9 map 1413
+step
+  zone map 2652
+  accept 93035
+step
+  turnin 93035
+step
+  accept 93041
+step
+  zone map 1454
+  only Priest
+  tip Time to train: head to X'yera in Orgrimmar for your new Priest spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  zone map 1456
+  only Mage
+  tip Time to train: head to Archmage Shymm in Thunder Bluff for your new Mage spells. The arrow takes you back to the route afterwards. Dual Specialization can now be bought from your class trainer in a major city.
+  train class
+step
+  zone map 1444
+  goto 75.9,42.7 "Travel to Feralas" map 1444

@@ -1,0 +1,628 @@
+guide mittenquest/horde/46-50-desolace-feralas-the-hinterlands
+title "Horde 46-50 Desolace, Feralas, The Hinterlands"
+levels 46-50
+zone map 1443
+coords era
+faction Horde
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/horde/50-54-desolace-felwood-the-hinterlands
+step
+  accept 7029
+step
+  when onquest 7029
+  tip Dungeon: Maraudon. Find a group for Maraudon. Quests you skip there are dropped automatically.
+  complete 7029 @29.1,62.5 map 1443
+step
+  turnin 7029
+step
+  accept 7064
+step
+  turnin 93041
+step
+  accept 7067
+step
+  accept 7028
+step
+  zone map 1454
+  only Rogue
+  tip Time to train: head to Gest in Orgrimmar for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1456
+  only Paladin
+  tip Time to train: head to Alodan the Hopeful in Thunder Bluff for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  tip Time to train: head to Torm Ragetotem in Thunder Bluff for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1454
+  only Shaman
+  tip Time to train: head to Sian'tsu in Orgrimmar for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Camp Mojache"
+step
+  zone map 1444
+  tip Stinglasher has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Stinglasher
+  collect 18962 quest 7731.1 @75.6,60.9 map 1444
+step
+  turnin 7731
+step
+  tip Kill: Feral Scar Yeti (about 62% drop chance)
+  collect 8973 x10 quest 2822.1 @55,56.3 map 1444
+step
+  tip Kill: Gordunni Mage-Lord
+  collect 9371 quest 2979.1 @60.8,69.5 map 1444
+step
+  turnin 2822
+step
+  accept 7734
+step
+  turnin 2979
+step
+  tip Ferocious Rage Scar has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Ferocious Rage Scar (about 63% drop chance)
+  collect 18947 x10 quest 7734.1 @53,32 map 1444
+step
+  accept 7721
+step
+  tip Kill: Sea Spray (about 38% drop chance)
+  collect 18958 x10 quest 7721.1 @45.9,63.9 map 1444
+step
+  turnin 7721
+step
+  turnin 7734
+step
+  fly "Revantusk Village"
+step
+  zone map 1425
+  accept 7845
+step
+  accept 7840
+step
+  accept 7839
+step
+  accept 7844
+step
+  turnin 7845
+step
+  tip Kill: Vilebranch Scalper, Vilebranch Soothsayer
+  kill 4466 x30 quest 7844.1
+  kill 4467 x15 quest 7844.2 @47.6,66.5 map 1425
+step
+  tip Kill: Savage Owlbeast
+  kill 2929 x20 quest 7829.1 @57,51.4 map 1425
+step
+  tip Kill: Razorbeak Skylord
+  collect 19025 quest 7830.1 @56.8,50.8 map 1425
+step
+  collect 19033 quest 7839.1 @57.5,42.6 map 1425
+step
+  tip Kill: Silvermane Stalker, Silvermane Howler
+  kill 2926 x10 quest 7828.1 @68.6,52.8 map 1425
+  kill 2925 x10 quest 7828.2
+step
+  tip Vilebranch Kidnapper has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Vilebranch Kidnapper
+  collect 19034 quest 7840.1 @84.5,41.2 map 1425
+step
+  turnin 7844
+step
+  turnin 7828
+step
+  turnin 7829
+step
+  turnin 7830
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 7816
+step
+  turnin 7840
+step
+  turnin 7839
+step
+  when onquest 7816
+  tip Gammerita has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Gammerita
+  collect 19023 quest 7816.1 @80.4,58.2 map 1425 optional -- Gammerita is elite: grouping up is advised.
+step
+  when onquest 7816
+  turnin 7816
+step
+  tip Kill: Highvale Scout, Highvale Outrunner
+  kill 2692 x15 quest 7841.1 @31.8,47.1 map 1425
+  kill 2691 x15 quest 7841.2
+  kill 2694 x15 quest 7841.3 @31.8,47.1 map 1425
+  kill 2693 x15 quest 7841.4 @31.8,47.1 map 1425
+step
+  accept 2742
+step
+  complete 2742 @34.6,56.3 map 1425
+step
+  turnin 7841
+step
+  accept 7842
+step
+  turnin 2742
+step
+  tip Kill: Razorbeak Skylord (about 36% drop chance)
+  collect 4589 x10 quest 7842.1 @56.8,50.8 map 1425
+step
+  turnin 7842
+step
+  zone map 1435
+  only Hunter
+  tip Time to train: head to Ogromm in Stonard for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1458
+  only Warlock
+  tip Time to train: head to Kaal Soulreaper in Undercity for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Mage
+  tip Time to train: head to Kaelystia Hatebringer in Undercity for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1427
+  goto 38.6,27.8 "Travel to Searing Gorge" map 1427
+step
+  accept 7723
+step
+  getfp "Thorium Point"
+step
+  accept 7724
+step
+  accept 7727
+step
+  accept 7728
+step
+  accept 7729
+step
+  tip Kill: Dark Iron Taskmaster, Dark Iron Slaver
+  kill 5846 x15 quest 7729.1 @42.6,31.6 map 1427
+  kill 5844 x15 quest 7729.2 @42.6,31.6 map 1427
+step
+  tip Starts from Grimesilt Outhouse Key, which drops in this area.
+  accept 4451 @42.6,31.6 map 1427
+step
+  turnin 7729
+step
+  tip Kill: Incendosaur
+  kill 9318 x20 quest 7727.1 @48.5,26.5 map 1427
+step
+  turnin 7727
+step
+  tip Kill: Heavy War Golem
+  kill 5854 x20 quest 7723.1 @45.8,41.6 map 1427
+step
+  turnin 7723
+step
+  tip Kill: Dark Iron Steamsmith, Dark Iron Lookout
+  collect 18959 quest 7728.1
+  collect 18960 quest 7728.2 @52.5,58 map 1427
+step
+  turnin 4451
+step
+  turnin 7728
+step
+  tip Kill: Greater Lava Spider
+  kill 5858 x20 quest 7724.1 @26.4,75.4 map 1427
+step
+  turnin 7724
+step
+  zone map 1419
+  goto 50.5,14.2 "Travel to Blasted Lands" map 1419
+step
+  accept 2581
+step
+  accept 2583
+step
+  accept 2585
+step
+  accept 2601
+step
+  accept 2603
+step
+  tip Kill: Black Slayer, Ravage
+  collect 8396 x10 quest 2603.1 @46.6,18.4 map 1419
+  collect 8391 x2 quest 2603.2 @46.6,18.4 map 1419
+step
+  tip Kill: Scorpok Stinger, Black Slayer
+  collect 8393 x3 quest 2585.1 @46.6,20.6 map 1419
+  collect 8396 x2 quest 2585.2 @46.6,20.6 map 1419
+  collect 8392 quest 2585.3
+step
+  turnin 2603
+step
+  turnin 2585
+step
+  tip Kill: Redstone Basilisk, Black Slayer
+  collect 8394 x10 quest 2601.1 @60.9,27.8 map 1419
+  collect 8396 x2 quest 2601.2 @60.9,27.8 map 1419
+step
+  turnin 2601
+step
+  tip Kill: Ravage, Helboar
+  collect 8391 x3 quest 2581.1 @50.2,38.4 map 1419
+  collect 8392 x2 quest 2581.2 @50.2,38.4 map 1419
+  collect 8393 quest 2581.3 @50.2,38.4 map 1419
+step
+  tip Kill: Helboar, Scorpok Stinger
+  collect 8392 x3 quest 2583.1 @50.2,38.4 map 1419
+  collect 8393 x2 quest 2583.2 @50.2,38.4 map 1419
+  collect 8394 quest 2583.3
+step
+  turnin 2581
+step
+  turnin 2583
+step
+  zone map 1418
+  goto 2.4,46.1 "Travel to Badlands" map 1418
+step
+  accept 4081
+step
+  turnin 2418
+step
+  turnin 709
+step
+  zone map 1449
+  goto 44.2,11.6 "Travel to Un'Goro Crater - take the zeppelin (Orgrimmar <-> Undercity / Grom'gol)" map 1449
+step
+  accept 4503
+step
+  getfp "Marshal's Refuge"
+step
+  accept 4145
+step
+  accept 4243
+step
+  turnin 4243
+step
+  tip Starts from A Mangled Journal, which drops in this area.
+  accept 3884 @67,15.3 map 1449
+step
+  turnin 3884
+step
+  tip Kill: Young Diemetradon, Fledgling Pterrordax (about 30% drop chance)
+  collect 11830 x8 quest 4503.1
+  collect 11831 x8 quest 4503.2 @78.7,39.5 map 1449
+step
+  accept 3844
+step
+  turnin 3844
+step
+  turnin 4503
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 50
+step
+  tip Kill: Bloodpetal Lasher, Bloodpetal Trapper
+  kill 6509 x5 quest 4145.1 @67.8,31.8 map 1449
+  kill 6512 x5 quest 4145.2
+  kill 6510 x5 quest 4145.3
+  kill 6511 x5 quest 4145.4 @67.8,31.8 map 1449
+step
+  zone map 1443
+  when onquest 7028,7064,7067
+  tip Dungeon: Maraudon. Find a group for Maraudon. Quests you skip there are dropped automatically.
+  complete 7028 @29.1,62.5 map 1443
+  complete 7064 @29.1,62.5 map 1443
+  complete 7067 @29.1,62.5 map 1443
+step
+  zone map 1449
+  turnin 4145
+step
+  zone map 1456
+  only Hunter
+  tip Time to train: head to Holt Thunderhorn in Thunder Bluff for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Hunter
+  accept 8151
+step
+  zone map 1447
+  only Hunter
+  turnin 8151
+step
+  only Hunter
+  accept 8153
+step
+  only Hunter
+  tip Kill: Mosshoof Courser
+  collect 20017 x2 quest 8153.1 @50.9,80.5 map 1447
+step
+  only Hunter
+  turnin 8153
+step
+  only Hunter
+  accept 8231
+step
+  only Hunter
+  tip Kill: Wavethrasher (about 24% drop chance)
+  collect 20087 x6 quest 8231.1 @88.2,28.5 map 1447
+step
+  only Hunter
+  turnin 8231
+step
+  only Hunter
+  when turnedin 8231
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 8232
+step
+  only Hunter
+  when onquest 8232
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Morphaz
+  collect 20019 quest 8232.1 @42.4,42.6 map 1447 optional -- Morphaz is elite: grouping up is advised.
+step
+  only Hunter
+  when onquest 8232
+  turnin 8232
+step
+  zone map 1454
+  only Rogue
+  tip Time to train: head to Gest in Orgrimmar for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Rogue
+  tip Optional: skip it if you don't take it.
+  accept 8233
+step
+  zone map 1416
+  only Rogue
+  when onquest 8233
+  turnin 8233
+step
+  only Rogue
+  accept 96781
+step
+  only Rogue
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC).
+  collect 275482 quest 96781.1 @84.9,80.4 map 1416
+step
+  only Rogue
+  turnin 96781
+step
+  only Rogue
+  accept 8234
+step
+  zone map 1447
+  only Rogue
+  tip Kill: Timbermaw Shaman
+  collect 19775 quest 8234.1 @44.2,21.5 map 1447
+step
+  only Rogue
+  turnin 8234
+step
+  only Rogue
+  accept 8235
+step
+  only Rogue
+  tip Kill: Forest Ooze (about 44% drop chance)
+  collect 20023 x10 quest 8235.1 @69.2,27.2 map 1447
+step
+  only Rogue
+  turnin 8235
+step
+  only Rogue
+  when turnedin 8235
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 8236
+step
+  only Rogue
+  when onquest 8236
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Morphaz
+  collect 20022 quest 8236.1 @29.2,40.2 map 1447 optional -- Morphaz is elite: grouping up is advised.
+step
+  zone map 1416
+  only Rogue
+  when onquest 8236
+  turnin 8236
+step
+  zone map 1454
+  only Priest
+  tip Time to train: head to X'yera in Orgrimmar for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1456
+  only Warrior
+  tip Time to train: head to Torm Ragetotem in Thunder Bluff for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  tip Optional: skip it if you don't take it.
+  accept 8417
+step
+  zone map 1435
+  only Warrior
+  when onquest 8417
+  turnin 8417
+step
+  only Warrior
+  accept 8423
+step
+  zone map 1419
+  only Warrior
+  tip Kill: Helboar
+  kill 5993 x7 quest 8423.1 @50.2,38.4 map 1419
+step
+  zone map 1435
+  only Warrior
+  turnin 8423
+step
+  only Warrior
+  accept 8424
+step
+  zone map 1419
+  only Warrior
+  tip Kill: Shadowsworn Adept, Shadowsworn Cultist
+  kill 6006 x20 quest 8424.1 @66,31.7 map 1419
+  kill 6004 x10 quest 8424.2 @66,31.7 map 1419
+  kill 6005 x20 quest 8424.3 @66,31.7 map 1419
+step
+  zone map 1435
+  only Warrior
+  turnin 8424
+step
+  only Warrior
+  when turnedin 8424
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 8425
+step
+  only Warrior
+  when onquest 8425
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Gasher, Mijan
+  collect 20606 x2 quest 8425.1 @34.3,66.1 map 1435
+  collect 20607 x2 quest 8425.2 @34.3,66.1 map 1435
+  collect 20608 x2 quest 8425.3 @34.3,66.1 map 1435
+step
+  only Warrior
+  when onquest 8425
+  turnin 8425
+step
+  zone map 1456
+  only Druid
+  tip Time to train: head to Turak Runetotem in Thunder Bluff for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1449
+  only Druid
+  accept 9052
+step
+  only Druid
+  tip Kill: Gorishi Wasp (about 12% drop chance)
+  collect 22435 x8 quest 9052.1 @51.5,75.4 map 1449
+  collect 22434 x8 quest 9052.2
+step
+  only Druid
+  turnin 9052
+step
+  only Druid
+  accept 9051
+step
+  only Druid
+  turnin 9051
+step
+  only Druid
+  when turnedin 9051
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 9053
+step
+  only Druid
+  when onquest 9053
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Atal'alarion
+  collect 22444 quest 9053.1 @71.6,76 map 1449 optional -- Atal'alarion is elite: grouping up is advised.
+step
+  only Druid
+  when onquest 9053
+  turnin 9053
+step
+  zone map 1456
+  only Druid
+  tip Optional: skip it if you don't take it.
+  accept 9063
+step
+  zone map 1449
+  only Druid
+  when onquest 9063
+  turnin 9063
+step
+  zone map 1454
+  only Warlock
+  tip Time to train: head to Grol'dar in Orgrimmar for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warlock
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 8419
+step
+  only Warlock
+  when onquest 8419
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Xorothian Dreadsteed
+  collect 14256 quest 8419.1 @48.5,45.4 map 1454
+step
+  zone map 1448
+  only Warlock
+  when onquest 8419
+  turnin 8419
+step
+  only Warlock
+  accept 7601
+step
+  only Warlock
+  turnin 7601
+step
+  only Warlock
+  accept 8421
+step
+  only Warlock
+  tip Withered Protector has only one spawn point. If others are waiting for it, group up to share it. Kill: Withered Protector, Tainted Ooze (about 3% drop chance)
+  collect 20613 x10 quest 8421.1
+  collect 20614 x4 quest 8421.2 @40,56 map 1448
+step
+  only Warlock
+  turnin 8421
+step
+  only Warlock
+  when turnedin 8421
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 8422
+step
+  only Warlock
+  when onquest 8422
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Gasher, Mijan (about 24% drop chance)
+  collect 20606 x2 quest 8422.1 @41.4,45 map 1448
+  collect 20607 x2 quest 8422.2 @41.4,45 map 1448
+  collect 20608 x2 quest 8422.3 @41.4,45 map 1448
+step
+  only Warlock
+  when onquest 8422
+  turnin 8422
+step
+  zone map 1456
+  only Mage
+  tip Time to train: head to Archmage Shymm in Thunder Bluff for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Mage
+  accept 8250
+step
+  zone map 1447
+  only Mage
+  turnin 8250
+step
+  only Mage
+  accept 8251
+step
+  only Mage
+  tip Kill: Blood Elf Reclaimer (about 8% drop chance)
+  collect 20028 x10 quest 8251.1 @56.4,28.9 map 1447
+step
+  only Mage
+  turnin 8251
+step
+  only Mage
+  accept 8252
+step
+  only Mage
+  tip Kill: Spitelash Siren (about 4% drop chance)
+  collect 20029 x6 quest 8252.1 @39,55.8 map 1447
+step
+  only Mage
+  turnin 8252
+step
+  only Mage
+  when turnedin 8252
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 8253
+step
+  only Mage
+  when onquest 8253
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Morphaz
+  collect 20085 quest 8253.1 @29.2,40.2 map 1447 optional -- Morphaz is elite: grouping up is advised.
+step
+  only Mage
+  when onquest 8253
+  turnin 8253
+step
+  fly "Shadowprey Village"

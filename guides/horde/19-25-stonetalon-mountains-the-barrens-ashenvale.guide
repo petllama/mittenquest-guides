@@ -1,0 +1,693 @@
+guide mittenquest/horde/19-25-stonetalon-mountains-the-barrens-ashenvale
+title "Horde 19-25 Stonetalon Mountains, The Barrens, Ashenvale"
+levels 19-25
+zone map 1442
+coords era
+faction Horde
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/horde/25-29-thousand-needles-stonetalon-mountains-the-barrens
+step
+  tip Talk to Innkeeper Jayka and make this inn your home.
+  sethome "Sun Rock Retreat"
+step
+  accept 6421
+step
+  getfp "Sun Rock Retreat"
+step
+  accept 6301
+step
+  tip Optional: skip it if you don't take it.
+  accept 6562
+step
+  turnin 1483
+step
+  accept 1093
+step
+  tip Kill: Venture Co. Operator
+  collect 5734 quest 1093.1 @65.6,51.6 map 1442
+step
+  tip Kill: Venture Co. Logger
+  kill 3989 x15 quest 1062.1 @66.8,51.3 map 1442
+step
+  accept 1090
+step
+  turnin 1093
+step
+  accept 1094
+step
+  accept 6523
+step
+  complete 6523 @77.1,90.8 map 1442
+step
+  tip Optional: skip it if you don't take it.
+  accept 6542
+step
+  accept 6461
+step
+  turnin 1060
+step
+  zone map 1413
+  when onquest 1487,1491
+  tip Dungeon: Wailing Caverns. Find a group for Wailing Caverns. Quests you skip there are dropped automatically.
+  complete 1487 @46,36.5 map 1413
+  complete 1491 @46,36.5 map 1413
+step
+  zone map 1442
+  tip Kill: Grimtotem Ruffian, Grimtotem Mercenary
+  kill 11910 x8 quest 6548.1 @82.3,86.9 map 1442
+  kill 11911 x6 quest 6548.2 @82.3,86.9 map 1442
+step
+  collect 16581 x10 quest 6421.1 @59.6,91.5 map 1442
+step
+  tip Kill: Deepmoss Creeper, Deepmoss Venomspitter
+  kill 4005 x10 quest 6461.1
+  kill 4007 x7 quest 6461.2 @53.7,74.1 map 1442
+step
+  turnin 6421
+step
+  accept 79980
+step
+  turnin 79980
+step
+  tip Piznik has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Piznik
+  kill 4276 quest 1090.1 @71.9,60 map 1442
+step
+  turnin 1090
+step
+  accept 1092
+step
+  turnin 1092
+step
+  accept 6393
+step
+  accept 1087
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 6284
+step
+  when onquest 6284
+  tip Kill: Besseleth
+  collect 16192 quest 6284.1 @53.6,72.6 map 1442 optional -- Besseleth is elite: grouping up is advised.
+step
+  when onquest 6284
+  turnin 6284
+step
+  collect 16205 x10 quest 6301.1 @48,39.8 map 1442
+step
+  turnin 6301
+step
+  accept 6381
+step
+  turnin 6461
+step
+  zone map 1454
+  only Rogue
+  tip Time to train: head to Gest in Orgrimmar for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Rogue
+  accept 2460
+step
+  only Rogue
+  tip Shenthul has only one spawn point. If others are waiting for it, group up to share it. Kill: Shenthul
+  kill 3401 quest 2460.1 @43,53.7 map 1454
+step
+  only Rogue
+  turnin 2460
+step
+  only Rogue
+  accept 2458
+step
+  zone map 1413
+  only Rogue
+  turnin 2458
+step
+  only Rogue
+  when turnedin 2458
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 2478
+step
+  only Rogue
+  when onquest 2478
+  tip Venture Co. Patroller has only 2 spawn points. If others are waiting for it, group up to share it. Kill: Mutated Venture Co. Drone, Venture Co. Lookout
+  kill 7310 x2 quest 2478.1 @54.7,5.7 map 1413
+  kill 7307 x2 quest 2478.2 @54.7,5.7 map 1413
+  kill 7308 x2 quest 2478.3 @54.7,5.7 map 1413
+  collect 8074 quest 2478.4 @54.7,5.7 map 1413 optional -- Grand Foreman Puzik Gallywix is elite: grouping up is advised.
+  collect 8072 quest 2478.5 @54.7,5.7 map 1413
+  collect 8073 quest 2478.6 @54.7,5.7 map 1413
+step
+  zone map 1454
+  only Rogue
+  when onquest 2478
+  turnin 2478
+step
+  only Priest
+  tip Time to train: head to X'yera in Orgrimmar for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Priest,Undead
+  accept 5646
+step
+  zone map 1458
+  only Priest,Undead
+  turnin 5646
+step
+  only Priest,Troll
+  accept 5643
+step
+  zone map 1454
+  only Priest,Troll
+  turnin 5643
+step
+  zone map 1456
+  only Warrior
+  tip Time to train: head to Torm Ragetotem in Thunder Bluff for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  tip Optional: skip it if you don't take it.
+  accept 1823
+step
+  zone map 1413
+  only Warrior
+  when onquest 1823
+  turnin 1823
+step
+  only Warrior
+  accept 1824
+step
+  only Warrior
+  tip Kill: Silithid Creeper (about 12% drop chance)
+  collect 7119 x5 quest 1824.1 @45.2,70.2 map 1413
+step
+  only Warrior
+  turnin 1824
+step
+  only Warrior
+  when turnedin 1824
+  tip Optional: skip it if you don't take it.
+  accept 1825
+step
+  only Warrior
+  when onquest 1825
+  turnin 1825
+step
+  zone map 1456
+  only Druid
+  tip Time to train: head to Turak Runetotem in Thunder Bluff for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Druid,Tauren
+  accept 98340
+step
+  zone map 1450
+  only Druid,Tauren
+  turnin 98340
+step
+  only Druid,Tauren
+  accept 98362
+step
+  zone map 1456
+  only Druid,Tauren
+  turnin 98362
+step
+  zone map 1450
+  only Druid,Tauren
+  accept 98739
+step
+  only Druid,Tauren
+  turnin 98739
+step
+  zone map 1454
+  only Shaman
+  tip Time to train: head to Sian'tsu in Orgrimmar for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Shaman
+  tip Optional: skip it if you don't take it.
+  accept 1528
+step
+  zone map 1413
+  only Shaman
+  when onquest 1528
+  turnin 1528
+step
+  only Shaman
+  accept 1530
+step
+  only Shaman
+  turnin 1530
+step
+  only Shaman
+  accept 1535
+step
+  only Shaman
+  collect 7769 quest 1535.1 @44.3,76.8 map 1413
+step
+  only Shaman
+  turnin 1535
+step
+  only Shaman
+  accept 1536
+step
+  zone map 1424
+  only Shaman
+  collect 7771 quest 1536.1 @62.2,20.8 map 1424
+step
+  zone map 1413
+  only Shaman
+  turnin 1536
+step
+  only Shaman
+  accept 1534
+step
+  zone map 1440
+  only Shaman
+  collect 7770 quest 1534.1 @33.5,67.5 map 1440
+step
+  zone map 1413
+  only Shaman
+  turnin 1534
+step
+  only Shaman
+  accept 220
+step
+  only Shaman
+  turnin 220
+step
+  only Shaman
+  accept 63
+step
+  zone map 1421
+  only Shaman
+  tip Corrupt Minor Manifestation of Water has only one spawn point. If others are waiting for it, group up to share it. Kill: Corrupt Minor Manifestation of Water
+  collect 7812 quest 63.1 @38.8,44.3 map 1421
+step
+  only Shaman
+  turnin 63
+step
+  only Shaman
+  accept 100
+step
+  only Shaman
+  turnin 100
+step
+  only Shaman
+  accept 96
+step
+  zone map 1413
+  only Shaman
+  turnin 96
+step
+  zone map 1454
+  only Warlock
+  tip Time to train: head to Grol'dar in Orgrimmar for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warlock
+  accept 1507
+step
+  only Warlock
+  turnin 1507
+step
+  only Warlock
+  accept 1508
+step
+  only Warlock
+  turnin 1508
+step
+  only Warlock
+  accept 1509
+step
+  zone map 1413
+  only Warlock
+  turnin 1509
+step
+  only Warlock
+  accept 1510
+step
+  zone map 1442
+  only Warlock
+  turnin 1510
+step
+  only Warlock
+  accept 1511
+step
+  zone map 1413
+  only Warlock
+  turnin 1511
+step
+  only Warlock
+  accept 1515
+step
+  only Warlock
+  turnin 1515
+step
+  only Warlock
+  accept 1512
+step
+  zone map 1454
+  only Warlock
+  turnin 1512
+step
+  only Warlock
+  accept 1513
+step
+  only Warlock
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Summoned Succubus
+  kill 5677 quest 1513.1 @48.2,45.3 map 1454
+step
+  only Warlock
+  turnin 1513
+step
+  only Warlock
+  accept 65601
+step
+  only Warlock
+  turnin 65601
+step
+  fly "Crossroads"
+step
+  zone map 1413
+  tip Talk to Innkeeper Byula and make this inn your home.
+  sethome "Camp Taurajo"
+step
+  accept 893
+step
+  collect 5058 x12 quest 868.1 @45.1,72.2 map 1413
+step
+  accept 79192
+step
+  tip Kill: Encroaching Soldier, Outraged Pillager
+  kill 268622 quest 97250.1 @48.8,77.2 map 1413
+  kill 268623 quest 97250.2 @48.8,77.2 map 1413 optional -- Outraged Pillager is elite: grouping up is advised.
+step
+  tip Kill: Bael'dun Excavator, Bael'dun Foreman
+  kill 3374 x15 quest 843.1 @47.6,85.3 map 1413
+  kill 3375 x5 quest 843.2 @47.6,85.3 map 1413
+  collect 5006 quest 843.3 @47.6,85.3 map 1413
+step
+  turnin 843
+step
+  turnin 97250
+step
+  turnin 1487
+step
+  turnin 868
+step
+  turnin 1491
+step
+  accept 1221
+step
+  turnin 1094
+step
+  turnin 1062
+step
+  accept 1063
+step
+  turnin 6548
+step
+  turnin 6523
+step
+  accept 6401
+step
+  turnin 6542
+step
+  accept 846
+step
+  tip Kill: Razormane Pathfinder, Razormane Seer
+  collect 5093 quest 893.1 @42.6,80.5 map 1413
+  collect 5092 quest 893.2
+  collect 5094 quest 893.3
+step
+  turnin 893
+step
+  zone map 1454
+  only Warlock
+  tip Time to train: head to Grol'dar in Orgrimmar for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1413
+  only Warlock
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 1740
+step
+  only Warlock
+  when onquest 1740
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Twilight Acolyte, Shadowfang Darksoul
+  collect 6914 x3 quest 1740.1 @49.3,57.2 map 1413 optional -- Twilight Acolyte is elite: grouping up is advised.
+  collect 6915 quest 1740.2 @49.3,57.2 map 1413 optional -- Shadowfang Darksoul is elite: grouping up is advised.
+step
+  only Warlock
+  when onquest 1740
+  turnin 1740
+step
+  zone map 1440
+  goto 11.9,34.5 "Travel to Ashenvale" map 1440
+step
+  accept 216
+step
+  getfp "Zoram'gar Outpost"
+step
+  accept 6921
+step
+  turnin 6562
+step
+  accept 6641
+step
+  accept 6442
+step
+  accept 6462
+step
+  complete 6641 @9.6,27.6 map 1440
+step
+  turnin 6641
+step
+  tip Kill: Wrathtail Wave Rider (about 83% drop chance)
+  collect 5490 x20 quest 6442.1 @14.7,17.8 map 1440
+step
+  turnin 6442
+step
+  tip Kill: Thistlefur Avenger, Thistlefur Shaman
+  kill 3925 x8 quest 216.1
+  kill 3924 x8 quest 216.2 @34.2,38.9 map 1440
+step
+  accept 6482
+step
+  collect 16602 x8 quest 6462.1 @40.9,33.6 map 1440
+step
+  complete 6482 @38.5,37.3 map 1440
+step
+  turnin 216
+step
+  turnin 6462
+step
+  accept 98252
+step
+  accept 98251
+step
+  turnin 98252
+step
+  tip Kill: Shadowhorn Stag, Ashenvale Bear
+  kill 3817 x6 quest 98251.1 @43.6,63.4 map 1440
+  kill 3809 x6 quest 98251.2 @43.6,63.4 map 1440
+step
+  turnin 98251
+step
+  tip Starts from Befouled Water Globe, which drops in this area.
+  accept 1918 @46,70 map 1440
+step
+  accept 6544
+step
+  complete 6544 @64.7,75.3 map 1440
+step
+  accept 6503
+step
+  getfp "Splintertree Post"
+step
+  accept 6441
+step
+  accept 6383
+step
+  turnin 6383
+step
+  turnin 6482
+step
+  accept 25
+step
+  turnin 1918
+step
+  accept 824
+step
+  turnin 6544
+step
+  accept 6571
+step
+  tip Kill: Ashenvale Outrunner
+  kill 12856 x9 quest 6503.1 @73.6,70.8 map 1440
+step
+  turnin 6503
+step
+  tip Starts from Shadumbra's Head, which drops in this area.
+  accept 24 @57.5,56 map 1440
+step
+  turnin 24
+step
+  tip Kill: Bleakheart Shadowstalker (about 46% drop chance)
+  collect 5481 x16 quest 6441.1 @81.5,49.5 map 1440
+step
+  turnin 6441
+step
+  tip Kill: Befouled Water Elemental
+  kill 3917 x12 quest 25.1 @49.4,69.8 map 1440
+step
+  tip Starts from Ursangous's Paw, which drops in this area.
+  accept 23 @39.8,65.2 map 1440
+step
+  turnin 23
+step
+  turnin 25
+step
+  turnin 824
+step
+  zone map 1413
+  when onquest 1221
+  tip Dungeon: Razorfen Kraul. Find a group for Razorfen Kraul. Quests you skip there are dropped automatically.
+  complete 1221 @42.9,90.2 map 1413
+step
+  zone map 1440
+  tip Pixel has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Pixel, Foulweald Shaman
+  collect 16742 quest 6571.1 @66.8,57.1 map 1440
+  collect 16745 quest 6571.2 @66.8,57.1 map 1440
+  collect 16744 quest 6571.3 @66.8,57.1 map 1440
+  collect 16743 quest 6571.4
+step
+  turnin 6571
+step
+  zone map 1456
+  only Hunter
+  tip Time to train: head to Holt Thunderhorn in Thunder Bluff for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1454
+  only Rogue
+  tip Time to train: head to Gest in Orgrimmar for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Rogue
+  accept 2479
+step
+  zone map 1424
+  only Rogue
+  turnin 2479
+step
+  only Rogue
+  accept 2480
+step
+  only Rogue
+  complete 2480 @61.6,19.2 map 1424
+step
+  only Rogue
+  turnin 2480
+step
+  zone map 1454
+  only Rogue
+  tip Starts from Elegant Letter, which drops in this area.
+  accept 6681 @43,53.7 map 1454
+step
+  zone map 1424
+  only Rogue
+  tip Ravenholdt has only one spawn point. If others are waiting for it, group up to share it. Kill: Ravenholdt
+  kill 13936 quest 6681.1 @78.6,17.8 map 1424
+step
+  zone map 1416
+  only Rogue
+  turnin 6681
+step
+  only Rogue
+  accept 96779
+step
+  zone map 1424
+  only Rogue
+  tip Kill: Lord Tomas
+  kill 266216 quest 96779.1 @79.3,46.2 map 1424
+step
+  zone map 1416
+  only Rogue
+  turnin 96779
+step
+  zone map 1454
+  only Priest
+  tip Time to train: head to X'yera in Orgrimmar for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1456
+  only Paladin
+  tip Time to train: head to Alodan the Hopeful in Thunder Bluff for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1440
+  only Paladin
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 95042
+step
+  only Paladin
+  when onquest 95042
+  tip Blackfathom Tide Priestess has only one spawn point. If others are waiting for it, group up to share it. Kill: Blackfathom Tide Priestess
+  collect 6995 quest 95042.1 @13.6,12.1 map 1440 optional -- Blackfathom Tide Priestess is elite: grouping up is advised.
+step
+  only Paladin
+  when onquest 95042
+  turnin 95042
+step
+  zone map 1456
+  only Warrior
+  tip Time to train: head to Torm Ragetotem in Thunder Bluff for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Druid
+  tip Time to train: head to Turak Runetotem in Thunder Bluff for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1454
+  only Shaman
+  tip Time to train: head to Sian'tsu in Orgrimmar for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warlock
+  tip Time to train: head to Grol'dar in Orgrimmar for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warlock
+  accept 65610
+step
+  zone map 1440
+  only Warlock
+  tip Kill: Shadethicket Stone Mover
+  collect 190232 quest 65610.1 @66.9,81.1 map 1440
+step
+  zone map 1454
+  only Warlock
+  turnin 65610
+step
+  only Warlock
+  accept 65604
+step
+  zone map 1458
+  only Warlock
+  tip Kill: Summoned Incubus
+  kill 185335 quest 65604.1 @86.5,26.6 map 1458
+step
+  zone map 1454
+  only Warlock
+  turnin 65604
+step
+  zone map 1456
+  only Mage
+  tip Time to train: head to Archmage Shymm in Thunder Bluff for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1441
+  goto 45.7,50.7 "Travel to Thousand Needles" map 1441

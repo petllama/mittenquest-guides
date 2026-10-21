@@ -1,0 +1,13 @@
+{
+ "guides": 26,
+ "counts": {
+  "complete-no-objectives": 1
+ },
+ "items": [
+  {
+   "guide": "mittenquest/horde/1-13-mulgore-tauren",
+   "kind": "complete-no-objectives",
+   "detail": "[C 99108 Sparring Match | at=48.9,63.6,1412; mob=Novice Warrior; xl=5.7]"
+  }
+ ]
+}

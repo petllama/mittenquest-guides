@@ -1,0 +1,628 @@
+guide mittenquest/horde/1-13-mulgore-tauren
+title "Horde 1-13 Mulgore (Tauren)"
+levels 1-13
+zone map 1412
+coords era
+faction Horde
+race Tauren
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/horde/12-19-the-barrens
+step
+  tip Talk to Innkeeper Kauth and make this inn your home.
+  sethome "Mulgore"
+step
+  tip Optional: skip it if you don't take it.
+  accept 752
+step
+  accept 747
+step
+  turnin 752
+step
+  accept 753
+step
+  collect 4755 quest 753.1 @48.9,81.2 map 1412
+step
+  tip Kill: Plainstrider (about 47% drop chance)
+  collect 4739 x7 quest 747.1 @47.2,81.5 map 1412
+  collect 4740 x7 quest 747.2 @47.2,81.5 map 1412
+step
+  turnin 747
+step
+  only Hunter
+  tip Lanka Farshot is right here: pick up your new Hunter spells.
+  train class
+step
+  only Hunter,Tauren
+  accept 3092
+step
+  only Hunter,Tauren
+  turnin 3092
+step
+  only Warrior
+  tip Harutt Thunderhorn is right here: pick up your new Warrior spells.
+  train class
+step
+  only Warrior,Tauren
+  accept 3091
+step
+  only Warrior,Tauren
+  turnin 3091
+step
+  only Druid
+  tip Gart Mistrunner is right here: pick up your new Druid spells.
+  train class
+step
+  only Druid,Tauren
+  accept 3094
+step
+  only Druid,Tauren
+  turnin 3094
+step
+  only Shaman
+  tip Meela Dawnstrider is right here: pick up your new Shaman spells.
+  train class
+step
+  only Shaman,Tauren
+  accept 3093
+step
+  only Shaman,Tauren
+  turnin 3093
+step
+  accept 750
+step
+  turnin 753
+step
+  accept 755
+step
+  accept 1656
+step
+  turnin 755
+step
+  accept 757
+step
+  accept 95805
+step
+  tip Kill: Mountain Cougar (about 68% drop chance)
+  collect 4742 x10 quest 750.1 @45.4,88.2 map 1412
+step
+  turnin 750
+step
+  accept 780
+step
+  tip Kill: Battleboar (about 50% drop chance)
+  collect 4848 x8 quest 780.1 @52.9,81.5 map 1412
+  collect 4849 x8 quest 780.2 @52.9,81.5 map 1412
+step
+  tip Kill: Bristleback Quilboar (about 68% drop chance)
+  collect 4770 x12 quest 757.1 @59,79.7 map 1412
+step
+  tip Starts from Dirt-stained Map, which drops in this area.
+  accept 781 @59.8,82.2 map 1412
+step
+  turnin 95805
+step
+  turnin 780
+step
+  only Hunter
+  tip Lanka Farshot is right here: pick up your new Hunter spells.
+  train class
+step
+  only Warrior
+  tip Harutt Thunderhorn is right here: pick up your new Warrior spells.
+  train class
+step
+  only Druid
+  tip Gart Mistrunner is right here: pick up your new Druid spells.
+  train class
+step
+  only Shaman
+  tip Meela Dawnstrider is right here: pick up your new Shaman spells.
+  train class
+step
+  only Shaman
+  accept 1519
+step
+  only Shaman
+  tip Kill: Bristleback Shaman (about 13% drop chance)
+  collect 6634 x2 quest 1519.1 @61,78.2 map 1412
+step
+  only Shaman
+  turnin 1519
+step
+  only Shaman
+  accept 1520
+step
+  only Shaman
+  turnin 1520
+step
+  only Shaman
+  accept 1521
+step
+  only Shaman
+  turnin 1521
+step
+  turnin 757
+step
+  turnin 781
+step
+  when turnedin 757
+  tip Optional: skip it if you don't take it.
+  accept 763
+step
+  turnin 1656
+step
+  accept 99079
+step
+  accept 745
+step
+  turnin 763
+step
+  accept 767
+step
+  only Tauren
+  accept 748
+step
+  accept 99108
+step
+  turnin 99108
+step
+  only Hunter
+  tip Yaw Sharpmane is right here: pick up your new Hunter spells.
+  train class
+step
+  only Warrior
+  tip Krang Stonehoof is right here: pick up your new Warrior spells.
+  train class
+step
+  only Druid
+  tip Gennia Runetotem is right here: pick up your new Druid spells.
+  train class
+step
+  only Shaman
+  tip Narm Skychaser is right here: pick up your new Shaman spells.
+  train class
+step
+  accept 761
+step
+  accept 746
+step
+  accept 743
+step
+  turnin 767
+step
+  accept 766
+step
+  accept 749
+step
+  turnin 99079
+step
+  accept 99081
+step
+  turnin 99081
+step
+  accept 99101
+step
+  turnin 99101
+step
+  accept 99080
+step
+  when turnedin 767
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 771
+step
+  turnin 749
+step
+  accept 751
+step
+  turnin 751
+step
+  accept 764
+step
+  when onquest 771
+  tip Kill: Razorlash
+  collect 4808 x2 quest 771.1 @51.5,68.8 map 1412
+  collect 4809 x2 quest 771.2 @51.5,68.8 map 1412
+step
+  when onquest 771
+  turnin 771
+step
+  accept 772
+step
+  only Tauren
+  tip Kill: Prairie Wolf, Adult Plainstrider (about 25% drop chance)
+  collect 4758 x6 quest 748.1 @40,69.5 map 1412
+  collect 4759 x4 quest 748.2 @40,69.5 map 1412
+step
+  tip Kill: Prairie Wolf, Flatland Cougar
+  collect 4804 quest 766.1 @40,69.5 map 1412
+  collect 4805 quest 766.2 @40,69.5 map 1412
+  collect 4806 quest 766.3 @40,69.5 map 1412
+  collect 4807 quest 766.4 @40,69.5 map 1412
+step
+  tip Kill: Wiry Swoop (about 82% drop chance)
+  collect 4769 x8 quest 761.1 @38.7,68.6 map 1412
+step
+  tip Kill: Palemane Tanner, Palemane Skinner
+  kill 2949 x10 quest 745.1 @34.1,64.2 map 1412
+  kill 2950 x8 quest 745.2 @34.1,64.2 map 1412
+  kill 2951 x5 quest 745.3 @34.1,64.2 map 1412
+step
+  collect 4703 x5 quest 746.1 @33.1,54.8 map 1412
+step
+  turnin 772
+step
+  accept 773
+step
+  turnin 766
+step
+  only Hunter
+  tip Yaw Sharpmane is right here: pick up your new Hunter spells.
+  train class
+step
+  turnin 761
+step
+  only Tauren
+  turnin 748
+step
+  only Tauren
+  accept 754
+step
+  turnin 745
+step
+  turnin 746
+step
+  only Tauren
+  complete 754 @51.8,68.4 map 1412
+step
+  only Tauren
+  turnin 754
+step
+  only Tauren
+  accept 756
+step
+  tip Kill: Galak Centaur, Galak Outrunner
+  kill 2967 x6 quest 99080.1 @60.6,60.9 map 1412
+  kill 2968 x4 quest 99080.2 @60.6,60.9 map 1412
+  collect 286075 quest 99080.3 @60.6,60.9 map 1412
+step
+  tip Kill: Windfury Harpy (about 52% drop chance)
+  collect 4751 x8 quest 743.1 @61.2,72.4 map 1412
+step
+  turnin 743
+step
+  turnin 99080
+step
+  only Tauren
+  tip Kill: Prairie Stalker, Flatland Cougar (about 22% drop chance)
+  collect 4801 x6 quest 756.1 @50.3,46.6 map 1412
+  collect 4802 x6 quest 756.2 @50.3,46.6 map 1412
+step
+  tip Kill: Venture Co. Worker, Venture Co. Supervisor
+  kill 2978 x14 quest 764.1 @59.5,46.5 map 1412
+  kill 2979 x6 quest 764.2 @59.5,46.5 map 1412
+step
+  tip Starts from Mulgore Expansion Plans, which drops in this area.
+  accept 98424 @61.2,49.3 map 1412
+step
+  collect 281035 quest 98424.1 @59,46.4 map 1412
+  collect 281036 quest 98424.2 @59,46.4 map 1412
+  collect 281037 quest 98424.3 @59,46.4 map 1412
+step
+  accept 833
+step
+  turnin 773
+step
+  tip Kill: Bristleback Interloper
+  kill 3232 x8 quest 833.1 @58,30.9 map 1412
+step
+  turnin 833
+step
+  turnin 764
+step
+  only Hunter
+  tip Yaw Sharpmane is right here: pick up your new Hunter spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Hunter,Tauren
+  accept 6061
+step
+  only Hunter,Tauren
+  tip Kill: Adult Plainstrider
+  kill 2956 quest 6061.1 @39.7,68.8 map 1412
+step
+  only Hunter,Tauren
+  turnin 6061
+step
+  zone map 1456
+  only Hunter,Tauren
+  tip Optional: skip it if you don't take it.
+  accept 6065
+step
+  zone map 1412
+  only Hunter,Tauren
+  when onquest 6065
+  turnin 6065
+step
+  only Hunter,Tauren
+  accept 6087
+step
+  only Hunter,Tauren
+  tip Kill: Prairie Stalker
+  kill 2959 quest 6087.1 @50.8,50.7 map 1412
+step
+  only Hunter,Tauren
+  turnin 6087
+step
+  only Hunter,Tauren
+  accept 6088
+step
+  only Hunter,Tauren
+  tip Kill: Swoop
+  kill 2970 quest 6088.1 @50.2,46.8 map 1412
+step
+  only Hunter,Tauren
+  turnin 6088
+step
+  only Hunter,Tauren
+  accept 6089
+step
+  zone map 1456
+  only Hunter,Tauren
+  turnin 6089
+step
+  zone map 1412
+  turnin 98424
+step
+  only Tauren
+  turnin 756
+step
+  only Tauren
+  accept 758
+step
+  only Tauren
+  complete 758 @44.2,51.1 map 1412
+step
+  only Tauren
+  turnin 758
+step
+  only Tauren
+  accept 759
+step
+  only Tauren
+  tip Kill: Prairie Wolf Alpha
+  collect 4803 x8 quest 759.1 @61,64.1 map 1412
+step
+  only Tauren
+  turnin 759
+step
+  only Tauren
+  accept 760
+step
+  only Tauren
+  complete 760 @42.7,25 map 1412
+step
+  only Druid
+  tip Hana Lighthoof is right here: pick up your new Druid spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1456
+  only Druid,Tauren
+  accept 5922
+step
+  zone map 1450
+  only Druid,Tauren
+  turnin 5922
+step
+  zone map 1456
+  only Druid,Tauren
+  tip Optional: skip it if you don't take it.
+  accept 5926
+step
+  only Druid,Tauren
+  when onquest 5926
+  turnin 5926
+step
+  zone map 1450
+  only Druid,Tauren
+  accept 5930
+step
+  only Druid,Tauren
+  tip Great Bear Spirit has only one spawn point. If others are waiting for it, group up to share it. Kill: Great Bear Spirit
+  kill 11956 quest 5930.1 @39.1,27.5 map 1450
+step
+  only Druid,Tauren
+  turnin 5930
+step
+  only Druid,Tauren
+  accept 5932
+step
+  zone map 1456
+  only Druid,Tauren
+  turnin 5932
+step
+  only Druid,Tauren
+  accept 6002
+step
+  only Druid,Tauren
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Lunaclaw Spirit
+  kill 12144 quest 6002.1 @76.5,27.2 map 1456
+step
+  only Druid,Tauren
+  turnin 6002
+step
+  zone map 1412
+  only Shaman
+  tip Palah Thunderhoof is right here: pick up your new Shaman spells. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1456
+  only Shaman
+  tip Optional: skip it if you don't take it.
+  accept 1523
+step
+  zone map 1413
+  only Shaman
+  when onquest 1523
+  turnin 1523
+step
+  only Shaman
+  accept 1524
+step
+  zone map 1411
+  only Shaman
+  turnin 1524
+step
+  only Shaman
+  accept 1517
+step
+  only Shaman
+  turnin 1517
+step
+  only Shaman
+  accept 1518
+step
+  only Shaman
+  turnin 1518
+step
+  only Shaman
+  accept 1525
+step
+  zone map 1413
+  only Shaman
+  tip Kill: Razormane Geomancer, Burning Blade Cultist (about 1% drop chance)
+  collect 5026 quest 1525.1 @57.3,24.6 map 1413
+  collect 6652 quest 1525.2 @57.3,24.6 map 1413
+step
+  zone map 1411
+  only Shaman
+  turnin 1525
+step
+  only Shaman
+  accept 1526
+step
+  only Shaman
+  tip Minor Manifestation of Fire has only 2 spawn points. If others are waiting for it, group up to share it. Kill: Minor Manifestation of Fire
+  collect 6655 quest 1526.1 @38.7,58.3 map 1411
+step
+  only Shaman
+  turnin 1526
+step
+  only Shaman
+  accept 1527
+step
+  zone map 1413
+  only Shaman
+  turnin 1527
+step
+  zone map 1412
+  only Tauren
+  turnin 760
+step
+  zone map 1454
+  only Rogue
+  tip Time to train: head to Gest in Orgrimmar for your new Rogue spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Priest
+  tip Time to train: head to X'yera in Orgrimmar for your new Priest spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1456
+  only Paladin
+  tip Time to train: head to Alodan the Hopeful in Thunder Bluff for your new Paladin spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Warrior
+  tip Time to train: head to Torm Ragetotem in Thunder Bluff for your new Warrior spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Warrior
+  tip Optional: skip it if you don't take it.
+  accept 1505
+step
+  zone map 1413
+  only Warrior
+  when onquest 1505
+  turnin 1505
+step
+  only Warrior
+  accept 1498
+step
+  zone map 1411
+  only Warrior
+  tip Kill: Thunder Lizard (about 16% drop chance)
+  collect 6486 x5 quest 1498.1 @39.1,29.3 map 1411
+step
+  zone map 1413
+  only Warrior
+  turnin 1498
+step
+  only Warrior
+  accept 1502
+step
+  only Warrior
+  turnin 1502
+step
+  only Warrior
+  accept 1503
+step
+  only Warrior
+  collect 6534 quest 1503.1 @55,26.6 map 1413
+step
+  only Warrior
+  turnin 1503
+step
+  zone map 1454
+  only Warlock
+  tip Time to train: head to Grol'dar in Orgrimmar for your new Warlock spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  zone map 1411
+  only Warlock
+  accept 1485
+step
+  only Warlock
+  tip Kill: Vile Familiar (about 5% drop chance)
+  collect 6487 x6 quest 1485.1 @44.2,55.3 map 1411
+step
+  only Warlock
+  turnin 1485
+step
+  only Warlock
+  accept 1499
+step
+  only Warlock
+  turnin 1499
+step
+  only Warlock
+  tip Optional: skip it if you don't take it.
+  accept 1506
+step
+  zone map 1454
+  only Warlock
+  when onquest 1506
+  turnin 1506
+step
+  zone map 1456
+  only Mage
+  tip Time to train: head to Archmage Shymm in Thunder Bluff for your new Mage spells. The arrow takes you back to the route afterwards. You have talent points from level 10 on: spend them (changing them later needs a trainer in a major city).
+  train class
+step
+  only Mage
+  tip Optional: skip it if you don't take it.
+  accept 1883
+step
+  zone map 1411
+  only Mage
+  when onquest 1883
+  turnin 1883
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 12
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 13
+step
+  zone map 1413
+  goto 51.5,30.34 "Travel to Crossroads, The Barrens" map 1413

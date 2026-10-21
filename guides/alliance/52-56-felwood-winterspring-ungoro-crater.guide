@@ -1,0 +1,451 @@
+guide mittenquest/alliance/52-56-felwood-winterspring-ungoro-crater
+title "Alliance 52-56 Felwood, Winterspring, Un'Goro Crater"
+levels 52-56
+zone map 1448
+coords era
+faction Alliance
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/alliance/56-60-eastern-plaguelands-western-plaguelands-blasted-lands
+step
+  tip Starts from Deadwood Ritual Totem, which drops in this area.
+  accept 8470 @62.3,9.2 map 1448
+step
+  turnin 8470
+step
+  tip Kill: Jadefire Betrayer (about 4% drop chance)
+  collect 11674 x5 quest 939.1 @41.6,19.6 map 1448
+step
+  tip Kill: Entropic Beast, Entropic Horror
+  kill 9878 x2 quest 5156.1 @41.7,40.1 map 1448
+  kill 9879 x2 quest 5156.2 @41.7,40.1 map 1448
+step
+  tip Starts from Blood Red Key, which drops in this area.
+  accept 5202 @38.4,50.3 map 1448
+step
+  turnin 5202
+step
+  tip Xavathras has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Jadefire Felsworn, Jadefire Shadowstalker
+  kill 7109 x11 quest 4421.1 @37,68.1 map 1448
+  kill 7110 x9 quest 4421.2 @37,68.1 map 1448
+  kill 7106 x9 quest 4421.3 @37,68.1 map 1448
+  kill 9454 quest 4421.4
+step
+  turnin 5156
+step
+  turnin 4421
+step
+  turnin 939
+step
+  accept 4906
+step
+  accept 8462
+step
+  turnin 8462
+step
+  accept 8461
+step
+  tip Xavaric has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Jadefire Hellcaller, Jadefire Betrayer
+  kill 7111 x8 quest 4906.1
+  kill 7108 x8 quest 4906.2 @42.8,16.9 map 1448
+  kill 7107 x8 quest 4906.3 @42.8,16.9 map 1448
+  kill 10648 quest 4906.4
+step
+  turnin 4906
+step
+  accept 5203
+step
+  zone map 1452
+  goto 60.7,38.2 "Travel to Winterspring" map 1452
+step
+  tip Optional: skip it if you don't take it.
+  accept 6603
+step
+  getfp "Everlook"
+step
+  accept 6028
+step
+  accept 6030
+step
+  turnin 4808
+step
+  accept 4809
+step
+  tip Kill: Fledgling Chillwind (about 28% drop chance)
+  collect 12444 x8 quest 4809.1 @48.1,42.8 map 1452
+step
+  tip Starts from Winterfall Ritual Totem, which drops in this area.
+  accept 8471 @40.8,43.8 map 1452
+step
+  turnin 6603
+step
+  tip Starts from Empty Firewater Flask, which drops in this area.
+  accept 5083 @40.8,43.8 map 1452
+step
+  turnin 5083
+step
+  accept 5084
+step
+  turnin 4809
+step
+  accept 4810
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 53
+step
+  fly "Talonbranch Glade"
+step
+  zone map 1448
+  tip Kill: Deadwood Den Watcher, Deadwood Avenger
+  kill 7156 x6 quest 8461.1 @62.3,9.2 map 1448
+  kill 7157 x6 quest 8461.2 @62.3,9.2 map 1448
+  kill 7158 x6 quest 8461.3 @62.3,9.2 map 1448
+step
+  turnin 8461
+step
+  accept 8465
+step
+  turnin 8471
+step
+  turnin 5084
+step
+  accept 5085
+step
+  complete 5203 @35.5,59.1 map 1448
+step
+  turnin 5203
+step
+  tip Optional: skip it if you don't take it.
+  accept 5249
+step
+  fly "Marshal's Refuge"
+step
+  zone map 1449
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 3882
+step
+  collect 11113 quest 3881.1 @68.5,36.5 map 1449
+  collect 11112 quest 3881.2
+step
+  collect 11504 quest 4290.1 @68.7,56.7 map 1449
+step
+  collect 11186 x7 quest 4284.1 @62.4,68.5 map 1449
+  collect 11188 x7 quest 4284.2 @62.4,68.5 map 1449
+  collect 11185 x7 quest 4284.3 @62.4,68.5 map 1449
+  collect 11184 x7 quest 4284.4 @62.4,68.5 map 1449
+step
+  turnin 4290
+step
+  accept 4289
+step
+  when onquest 3882
+  tip Kill: Young Diemetradon (about 29% drop chance)
+  collect 11114 x8 quest 3882.1 @32.7,73.5 map 1449
+step
+  when onquest 3882
+  turnin 3882
+step
+  turnin 3881
+step
+  accept 4501
+step
+  accept 4492
+step
+  complete 4492 @43.7,8.3 map 1449
+step
+  turnin 4284
+step
+  accept 4285
+step
+  tip Northern Crystal Pylon has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back.
+  interact 164955 quest 4285.1 @56.5,12.5 map 1449
+step
+  tip Kill: Un'Goro Gorilla, Un'Goro Stomper
+  collect 11478 x2 quest 4289.1 @67,15.3 map 1449
+  collect 11479 x2 quest 4289.2 @67,15.3 map 1449
+  collect 11480 x2 quest 4289.3 @67,15.3 map 1449
+step
+  turnin 4285
+step
+  tip Kill: Pterrordax, Frenzied Pterrordax
+  kill 9166 x10 quest 4501.1
+  kill 9167 x15 quest 4501.2 @27.6,39.6 map 1449
+step
+  accept 974
+step
+  turnin 4492
+step
+  accept 4491
+step
+  tip Fire Plume Ridge Hot Spot has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back.
+  interact 148503 quest 974.1 @49.7,45.6 map 1449
+step
+  turnin 974
+step
+  accept 980
+step
+  turnin 4501
+step
+  complete 4491 @43.7,8.3 map 1449
+step
+  turnin 4491
+step
+  turnin 4289
+step
+  accept 4301
+step
+  accept 4291
+step
+  tip Kill: Lar'korwi Mate (about 87% drop chance)
+  collect 11509 x2 quest 4291.1 @66,62 map 1449
+step
+  turnin 4291
+step
+  tip U'cha has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: U'cha
+  collect 11476 quest 4301.1 @68.1,12.6 map 1449
+step
+  turnin 4301
+step
+  zone map 1427
+  when onquest 4123,4136
+  tip Dungeon: Blackrock Depths. Find a group for Blackrock Depths. Quests you skip there are dropped automatically.
+  complete 4123 @34.8,85.3 map 1427
+  complete 4136 @34.8,85.3 map 1427
+step
+  zone map 1449
+  accept 4292
+step
+  tip Lar'korwi has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Lar'korwi
+  collect 11510 quest 4292.1 @79.7,49.8 map 1449
+step
+  turnin 4292
+step
+  zone map 1455
+  only Mage
+  tip Time to train: head to Dink in Ironforge for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1457
+  only Priest
+  tip Time to train: head to Priestess Alathea in Darnassus for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1445
+  only Paladin
+  tip Time to train: head to Brother Karman in Theramore for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1457
+  only Druid
+  tip Time to train: head to Mathrengyl Bearwalker in Darnassus for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Hunter
+  tip Time to train: head to Jeen'ra Nightrunner in Darnassus for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Everlook"
+step
+  zone map 1452
+  accept 3783
+step
+  turnin 5249
+step
+  accept 5244
+step
+  turnin 5244
+step
+  accept 5245
+step
+  tip Kill: Rogue Ice Thistle (about 66% drop chance)
+  collect 12366 x10 quest 3783.1 @45.9,38.1 map 1452
+step
+  collect 12896 quest 5245.1
+  collect 12897 quest 5245.2
+  collect 12898 quest 5245.3
+  collect 12899 quest 5245.4 @52.4,41.5 map 1452
+step
+  turnin 3783
+step
+  turnin 5085
+step
+  turnin 980
+step
+  accept 4842
+step
+  accept 5082
+step
+  turnin 8465
+step
+  tip Kill: Winterfall Pathfinder, Winterfall Den Watcher
+  kill 7442 x8 quest 5082.1 @40.8,43.8 map 1452
+  kill 7440 x8 quest 5082.2
+  kill 7441 x8 quest 5082.3
+step
+  turnin 5082
+step
+  complete 4842 @59.8,74.2 map 1452
+step
+  turnin 4842
+step
+  fly "Chillwind Camp"
+step
+  zone map 1422
+  accept 5219
+step
+  accept 5097
+step
+  turnin 6028
+step
+  accept 4971
+step
+  tip Andorhal Tower Four has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Andorhal Tower One, Andorhal Tower Two
+  kill 10902 quest 5097.1
+  kill 10903 quest 5097.2 @42.3,66.2 map 1422
+  kill 10904 quest 5097.3
+  kill 10905 quest 5097.4
+step
+  tip Kill: Temporal Parasite
+  kill 10717 x10 quest 4971.1 @48.2,64.4 map 1422
+step
+  accept 4985
+step
+  turnin 4971
+step
+  accept 4972
+step
+  collect 12638 x5 quest 4972.1 @42.7,69.6 map 1422
+step
+  turnin 4972
+step
+  turnin 5097
+step
+  accept 5533
+step
+  turnin 5533
+step
+  tip Cauldron Lord Malvinious has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Cauldron Lord Malvinious
+  collect 13195 quest 5219.1 @46.1,52.6 map 1422
+step
+  turnin 5219
+step
+  accept 5220
+step
+  accept 5060
+step
+  tip Farmer Dalson has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Farmer Dalson
+  collect 12739 quest 5060.1 @48.2,49.7 map 1422
+step
+  turnin 5060
+step
+  tip Kill: Diseased Grizzly
+  kill 1816 x8 quest 4985.1 @57.1,51 map 1422
+step
+  turnin 4985
+step
+  turnin 5220
+step
+  accept 5222
+step
+  tip Cauldron Lord Razarch has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Cauldron Lord Razarch
+  collect 13197 quest 5222.1 @52.9,66.1 map 1422
+step
+  turnin 5222
+step
+  accept 5223
+step
+  turnin 5223
+step
+  accept 6004
+step
+  tip Kill: Scarlet Medic, Scarlet Hunter
+  kill 10605 x2 quest 6004.1
+  kill 1831 x2 quest 6004.2
+  kill 1826 x2 quest 6004.3 @51,40.2 map 1422
+  kill 1833 x2 quest 6004.4 @51,40.2 map 1422
+step
+  turnin 6004
+step
+  accept 6023
+step
+  tip Cavalier Durgen has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Huntsman Radley, Cavalier Durgen
+  kill 11613 quest 6023.1 @57.8,36.1 map 1422
+  kill 11611 quest 6023.2
+step
+  turnin 6023
+step
+  zone map 1455
+  only Rogue
+  tip Time to train: head to Hulfdan Blackbeard in Ironforge for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Morgan's Vigil"
+step
+  zone map 1428
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 4182
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 4023
+step
+  when onquest 4023
+  tip Frenzied Black Drake has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Frenzied Black Drake
+  collect 10575 quest 4023.1 @94.4,31.8 map 1428
+step
+  when onquest 4023
+  turnin 4023
+step
+  when onquest 4182
+  tip Kill: Black Broodling, Black Dragonspawn
+  kill 7047 x15 quest 4182.1
+  kill 7040 x10 quest 4182.2 @84.9,28.5 map 1428 optional -- Black Dragonspawn is elite: grouping up is advised.
+  kill 7044 quest 4182.3 @84.9,28.5 map 1428 optional -- Black Drake is elite: grouping up is advised.
+  kill 7041 x4 quest 4182.4 @84.9,28.5 map 1428 optional -- Black Wyrmkin is elite: grouping up is advised.
+step
+  turnin 4136
+step
+  turnin 4123
+step
+  turnin 4810
+step
+  when onquest 4182
+  turnin 4182
+step
+  tip Gor'tesh has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Gor'tesh
+  collect 11080 quest 3824.1 @39.3,55.3 map 1428
+step
+  turnin 3824
+step
+  accept 3825
+step
+  tip Soft Dirt Mound has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back.
+  interact 160840 quest 3825.1 @81,46.8 map 1428
+step
+  turnin 3825
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 4283
+step
+  when onquest 4283
+  tip Kill: Blackrock Soldier (about 39% drop chance)
+  collect 11467 x50 quest 4283.1 @45,56.8 map 1428
+step
+  when onquest 4283
+  turnin 4283
+step
+  zone map 1453
+  only Warlock
+  tip Time to train: head to Demisette Cloyce in Stormwind City for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  tip Time to train: head to Ander Germaine in Stormwind City for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1455
+  only Shaman
+  tip Time to train: head to Eldrun Stormbreaker in Ironforge for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1423
+  goto 71.7,50 "Travel to Eastern Plaguelands" map 1423

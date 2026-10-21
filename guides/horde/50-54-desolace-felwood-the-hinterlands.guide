@@ -1,0 +1,356 @@
+guide mittenquest/horde/50-54-desolace-felwood-the-hinterlands
+title "Horde 50-54 Desolace, Felwood, The Hinterlands"
+levels 50-54
+zone map 1443
+coords era
+faction Horde
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/horde/54-60-eastern-plaguelands-burning-steppes-badlands
+step
+  turnin 7064
+step
+  turnin 7067
+step
+  turnin 7028
+step
+  zone map 1448
+  goto 51.2,82.1 "Travel to Felwood" map 1448
+step
+  accept 5155
+step
+  accept 5156
+step
+  accept 8460
+step
+  tip Kill: Deadwood Warrior, Deadwood Pathfinder
+  kill 7153 x6 quest 8460.1 @48.3,90.9 map 1448
+  kill 7155 x6 quest 8460.2
+  kill 7154 x6 quest 8460.3 @48.3,90.9 map 1448
+step
+  turnin 8460
+step
+  tip Kill: Jaedenar Hound, Jaedenar Guardian
+  kill 7125 x4 quest 5155.1 @37.7,61.2 map 1448
+  kill 7113 x4 quest 5155.2 @37.7,61.2 map 1448
+  kill 7115 x6 quest 5155.3 @37.7,61.2 map 1448
+  kill 7112 x6 quest 5155.4 @37.7,61.2 map 1448
+step
+  getfp "Bloodvenom Post"
+step
+  accept 6162
+step
+  accept 4505
+step
+  turnin 5155
+step
+  accept 5157
+step
+  tip Overlord Ror has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Overlord Ror
+  collect 15879 quest 6162.1 @48.2,94.3 map 1448
+step
+  collect 12907 quest 5157.1 @35.2,59.8 map 1448
+step
+  turnin 6162
+step
+  zone map 1427
+  when onquest 4081
+  tip Dungeon: Blackrock Depths. Find a group for Blackrock Depths. Quests you skip there are dropped automatically.
+  complete 4081 @34.8,85.3 map 1427
+step
+  zone map 1448
+  tip Starts from Blood Red Key, which drops in this area.
+  accept 5202 @38.4,50.3 map 1448
+step
+  turnin 5202
+step
+  turnin 5157
+step
+  accept 8462
+step
+  turnin 8462
+step
+  tip Starts from Deadwood Ritual Totem, which drops in this area.
+  accept 8470 @62.3,9.2 map 1448
+step
+  turnin 8470
+step
+  zone map 1456
+  only Paladin
+  tip Time to train: head to Alodan the Hopeful in Thunder Bluff for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1454
+  only Shaman
+  tip Time to train: head to Sian'tsu in Orgrimmar for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Revantusk Village"
+step
+  zone map 1425
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 7861
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 7862
+step
+  when onquest 7862
+  tip Kill: Vilebranch Berserker, Vilebranch Shadow Hunter
+  kill 2643 x20 quest 7862.1 optional -- Vilebranch Berserker is elite: grouping up is advised.
+  kill 2645 x20 quest 7862.2 @62.1,70.2 map 1425 optional -- Vilebranch Shadow Hunter is elite: grouping up is advised.
+  kill 2646 x20 quest 7862.3 optional -- Vilebranch Blood Drinker is elite: grouping up is advised.
+  kill 2647 x20 quest 7862.4 optional -- Vilebranch Soul Eater is elite: grouping up is advised.
+step
+  when turnedin 7845
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 7846
+step
+  when onquest 7861
+  tip Vile Priestess Hexx has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Vile Priestess Hexx, Vilebranch Aman'zasi Guard
+  kill 7995 quest 7861.1 optional -- Vile Priestess Hexx is elite: grouping up is advised.
+  kill 2648 x20 quest 7861.2 @58.3,82.4 map 1425 optional -- Vilebranch Aman'zasi Guard is elite: grouping up is advised.
+step
+  when onquest 7846
+  tip Hitah'ya the Keeper has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Hitah'ya the Keeper
+  collect 19064 quest 7846.1 @57.3,86.6 map 1425 optional -- Hitah'ya the Keeper is elite: grouping up is advised.
+step
+  when onquest 7846
+  turnin 7846
+step
+  accept 7847
+step
+  when onquest 7861
+  turnin 7861
+step
+  when onquest 7862
+  turnin 7862
+step
+  turnin 7847
+step
+  zone map 1428
+  goto 65.2,23.9 "Travel to Burning Steppes" map 1428
+step
+  accept 4296
+step
+  getfp "Flame Crest"
+step
+  accept 4726
+step
+  accept 4123
+step
+  accept 4136
+step
+  collect 11470 quest 4296.1 @54.1,40.8 map 1428
+step
+  turnin 4296
+step
+  collect 12283 x8 quest 4726.1 @87.8,33.5 map 1428
+step
+  turnin 4726
+step
+  accept 4808
+step
+  accept 3801
+step
+  turnin 3801
+step
+  zone map 1458
+  only Warlock
+  tip Time to train: head to Kaal Soulreaper in Undercity for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1448
+  only Warlock
+  accept 7602
+step
+  zone map 1447
+  only Warlock
+  tip Kill: Legashi Hellcaller, Jaedenar Legionnaire
+  collect 18624 quest 7602.1 @61,24.1 map 1447
+  collect 18622 quest 7602.2 @61,24.1 map 1447
+  collect 18623 quest 7602.3 @61,24.1 map 1447
+step
+  zone map 1448
+  only Warlock
+  turnin 7602
+step
+  only Warlock
+  when turnedin 7602
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 7603
+step
+  only Warlock
+  when onquest 7603
+  tip Kroshius has only one spawn point. If others are waiting for it, group up to share it. Kill: Kroshius
+  kill 14467 quest 7603.1 @45.7,34.8 map 1448 optional -- Kroshius is elite: grouping up is advised.
+  collect 18625 quest 7603.2 @45.7,34.8 map 1448 optional -- Kroshius is elite: grouping up is advised.
+step
+  only Warlock
+  when onquest 7603
+  turnin 7603
+step
+  fly "Kargath"
+step
+  zone map 1418
+  accept 4061
+step
+  accept 4134
+step
+  turnin 4081
+step
+  accept 4082
+step
+  zone map 1422
+  goto 47.8,50.7 "Travel to Western Plaguelands" map 1422
+step
+  accept 5058
+step
+  turnin 5058
+step
+  accept 5060
+step
+  accept 5021
+step
+  turnin 5021
+step
+  accept 4984
+step
+  tip Optional: skip it if you don't take it.
+  accept 5142
+step
+  accept 5401
+step
+  turnin 5401
+step
+  tip Kill: Diseased Wolf
+  kill 1817 x8 quest 4984.1 @45.7,43.9 map 1422
+step
+  accept 6004
+step
+  turnin 4984
+step
+  accept 4985
+step
+  zone map 1452
+  goto 60.7,38.2 "Travel to Winterspring - take the zeppelin (Orgrimmar <-> Undercity / Grom'gol)" map 1452
+step
+  tip Optional: skip it if you don't take it.
+  accept 6603
+step
+  getfp "Everlook"
+step
+  accept 6030
+step
+  turnin 4808
+step
+  accept 4809
+step
+  tip Kill: Fledgling Chillwind (about 28% drop chance)
+  collect 12444 x8 quest 4809.1 @48.1,42.8 map 1452
+step
+  tip Starts from Winterfall Ritual Totem, which drops in this area.
+  accept 8471 @40.8,43.8 map 1452
+step
+  turnin 6603
+step
+  tip Starts from Empty Firewater Flask, which drops in this area.
+  accept 5083 @40.8,43.8 map 1452
+step
+  turnin 5083
+step
+  accept 5084
+step
+  turnin 4809
+step
+  accept 4810
+step
+  fly "Bloodvenom Post"
+step
+  zone map 1448
+  collect 12567 quest 4505.1 @32.3,66.6 map 1448
+step
+  turnin 4505
+step
+  accept 4506
+step
+  complete 4506 @34.3,52.3 map 1448
+step
+  turnin 4506
+step
+  tip Kill: Entropic Beast, Entropic Horror
+  kill 9878 x2 quest 5156.1 @41.7,40.1 map 1448
+  kill 9879 x2 quest 5156.2 @41.7,40.1 map 1448
+step
+  turnin 5084
+step
+  accept 5085
+step
+  turnin 8471
+step
+  turnin 5156
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 53
+step
+  tip Grind mobs around your level here; more quests open at the next level.
+  level 54
+step
+  zone map 1456
+  only Hunter
+  tip Time to train: head to Holt Thunderhorn in Thunder Bluff for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1454
+  only Rogue
+  tip Time to train: head to Gest in Orgrimmar for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Priest
+  tip Time to train: head to X'yera in Orgrimmar for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1456
+  only Warrior
+  tip Time to train: head to Torm Ragetotem in Thunder Bluff for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Druid
+  tip Time to train: head to Turak Runetotem in Thunder Bluff for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Mage
+  tip Time to train: head to Archmage Shymm in Thunder Bluff for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Everlook"
+step
+  zone map 1452
+  accept 3783
+step
+  zone map 1427
+  when onquest 4082,4123,4134,4136
+  tip Dungeon: Blackrock Depths. Find a group for Blackrock Depths. Quests you skip there are dropped automatically.
+  complete 4082 @34.8,85.3 map 1427
+  complete 4123 @34.8,85.3 map 1427
+  complete 4134 @34.8,85.3 map 1427
+  complete 4136 @34.8,85.3 map 1427
+step
+  zone map 1452
+  tip Kill: Rogue Ice Thistle (about 66% drop chance)
+  collect 12366 x10 quest 3783.1 @45.9,38.1 map 1452
+step
+  turnin 3783
+step
+  turnin 5085
+step
+  accept 5082
+step
+  tip Kill: Winterfall Pathfinder, Winterfall Den Watcher
+  kill 7442 x8 quest 5082.1 @40.8,43.8 map 1452
+  kill 7440 x8 quest 5082.2
+  kill 7441 x8 quest 5082.3
+step
+  turnin 5082
+step
+  zone map 1423
+  goto 5.2,35.6 "Travel to Eastern Plaguelands - take the zeppelin (Orgrimmar <-> Undercity / Grom'gol)" map 1423

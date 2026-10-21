@@ -1,0 +1,855 @@
+guide mittenquest/horde/29-34-thunder-bluff-ashenvale-hillsbrad-foothills
+title "Horde 29-34 Thunder Bluff, Ashenvale, Hillsbrad Foothills"
+levels 29-34
+zone map 1456
+coords era
+faction Horde
+author MittenQuest
+pitch "MittenQuest's free 1-60 route, converted for Polestar (unofficial)."
+next mittenquest/horde/34-38-arathi-highlands-stranglethorn-vale-desolace
+step
+  turnin 1131
+step
+  only Warrior
+  tip Torm Ragetotem is right here: pick up your new Warrior spells.
+  train class
+step
+  accept 1102
+step
+  fly "Zoram'gar Outpost"
+step
+  zone map 1440
+  turnin 6921
+step
+  tip Starts from Sharptalon's Claw, which drops in this area.
+  accept 2 @75,70.1 map 1440
+step
+  turnin 2
+step
+  accept 247
+step
+  turnin 247
+step
+  zone map 1424
+  goto 62.3,20.4 "Travel to Hillsbrad Foothills - take the zeppelin (Orgrimmar <-> Undercity / Grom'gol)" map 1424
+step
+  accept 98094
+step
+  getfp "Tarren Mill"
+step
+  accept 501
+step
+  accept 509
+step
+  accept 527
+step
+  tip Kill: Starving Mountain Lion
+  collect 3496 x10 quest 501.1 @53.4,39.3 map 1424
+step
+  turnin 98094
+step
+  accept 98095
+step
+  turnin 98095
+step
+  collect 3502 x6 quest 509.1 @64.6,61.2 map 1424
+step
+  turnin 501
+step
+  turnin 509
+step
+  accept 502
+step
+  tip Optional: skip it if you don't take it.
+  accept 676
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 547
+step
+  turnin 502
+step
+  tip Farmer Ray has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Hillsbrad Farmer, Hillsbrad Farmhand
+  kill 2266 x6 quest 527.1 @34.8,38.5 map 1424
+  kill 2360 x6 quest 527.2 @34.8,38.5 map 1424
+  kill 232 quest 527.3
+  kill 2403 quest 527.4 @34.8,38.5 map 1424
+step
+  turnin 527
+step
+  accept 528
+step
+  accept 546
+step
+  tip Kill: Hillsbrad Peasant
+  kill 2267 x15 quest 528.1 @34.7,44.6 map 1424
+step
+  tip Kill: Hillsbrad Peasant (about 38% drop chance)
+  collect 3692 x30 quest 546.1 @34.7,44.6 map 1424
+step
+  turnin 528
+step
+  accept 529
+step
+  turnin 546
+step
+  tip Blacksmith Verringtan has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Blacksmith Verringtan, Hillsbrad Apprentice Blacksmith
+  kill 2404 quest 529.1 @32,45.5 map 1424
+  kill 2265 x4 quest 529.2 @32,45.5 map 1424
+  collect 3564 quest 529.3 @32,45.5 map 1424
+step
+  turnin 529
+step
+  accept 532
+step
+  tip Magistrate Burnside has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Magistrate Burnside, Hillsbrad Councilman
+  kill 2335 quest 532.1 @29.7,41.8 map 1424
+  kill 2387 x5 quest 532.2 @29.7,41.8 map 1424
+  interact 1761 quest 532.3 @29.7,41.8 map 1424
+  collect 3657 quest 532.4 @29.7,41.8 map 1424
+step
+  turnin 532
+step
+  accept 539
+step
+  tip Foreman Bonds has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Foreman Bonds, Hillsbrad Miner
+  kill 2305 quest 539.1 @30.4,55.6 map 1424
+  kill 2269 x10 quest 539.2 @30.4,55.6 map 1424
+step
+  turnin 539
+step
+  when turnedin 539
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 541
+step
+  when onquest 547
+  tip Kill: Dun Garok Rifleman
+  collect 3693 quest 547.1 @70.7,78.6 map 1424 optional -- Dun Garok Mountaineer is elite: grouping up is advised.
+step
+  when onquest 541
+  tip Kill: Dun Garok Mountaineer, Dun Garok Rifleman
+  kill 2344 x8 quest 541.1 @71.6,79.6 map 1424 optional -- Dun Garok Mountaineer is elite: grouping up is advised.
+  kill 2345 x4 quest 541.2 @71.6,79.6 map 1424 optional -- Dun Garok Rifleman is elite: grouping up is advised.
+  kill 2346 x2 quest 541.3 @71.6,79.6 map 1424 optional -- Dun Garok Priest is elite: grouping up is advised.
+  kill 2304 quest 541.4 @71.6,79.6 map 1424 optional -- Captain Ironhill is elite: grouping up is advised.
+step
+  when onquest 541
+  turnin 541
+step
+  when onquest 547
+  turnin 547
+step
+  zone map 1458
+  only Rogue
+  tip Time to train: head to Carolyn Ward in Undercity for your new Rogue spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Rogue,Undead
+  accept 1998
+step
+  zone map 1421
+  only Rogue,Undead
+  tip Fenwick Thatros has only one spawn point. If others are waiting for it, group up to share it. Kill: Fenwick Thatros
+  collect 7306 quest 1998.1 @59.6,33.9 map 1421
+step
+  zone map 1458
+  only Rogue,Undead
+  turnin 1998
+step
+  only Rogue,Undead
+  accept 1999
+step
+  zone map 1421
+  only Rogue,Undead
+  collect 7309 quest 1999.1 @63.7,65.2 map 1421
+step
+  zone map 1458
+  only Rogue,Undead
+  turnin 1999
+step
+  only Paladin
+  tip Time to train: head to Garen Largo in Undercity for your new Paladin spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1420
+  only Paladin,Undead
+  accept 91858
+step
+  zone map 1421
+  only Paladin,Undead
+  turnin 91858
+step
+  only Paladin,Undead
+  accept 91859
+step
+  only Paladin,Undead
+  turnin 91859
+step
+  only Paladin,Undead
+  accept 91860
+step
+  only Paladin,Undead
+  turnin 91860
+step
+  only Paladin,Undead
+  accept 91861
+step
+  only Paladin,Undead
+  turnin 91861
+step
+  only Paladin,Undead
+  accept 91862
+step
+  only Paladin,Undead
+  tip Kill: Raging Rot Hide
+  collect 267412 quest 91862.1 @65.9,23.9 map 1421
+step
+  only Paladin,Undead
+  turnin 91862
+step
+  only Paladin,Undead
+  accept 96204
+step
+  only Paladin,Undead
+  turnin 96204
+step
+  only Paladin,Undead
+  accept 95034
+step
+  only Paladin,Undead
+  turnin 95034
+step
+  only Paladin,Undead
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 95036
+step
+  only Paladin,Undead
+  when onquest 95036
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Goblin Woodcarver
+  collect 6994 quest 95036.1 @43.3,41 map 1421 optional -- Goblin Woodcarver is elite: grouping up is advised.
+  collect 267361 quest 95036.2 @43.3,41 map 1421
+step
+  only Paladin,Undead
+  when onquest 95036
+  turnin 95036
+step
+  only Paladin,Undead
+  accept 95111
+step
+  zone map 1424
+  only Paladin,Undead
+  turnin 95111
+step
+  only Paladin,Undead
+  accept 95125
+step
+  only Paladin,Undead
+  turnin 95125
+step
+  only Paladin,Undead
+  accept 95126
+step
+  zone map 1421
+  only Paladin,Undead
+  turnin 95126
+step
+  only Paladin,Undead
+  accept 95140
+step
+  only Paladin,Undead
+  tip Kill: Old Fire-Eye
+  kill 259897 quest 95140.1 @49.6,85.2 map 1421 optional -- Old Fire-Eye is elite: grouping up is advised.
+step
+  only Paladin,Undead
+  turnin 95140
+step
+  zone map 1458
+  only Warlock
+  tip Time to train: head to Kaal Soulreaper in Undercity for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warlock
+  tip Optional: skip it if you don't take it.
+  accept 3001
+step
+  zone map 1413
+  only Warlock
+  when onquest 3001
+  turnin 3001
+step
+  only Warlock
+  accept 1801
+step
+  zone map 1458
+  only Warlock
+  turnin 1801
+step
+  only Warlock
+  accept 1803
+step
+  zone map 1424
+  only Warlock
+  collect 6931 quest 1803.1 @27.8,72.8 map 1424
+  collect 6997 quest 1803.2 @27.8,72.8 map 1424
+step
+  zone map 1458
+  only Warlock
+  turnin 1803
+step
+  only Warlock
+  accept 1805
+step
+  zone map 1437
+  only Warlock
+  tip Kill: Dragonmaw Bonewarder (about 20% drop chance)
+  collect 6930 x3 quest 1805.1 @47.6,47 map 1437
+step
+  zone map 1413
+  only Warlock
+  turnin 1805
+step
+  only Warlock
+  accept 1795
+step
+  only Warlock
+  tip Summoned Felhunter has only one spawn point. If others are waiting for it, group up to share it. Kill: Summoned Felhunter
+  kill 6268 quest 1795.1 @62.6,35.3 map 1413
+step
+  only Warlock
+  turnin 1795
+step
+  only Warlock
+  accept 1796
+step
+  only Warlock
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC).
+  collect 5770 quest 1796.1 @62.5,35.5 map 1413
+step
+  only Warlock
+  turnin 1796
+step
+  zone map 1458
+  only Warlock
+  tip Optional: skip it if you don't take it.
+  accept 4739
+step
+  zone map 1413
+  only Warlock
+  when onquest 4739
+  turnin 4739
+step
+  only Warlock
+  accept 4781
+step
+  zone map 1434
+  only Warlock
+  collect 3577 quest 4781.1 @44.3,45.1 map 1434
+step
+  only Warlock
+  turnin 4781
+step
+  only Warlock
+  accept 4782
+step
+  zone map 1413
+  only Warlock
+  turnin 4782
+step
+  zone map 1458
+  only Mage
+  tip Time to train: head to Kaelystia Hatebringer in Undercity for your new Mage spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1420
+  only Mage,Troll,Undead
+  tip Optional: skip it if you don't take it.
+  accept 1959
+step
+  zone map 1458
+  only Mage,Troll,Undead
+  when onquest 1959
+  turnin 1959
+step
+  only Mage,Troll,Undead
+  accept 1960
+step
+  only Mage,Troll,Undead
+  collect 7292 x3 quest 1960.1 @85.6,9.9 map 1458
+  collect 7247 quest 1960.2 @85.6,9.9 map 1458
+  collect 7308 quest 1960.3 @85.6,9.9 map 1458
+step
+  only Mage,Troll,Undead
+  turnin 1960
+step
+  only Mage,Orc,Troll,Undead
+  accept 1961
+step
+  zone map 1421
+  only Mage,Orc,Troll,Undead
+  tip Kill: Dalaran Apprentice (about 11% drop chance)
+  collect 2589 x10 quest 1961.1 @52.4,63.8 map 1421
+  collect 7293 x6 quest 1961.2 @52.4,63.8 map 1421
+step
+  zone map 1458
+  only Mage,Orc,Troll,Undead
+  turnin 1961
+step
+  only Mage,Troll,Undead
+  accept 1962
+step
+  only Mage,Troll,Undead
+  turnin 1962
+step
+  only Mage,Troll,Undead
+  tip Optional: skip it if you don't take it.
+  accept 1943
+step
+  zone map 1454
+  only Mage,Troll,Undead
+  when onquest 1943
+  turnin 1943
+step
+  only Mage,Troll,Undead
+  accept 1944
+step
+  zone map 1440
+  only Mage,Troll,Undead
+  collect 7268 quest 1944.1 @76.3,41.5 map 1440
+step
+  zone map 1454
+  only Mage,Troll,Undead
+  turnin 1944
+step
+  only Mage,Troll,Undead
+  accept 1945
+step
+  zone map 1440
+  only Mage,Troll,Undead
+  tip Kill: Laughing Sister
+  collect 7270 x12 quest 1945.1 @59.8,55.4 map 1440
+step
+  zone map 1413
+  only Mage,Troll,Undead
+  turnin 1945
+step
+  only Mage,Troll,Undead
+  accept 1946
+step
+  only Mage,Troll,Undead
+  turnin 1946
+step
+  zone map 1443
+  goto 56.3,59.7 "Travel to Desolace - take the zeppelin (Orgrimmar <-> Undercity / Grom'gol)" map 1443
+step
+  accept 1367
+step
+  accept 1368
+step
+  accept 1365
+step
+  accept 5561
+step
+  turnin 5561
+step
+  turnin 1367
+step
+  accept 1369
+step
+  accept 5821
+step
+  tip Starts from Flayed Demon Skin, which drops in this area.
+  accept 1480 @54.8,27.8 map 1443
+step
+  accept 5741
+step
+  tip Burning Blade Seer has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Burning Blade Seer
+  collect 15750 quest 5741.1 @55.2,30.1 map 1443
+step
+  turnin 5741
+step
+  turnin 1480
+step
+  accept 1481
+step
+  turnin 1368
+step
+  accept 1370
+step
+  accept 5763
+step
+  getfp "Shadowprey Village"
+step
+  accept 6142
+step
+  collect 6083 x3 quest 1369.1 @39.6,93.3 map 1443
+step
+  turnin 1369
+step
+  tip Kill: Hatefury Shadowstalker
+  collect 6441 quest 1481.1 @75.3,21.3 map 1443
+step
+  turnin 1481
+step
+  accept 1482
+step
+  zone map 1456
+  only Warrior
+  tip Time to train: head to Torm Ragetotem in Thunder Bluff for your new Warrior spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warrior
+  accept 1718
+step
+  zone map 1413
+  only Warrior
+  turnin 1718
+step
+  only Warrior
+  accept 1719
+step
+  only Warrior
+  tip Big Will has only one spawn point. If others are waiting for it, group up to share it. Kill: Big Will
+  kill 6238 quest 1719.1 @68.6,48.7 map 1413
+step
+  only Warrior
+  turnin 1719
+step
+  only Warrior
+  accept 1791
+step
+  zone map 1416
+  only Warrior
+  turnin 1791
+step
+  zone map 1454
+  only Shaman
+  tip Time to train: head to Sian'tsu in Orgrimmar for your new Shaman spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Shaman
+  accept 1531
+step
+  zone map 1441
+  only Shaman
+  turnin 1531
+step
+  only Shaman
+  tip Group quest (elite enemies) - optional; skipped if you don't take it. Optional: skip it if you don't take it.
+  accept 79360
+step
+  only Shaman
+  when onquest 79360
+  tip Done near the quest giver: follow the quest text (summon, use the item or talk to the NPC). Kill: Charlga Razorflank
+  collect 274463 quest 79360.1 @46.1,51.7 map 1441 optional -- Charlga Razorflank is elite: grouping up is advised.
+step
+  zone map 1416
+  only Shaman
+  when onquest 79360
+  turnin 79360
+step
+  only Shaman,Orc,Troll,Tauren
+  accept 79362
+step
+  zone map 1431
+  only Shaman,Orc,Troll,Tauren
+  tip Kill: Skeletal Horror
+  collect 281146 quest 79362.1 @80.6,59.4 map 1431
+step
+  zone map 1416
+  only Shaman,Orc,Troll,Tauren
+  turnin 79362
+step
+  only Shaman,Orc,Troll,Tauren
+  accept 79363
+step
+  zone map 1431
+  only Shaman,Orc,Troll,Tauren
+  tip Kill: Defias Night Blade, Defias Enchanter
+  kill 909 x7 quest 79363.1 @21.8,71.9 map 1431
+  kill 910 x7 quest 79363.2 @21.8,71.9 map 1431
+step
+  zone map 1416
+  only Shaman,Orc,Troll,Tauren
+  turnin 79363
+step
+  zone map 1441
+  only Shaman
+  accept 79364
+step
+  only Shaman
+  turnin 79364
+step
+  fly "Freewind Post"
+step
+  when turnedin 1150
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 1151
+step
+  tip Kill: Screeching Harpy, Screeching Roguefeather
+  kill 4100 x5 quest 98070.1 @27.2,52.2 map 1441
+  kill 4101 x5 quest 98070.2 @27.2,52.2 map 1441
+  kill 4104 x5 quest 98070.3 @27.2,52.2 map 1441
+step
+  turnin 98070
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 5151
+step
+  when onquest 1151
+  tip Rok'Alim the Pounder has only 2 spawn points. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Rok'Alim the Pounder
+  collect 5844 quest 1151.1 @17.1,38.1 map 1441 optional -- Rok'Alim the Pounder is elite: grouping up is advised.
+step
+  when onquest 5151
+  tip Enraged Panther has only one spawn point. If others are waiting for it, group up to share it, or skip this step and come back. Kill: Enraged Panther
+  collect 12946 quest 5151.1 @22.8,24.6 map 1441 optional -- Enraged Panther is elite: grouping up is advised.
+step
+  when onquest 5151
+  turnin 5151
+step
+  when onquest 1151
+  turnin 1151
+step
+  tip Group quest (elite enemies) - optional; the guide skips it if you don't take it. Optional: skip it if you don't take it.
+  accept 1104
+step
+  accept 1176
+step
+  tip Kill: Salt Flats Scavenger (about 84% drop chance)
+  collect 5848 x10 quest 1176.1 @88,65.3 map 1441
+step
+  turnin 1176
+step
+  when onquest 1104
+  tip Kill: Scorpid Reaver (about 29% drop chance)
+  collect 5794 x6 quest 1104.1 @73.9,55.2 map 1441
+step
+  when onquest 1104
+  turnin 1104
+step
+  accept 1111
+step
+  accept 5361
+step
+  zone map 1456
+  only Hunter
+  tip Time to train: head to Holt Thunderhorn in Thunder Bluff for your new Hunter spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Druid
+  tip Time to train: head to Turak Runetotem in Thunder Bluff for your new Druid spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  fly "Shadowprey Village"
+step
+  zone map 1443
+  accept 6143
+step
+  turnin 5361
+step
+  accept 6161
+step
+  zone map 1445
+  goto 29.8,48.2 "Travel to Dustwallow Marsh" map 1445
+step
+  accept 1251
+step
+  accept 1268
+step
+  accept 1177
+step
+  getfp "Brackenwall Village"
+step
+  turnin 1251
+step
+  turnin 1268
+step
+  accept 1321
+step
+  turnin 1321
+step
+  accept 1201
+step
+  accept 1238
+step
+  turnin 1238
+step
+  accept 1239
+step
+  turnin 1239
+step
+  accept 1240
+step
+  zone map 1434
+  goto 27.1,77.2 "Travel to Stranglethorn Vale - take the zeppelin (Orgrimmar <-> Undercity / Grom'gol)" map 1434
+step
+  turnin 1240
+step
+  getfp "Grom'gol"
+step
+  accept 581
+step
+  tip Kill: Bloodscalp Axe Thrower (about 18% drop chance)
+  collect 3901 x9 quest 581.1 @33.5,17 map 1434
+step
+  turnin 5762
+step
+  zone map 1413
+  when onquest 1102
+  tip Dungeon: Razorfen Kraul. Find a group for Razorfen Kraul. Quests you skip there are dropped automatically.
+  complete 1102 @42.9,90.2 map 1413
+step
+  zone map 1434
+  turnin 5763
+step
+  accept 583
+step
+  turnin 583
+step
+  accept 194
+step
+  accept 185
+step
+  accept 190
+step
+  tip Kill: Young Stranglethorn Tiger
+  kill 681 x10 quest 185.1 @34.1,11.3 map 1434
+step
+  turnin 185
+step
+  accept 186
+step
+  tip Kill: Young Panther
+  kill 683 x10 quest 190.1 @40.5,11.4 map 1434
+step
+  turnin 190
+step
+  accept 191
+step
+  tip Kill: Panther
+  kill 736 x10 quest 191.1 @29.4,13.6 map 1434
+step
+  tip Kill: Stranglethorn Raptor
+  kill 685 x10 quest 194.1 @25.7,15.8 map 1434
+step
+  turnin 191
+step
+  turnin 194
+step
+  accept 195
+step
+  tip Kill: Stranglethorn Tiger
+  kill 682 x10 quest 186.1 @46.4,14.4 map 1434
+step
+  turnin 186
+step
+  accept 187
+step
+  tip Kill: Elder Stranglethorn Tiger
+  kill 1085 x10 quest 187.1 @33.5,18.3 map 1434
+step
+  turnin 187
+step
+  accept 188
+step
+  turnin 581
+step
+  accept 582
+step
+  tip Optional: skip it if you don't take it.
+  accept 638
+step
+  accept 189
+step
+  only Rogue
+  tip Ian Strom is right here: pick up your new Rogue spells.
+  train class
+step
+  getfp "Booty Bay"
+step
+  accept 605
+step
+  accept 575
+step
+  tip Kill: Bloodscalp Axe Thrower (about 28% drop chance)
+  collect 1519 x15 quest 189.1 @33.5,17 map 1434
+step
+  tip Kill: River Crocolisk (about 28% drop chance)
+  collect 4053 x2 quest 575.1 @35.7,8.2 map 1434
+step
+  tip Kill: Stone Maw Basilisk (about 38% drop chance)
+  collect 3918 x10 quest 605.1 @34.7,6.7 map 1434
+step
+  turnin 189
+step
+  accept 213
+step
+  turnin 605
+step
+  turnin 575
+step
+  accept 577
+step
+  accept 568
+step
+  only Hunter
+  tip Kragg is right here: pick up your new Hunter spells.
+  train class
+step
+  tip Kill: Lashtail Raptor
+  kill 686 x10 quest 195.1 @33,23.9 map 1434
+step
+  tip Kill: Lashtail Raptor
+  kill 686 x15 quest 568.1 @33,23.9 map 1434
+step
+  turnin 568
+step
+  tip Kill: Snapjaw Crocolisk (about 31% drop chance)
+  collect 4104 x5 quest 577.1 @40.2,27.2 map 1434
+step
+  tip Kill: Venture Co. Geologist (about 42% drop chance)
+  collect 4106 x8 quest 213.1 @44.5,20.6 map 1434
+step
+  turnin 195
+step
+  turnin 213
+step
+  turnin 577
+step
+  zone map 1458
+  only Priest
+  tip Time to train: head to Aelthalyste in Undercity for your new Priest spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  only Warlock
+  tip Time to train: head to Kaal Soulreaper in Undercity for your new Warlock spells. The arrow takes you back to the route afterwards.
+  train class
+step
+  zone map 1413
+  only Warlock
+  accept 4783
+step
+  zone map 1443
+  only Warlock
+  tip Kill: Hatefury Trickster, Lesser Infernal (about 6% drop chance)
+  collect 6989 x10 quest 4783.1
+  collect 6990 quest 4783.2 @51.5,75.6 map 1443
+step
+  zone map 1413
+  only Warlock
+  turnin 4783
+step
+  only Warlock
+  accept 4784
+step
+  zone map 1417
+  only Warlock
+  tip Xizk Goodstitch has only one spawn point. If others are waiting for it, group up to share it. Kill: Xizk Goodstitch, Burning Exile (about 1% drop chance)
+  collect 12293 quest 4784.1 @25.8,30.6 map 1417
+  collect 6991 x2 quest 4784.2 @25.8,30.6 map 1417
+  collect 6265 quest 4784.3 @25.8,30.6 map 1417
+step
+  zone map 1413
+  only Warlock
+  turnin 4784
+step
+  zone map 1417
+  goto 74.2,33.9 "Travel to Arathi Highlands" map 1417
